@@ -1,0 +1,86 @@
+.SelectedArea{background-color:#F5F9FE;border:1px solid #A8CBF7}
+.saveNote{color:green;font-family:Verdana;font-size:8pt;font-weight:700}
+.errorNote{color:#FF7200;font-family:Verdana;font-size:8pt;font-weight:700}
+body{background-color:#FFF;color:#000;font-family:Verdana;font-size:8pt;font-weight:400;margin:2px 50px}
+td,p{font-family:Verdana;font-size:8pt;font-weight:400}
+.TopLink{background-color:#1744A6;border-bottom:3px solid #FFD275;border-top:1px solid #A8A8A8;color:#fff;filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#97B5E6',EndColorStr='#1744A6');font-family:Verdana;font-size:8pt;font-weight:400}
+.BottomLink{background-color:#FFF;border-top:1px solid #FFD275;color:#000;font-family:Verdana;font-size:8pt;font-weight:400}
+.FormName{background-color:#FFF;border-bottom:1px solid #FFD275;color:#000;font-family:Verdana;font-size:12pt;font-weight:700}
+.ButTop{background-color:#ECE9D8;border:1px solid gray;font-family:Verdana;font-size:8pt}
+.ButSp{background-color:#FEE197;border:1px solid navy;color:#039;font-family:Verdana;font-size:8pt;height:18px;text-decoration:none;vertical-align:middle}
+.SideLeft{background-color:#E1ECFC;border-right:1px solid #FFD275}
+.pageBreakBefor{page-break-before:always}
+.PageHeading{color:#EE6340;font-family:Verdana;font-size:10pt;font-weight:700}
+.PageHeadingCaption{color:#000;font-family:Verdana;font-size:8pt;font-weight:700;padding-left:5px}
+a.NonLink:hover{border-bottom:solid 0 #FD9801;color:#5975A4;font-family:Verdana;font-size:8pt;font-weight:400}
+.NonEditableLebels{background-color:#DFEAF4;border:1px solid #369;color:#000;font-family:Verdana;font-size:8pt;font-weight:700;padding-left:3px}
+a.Top:hover{border-bottom:solid 1px #FFD275;color:#fff;font-size:8pt;font-weight:400;text-decoration:none}
+a:hover{border-bottom:solid 0 red;color:#666;font-size:8pt;font-weight:400;text-decoration:none}
+a.Side:hover{border-bottom:solid 1px navy;color:navy;font-size:8pt;font-weight:400;text-decoration:none}
+a.More:hover{border-bottom:solid 1px #000;color:#C00000;font-size:8pt;font-weight:400;text-decoration:none}
+.dateInputbox{background-color:#F5F5F5;border:1px solid #000;color:#000;font-family:Verdana;font-size:8pt;font-weight:400;height:18px;width:80px}
+.textArea{background-color:#FFFCF4;border:1px solid #000;color:#000;font-family:Verdana;font-size:8pt;font-weight:400}
+.SelectBox{background-color:#E1ECFC;color:#000;font-family:Verdana;font-size:8pt;font-weight:400}
+.SelectBoxTime{background-color:#E7F1D8;color:#000;font-family:Verdana;font-size:8pt;font-weight:400}
+.RadioButton{color:#c00000;font-family:Verdana;font-size:8pt;font-weight:400}
+.butSubmit{background-color:#CDCCDF;border:1px solid #003C74;color:#000;filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#FFFFFF',EndColorStr='#CDCCDF');font-family:Verdana;font-size:8pt;font-weight:400}
+.butSubmitHover{background-color:#CDCCDF;border:1px solid #F90;color:#000;filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#FFFFFF',EndColorStr='#CDCCDF');font-family:Verdana;font-size:8pt;font-weight:400}
+.GridBorderTop{background-color:#B6CEE7;border-bottom:0 solid #369;border-left:1px solid #369;border-right:0 solid #369;border-top:1px solid #369;cursor:default}
+.GridBorderLeft{background-color:#B6CEE7;border-bottom:0 solid #369;border-left:1px solid #369;border-right:0 solid #369;border-top:0 solid #369;cursor:default}
+.BorderTop{border-bottom:0 solid #369;border-left:0 solid #369;border-right:0 solid #369;border-top:1px solid #369}
+.BorderBottom{border-bottom:1px solid #369}
+.BorderLeft{border-bottom:0 solid #369;border-left:1px solid #369;border-right:0 solid #369;border-top:0 solid #369}
+.BorderRight{border-right:1px solid #369}
+.BorderLTR{border-left:1px solid #369;border-right:1px solid #369;border-top:1px solid #369}
+.BorderLBR{border-bottom:1px solid #369;border-left:1px solid #369;border-right:1px solid #369}
+.BorderBR{border-bottom:1px solid #369;border-right:1px solid #369}
+.BorderLR{border-left:1px solid #369;border-right:1px solid #369}
+.BorderTB{border-bottom:1px solid #369;border-top:1px solid #369}
+.BorderLTRB{border-bottom:1px solid #369;border-left:1px solid #369;border-right:1px solid #369;border-top:1px solid #369}
+.BorderRight2px{background-color:#F4F4F4;border-bottom:0 solid #369;border-right:1px solid #369;border-top:0 solid #369}
+.GridHeading{background-color:#a7c5f7;border:solid 1px #000;color:#000;font-family:Verdana;font-size:8pt;font-weight:700;padding-left:5px}
+.GridSubHeading{background-color:#e4edfd;border:solid 1px #369;color:#c00000;font-family:Verdana;font-size:8pt;font-weight:700;padding-left:5px}
+.GridData1{background-color:#a7c5f7;color:#000;font-family:Verdana;font-size:8pt;font-weight:400;padding-left:5px}
+.GridData2{background-color:#e1ecfc;color:#000;font-family:Verdana;font-size:8pt;font-weight:400;padding-left:5px}
+.GridData3{background-color:#FFF;color:#000;font-family:Verdana;font-size:8pt;font-weight:400;padding-left:5px}
+.SaveInfo{color:red;font-family:Verdana;font-size:8pt;font-weight:400;padding-right:5px}
+.Mandatory{color:red;font-family:Verdana;font-size:8pt;font-weight:400;padding-left:5px}
+.DeleteButton{background-color:Transparent;background-image:url(../images/button_delete.gif);border:0 solid #6B6BB6;color:#000;font-family:Arial;font-size:8pt;height:20px;width:16px}
+.Display{display:none}
+.grid{border:solid 1px #5975a4;color:#000;font-family:Verdana,arial, Arial Narrow, Mangal;font-size:10pt;font-weight:700}
+.grid td{border:solid 1px #5975a4;font-family:Verdana,arial, Arial Narrow, Mangal}
+.gridAltItem{background-color:#e1ecfc;font-size:smaller}
+.gridMouseOver{cursor:hand;font-style:italic}
+.gridMouseOut{cursor:default;font-style:normal}
+.tblCss{border:1px;border-bottom-width:0;border-collapse:collapse;border-color:#ffd275;border-left-width:0;border-right-width:0;padding:4px}
+.tblTRTD1{background-color:#dadada;border-bottom:1px solid;border-color:#ffd275;border-left:1px solid;border-right:1px solid;border-top:#ffd275 1px solid;color:Navy;font-weight:700}
+.tblTR2TD1{background-color:#dadada;border-bottom:1px solid;border-color:#ffd275;border-left:1px solid;border-top:1px solid;color:Navy}
+.tblTR2TD2{border-bottom:medium none;border-color:#ffd275;border-left:1px solid;border-right:medium none;border-top:1px solid;color:Navy}
+.tblTR3TD1{border-color:#ffd275;border-left:medium none;border-right:medium none;border-top:medium none;height:18px}
+.tbrightdotedredbot{border-right:1px dotted #AEAEAE;color:Navy}
+.tbleftdotedredbot{border-left:1px dotted #AEAEAE;color:Navy}
+.tbrightdoted{border-right:1px dotted #AEAEAE}
+.tbleftdoted{border-left:1px dotted #AEAEAE}
+.Heading{border-bottom:1px solid #E9DDAD;border-left:1px solid #E9DDAD;border-right:1px solid #E9DDAD;border-top:1px solid #E9DDAD;color:#666;filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#FFFFFF',EndColorStr='#F4EED6');font-size:8pt;font-weight:700}
+.trDark{background-color:#DADADA}
+.logoName{color:#e76d00;font-size:10pt;font-weight:700}
+.logoAddress{color:#8a8a8a;font-size:7pt}
+.tdblue{color:#00f}
+.tdRed{color:red}
+.LeftMenuParentDivL{float:left;height:15px;width:20px}
+.LeftMenuParentDivR{float:left}
+.LeftMenuDiv{clear:left;min-height:5px;vertical-align:middle}
+.LeftMenuDivL{float:left;padding:3px}
+.LeftMenuDivR a{color:#666;float:left;font-size:8pt;font-weight:400;padding:3px;text-decoration:none}
+#imageholder{height:60px;text-align:center;vertical-align:top}
+a.TopMenuBar:link,a.TopMenuBar:visited,a.TopMenuBar:hover{color:#fff;font-family:Verdana;font-size:8pt;font-weight:400;text-decoration:none}
+a.LeftParentLink:link,a.LeftParentLink:visited,a.LeftParentLink:hover{border-bottom:red 1px solid;color:#000;font-size:8pt;font-weight:400;text-decoration:none}
+a.toplinks:link,a.toplinks:visited,a.toplinks:hover{color:#000;font-family:Verdana;font-size:7.5pt;font-weight:400}
+p.breakhere,.break{page-break-after:always}
+a.NonLink:link,a.NonLink:visited{color:#5975A4;font-family:Verdana;font-size:8pt;font-weight:400}
+a.Top:link,a.Top:visited{color:#fff;font-size:8pt;font-weight:400;text-decoration:none}
+a:link,a:visited{color:#666;font-size:8pt;font-weight:400;text-decoration:none}
+a.Side:link,a.Side:visited{color:navy;font-size:8pt;font-weight:400;text-decoration:none}
+a.SideSelect:link,a.SideSelect:visited,a.SideSelect:hover{background-color:#FEE197;border:1px solid navy;color:#039;font-family:Verdana;font-size:8pt;text-decoration:none}
+a.More:link,a.More:visited{color:#C00000;font-size:8pt;font-weight:400;text-decoration:none}
+a.footerLink:link,a.footerLink:visited,a.footerLink:hover{color:navy;font-size:7pt;font-weight:400}

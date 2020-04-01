@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentRegistration", "StudentRegistration.csproj", "{D1F07743-6A11-4BE0-8758-46621F5732AD}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = StudentRegistration.csproj
+		SccLocalPath1 = .
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1F07743-6A11-4BE0-8758-46621F5732AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1F07743-6A11-4BE0-8758-46621F5732AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1F07743-6A11-4BE0-8758-46621F5732AD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D1F07743-6A11-4BE0-8758-46621F5732AD}.Debug|x86.Build.0 = Debug|Any CPU
+		{D1F07743-6A11-4BE0-8758-46621F5732AD}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1F07743-6A11-4BE0-8758-46621F5732AD}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D1F07743-6A11-4BE0-8758-46621F5732AD}.Release|x86.ActiveCfg = Release|Any CPU
+		{D1F07743-6A11-4BE0-8758-46621F5732AD}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

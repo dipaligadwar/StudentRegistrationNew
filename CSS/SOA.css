@@ -1,0 +1,149 @@
+body,td{font-family:Verdana;font-size:10px;font-weight:400}
+td,p{font-family:Verdana;font-size:8pt;font-weight:400}
+.saveNote{color:green;font-family:Verdana;font-size:8pt;font-weight:700}
+.errorNote{color:#FF7200;font-family:Verdana;font-size:8pt;font-weight:700}
+.menuTD{color:#666;cursor:hand;font-family:Verdana;font-size:10px;font-weight:700;padding-left:2px;padding-top:1px;width:165px}
+.rightMenuTD{color:#666;cursor:hand;font-family:Verdana;font-size:10px;font-weight:700;nowrap:true;padding-left:3px;padding-top:3px;width:165px}
+.menu{color:#666;font-weight:700;text-decoration:none}
+.childMenuTR{background-color:#E7E2DB;font-weight:700;vertical-align:middle}
+.childMenuTable{background-color:#CDC5B6;border-collapse:collapse;border-width:0}
+.tblBgColor{background-color:#E7E2DB}
+.tblHeaderTR{background-color:#cdc5b6;color:#62452c;font-family:Verdana;font-size:11px;font-weight:700}
+.newsTD{background:#dedfd4;color:#787a69;font-family:Verdana;font-size:11px;font-weight:700;height:18px;nowrap:true;vertical-align:top;width:165px}
+.newsBox{background:#eeefe9}
+.downloadsHeaderTD{background:#e9cfd9;color:#936E7D;font-family:Verdana;font-size:11px;font-weight:700;height:18px;nowrap:true;vertical-align:top;width:165px}
+.downloadBox{background:#f4e7ec}
+.downloadsTD{color:#936E7D;font-family:Verdana;font-size:11px;font-weight:400;text-decoration:none}
+.downloadsNews{color:#666;font-family:Verdana;font-size:11px;font-weight:400;text-decoration:none;vertical-align:top}
+.login{background:#c0e1e9}
+.defaultTopLinks{color:#666;font-family:Verdana;font-size:11px}
+.defaultLink{color:navy;font-size:8pt;font-weight:700;text-decoration:none}
+a.TopHome:hover{border-bottom:solid 1px #FFD275;color:red;font-size:8pt;font-weight:700;text-decoration:underline}
+.NoDisplay{display:none}
+.txtBox{border-bottom:#7e989b 1px solid;border-left:#7e989b 1px solid;border-right:#7e989b 1px solid;border-top:#7e989b 1px solid;color:#988a74;font-family:Verdana;font-size:10px}
+.loginBox{border-bottom:#7e989b 1px solid;border-left:#7e989b 1px solid;border-right:#7e989b 1px solid;border-top:#7e989b 1px solid;color:#988a74;font-family:Verdana;font-size:10px;width:100px}
+.lblColor{color:#807e7c;font-family:Verdana;font-size:11px;font-weight:700}
+.lblFont{color:#000;font-family:Verdana;font-size:12pt}
+.GridCaption{background-color:e1ecfc;border:1px solid silver;color:Navy;font-family:Verdana;font-size:8pt;font-weight:700;margin-top:5px;width:98%}
+.GridHeaderHome{background-color:#F3EFD2;color:#62452c;font-family:Verdana;font-size:8pt;font-weight:700;text-align:Center}
+.gridItemHome{background-color:#FFF;font-family:Verdana;font-size:8pt;padding-left:4px;vertical-align:middle}
+.calendar{background-color:#FFF;border-bottom:#7e989b 1px solid;border-left:#7e989b 1px solid;border-right:#7e989b 1px solid;border-top:#7e989b 1px solid;font-size:10px}
+.calendarHeaderTD{background-color:#F3EFD2;border-bottom:#7e989b 1px solid;border-left:#7e989b 1px solid;border-right:#7e989b 1px solid;border-top:#7e989b 1px solid;color:#62452c;font-family:Verdana;font-size:12px;font-weight:700;text-align:Center}
+.calendarMonthTD{background-color:#F3EFD2;border-bottom:#7e989b 1px solid;border-left:#7e989b 1px solid;border-right:#7e989b 1px solid;border-top:#7e989b 1px solid;color:#62452c;font-family:Verdana;font-size:12px;font-weight:700;text-align:left}
+.calendarItem{background-color:#FFF;border-bottom:#7e989b 1px solid;border-left:#7e989b 1px solid;border-right:#7e989b 1px solid;border-top:#7e989b 1px solid;font-family:Verdana;font-size:10px;padding-left:4px;vertical-align:middle}
+.calendarBulletTD{background-color:#FFF;border-bottom:#7e989b 1px solid;border-left:#7e989b 1px solid;border-top:#7e989b 1px solid;text-align:center;vertical-align:middle}
+.calendarNoText{background-color:#FFF;border-left:#7e989b 1px solid;border-right:#7e989b 1px solid}
+.calendarBulletRightTD{background-color:#FFF;border-bottom:#7e989b 1px solid;border-right:#7e989b 1px solid;border-top:#7e989b 1px solid;text-align:left;vertical-align:middle}
+.gridAltItemHome{background-color:#FAF7ED;font-size:8pt;padding-left:4px}
+.gridHeaderLeftHome{background-color:#F3EFD2;color:#62452c;font-family:Verdana;font-size:8pt;font-weight:700;padding-left:5px;text-align:left;vertical-align:middle}
+.gridHeaderLeftLight{background-color:#C9DBFA;color:navy;font-family:Verdana;font-size:8pt;font-weight:400;padding-left:5px;text-align:left;vertical-align:middle}
+.GridAlternate{background-color:#cdc5b6;color:#000;font-family:Verdana;font-size:8pt;font-weight:400;padding-left:2px}
+.GridItems{background-color:#E7E2DB;color:#666;font-family:Verdana;font-size:8pt;font-weight:400;padding-left:4px}
+.gridItemRight{background-color:#FFF;font-size:8pt;padding-left:5px;text-align:right}
+.gridItemRightFooter{background-color:#FFF;font-size:8pt;font-weight:700;padding-right:5px;text-align:right}
+.gridAltItem{background-color:#e1ecfc;font-size:8pt;padding-left:4px}
+.gridNoText{background-color:#FFF;font-size:8pt;padding-left:4px}
+.RepeaterHeader{background-color:#DEDFD4;color:#5C5135;font-family:Verdana;font-size:10px;font-weight:700}
+.RepeaterItem{background-color:#EEEFE9;color:#797A77;font-family:Verdana;font-size:10px;font-weight:700}
+SELECT{border-bottom:#7e989b 1px solid;border-left:#7e989b 1px solid;border-right:#7e989b 1px solid;border-top:#7e989b 1px solid;color:#5C5135;font-family:Verdana;font-size:10px}
+.SideLeft{background-color:#e1ecfc;border-right:#ffd275 1px solid;padding-left:10px}
+.FooterTop{background-color:#fff;border-top:#ffd275 1px solid}
+.AdminHeader{background-color:#cdc5b6;color:#62452c;font-family:Verdana;font-size:14px;font-weight:700}
+.btnSave{background-color:#D8D4D2;color:appworkspace;font-family:Verdana;font-size:10px}
+.btnGo{background-color:#666;border:0;color:#fff;font-family:Verdana;font-size:10px}
+.butSubmit{background-color:#CDCCDF;border:1px solid #003C74;color:#000;filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#FFFFFF',EndColorStr='#CDCCDF');font-family:Verdana;font-size:8pt;font-weight:400}
+li{color:#936E7D;left:1px;margin-left:-10px}
+.UpdationDate{color:red;left:1px;list-style-type:circle;margin-left:-10px}
+.Mandatory{color:red;font-family:Verdana;font-size:8pt;font-weight:400;padding-left:5px}
+a{color:#666;text-decoration:none}
+.Tab{background-color:#CDCCDF;border-bottom:#789 1px solid;color:navy;filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#eeeeee',EndColorStr='#CDCCDF');font-size:8pt;font-weight:400;text-decoration:none}
+.WhiteTab{background-color:#1744a6;border-left:#789 1px solid;border-right:#789 1px solid;border-top:#789 1px solid;color:#fff;filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#97B5E6',EndColorStr='#1744A6');font-family:Verdana;font-size:8pt;font-weight:400}
+a.DisplayFAQ{color:navy;cursor:hand;font-size:8pt;font-weight:400;text-decoration:none}
+a.DisplayFAQ:hover{color:navy;cursor:hand;font-size:8pt;font-weight:400;text-decoration:underline}
+a.Grid{border:none;color:navy;cursor:hand;font-size:8pt;font-weight:400;text-decoration:none}
+a.Grid:hover{border:none;color:navy;cursor:hand;font-size:8pt;font-weight:400;text-decoration:underline}
+a.Side:hover{color:navy;font-size:8pt;font-weight:400;text-decoration:underline}
+a.Top:hover{border-bottom:solid 1px #FFD275;color:#fff;font-size:8pt;font-weight:400;text-decoration:none}
+.mainLinks{color:#666}
+.toplinks{color:#000}
+InnerTxtJustfy{text-align:justify}
+.llblContentTitle{color:#666;font-family:Verdana;font-size:14px;font-weight:700;text-align:left}
+.GridBorderTop{background-color:#E7E2DB;border-bottom:0 solid #E7E2DB;border-left:1px solid #E7E2DB;border-right:0 solid #E7E2DB;border-top:1px solid #E7E2DB;cursor:default}
+.GridBorderLeft{background-color:#cdc5b6;border-bottom:1px solid #62452c;border-left:1px solid #62452c;border-right:1px solid #62452c;border-top:0 solid #62452c;color:#62452c;cursor:default}
+.TopLink{background-color:#1744a6;border-bottom:#ffd275 3px solid;border-top:#a8a8a8 1px solid;color:#fff;filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#97B5E6',EndColorStr='#1744A6');font-family:Verdana;font-size:8pt;font-weight:400}
+.TopMenuBar{border-bottom:#fff 0 solid;border-top:#a8a8a8 0 solid;color:#fff;font-family:Verdana;font-size:8pt;font-weight:400}
+.Heading{border-bottom:1px solid #E9DDAD;border-left:1px solid #E9DDAD;border-right:1px solid #E9DDAD;border-top:1px solid #E9DDAD;color:#666;filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#FFFFFF',EndColorStr='#F4EED6');font-size:8pt;font-weight:700}
+.PageHeading{color:#EE6340;font-family:Verdana;font-size:10pt;font-weight:700}
+.ComplaintMessageHeading{color:#000;font-family:Verdana;font-size:10pt;font-weight:400}
+.ComplaintMessageNote{color:#000;font-family:Verdana;font-size:9pt;font-style:italic;font-weight:400}
+.legendTitle{color:navy;font-family:Verdana;font-size:8pt;font-weight:400}
+.legendTitlePreLog{color:Maroon;font-family:Verdana;font-size:8pt;font-weight:400}
+.inputboxReadOnly{background-color:#DFEAF4;border:1px solid #369;color:#000;font-family:Verdana;font-size:8pt;font-weight:400;padding-left:3px}
+.inputboxReadOnlyHome{background-color:#F4EED6;border:1px solid #000;color:#000;font-family:Verdana;font-size:8pt;font-weight:400;padding-left:3px}
+.SelectBox{background-color:#E1ECFC;color:#000;font-family:Verdana;font-size:8pt;font-weight:400}
+.SelectBoxHome{background-color:#F4EED6;color:#000;font-family:Verdana;font-size:8pt;font-weight:400}
+.FormName{background-color:#FFF;border-bottom:1px solid #FFD275;color:#000;font-family:Verdana;font-size:12pt;font-weight:700}
+.Fieldset{background-color:#A7C5F7;border-bottom:1px solid #A7C5F7;border-left:1px solid #A7C5F7;border-right:1px solid #A7C5F7;border-top:1px solid #A7C5F7;color:#000;filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#F0F5FE',EndColorStr='#A7C5F7');font-family:Verdana;font-size:8pt;font-weight:400}
+.ButTop{background-color:#ECE9D8;border:1px solid gray;font-family:Verdana;font-size:8pt}
+.ButSp{background-color:#FEE197;border:1px solid navy;color:#039;font-family:Verdana;font-size:8pt;height:18px;text-decoration:none;vertical-align:middle}
+.ButSpTop{background-color:#FEE197;border:1px solid navy;color:#039;font-family:Verdana;font-size:8pt;height:18px;text-decoration:none;vertical-align:top}
+.LeftParentLink{border-bottom:red 1px solid;color:#000;font-size:8pt;font-weight:400;text-decoration:none}
+.CalendarTitle{background-color:#F3EFD2;border:solid 1px #BDB76B;color:#62452c;font-family:Verdana;font-size:8pt;font-weight:700;padding-left:5px;text-align:left;vertical-align:middle}
+.RuleCountMessage{border:solid 1px silver;color:maroon;font-family:Verdana;font-size:8pt;font-weight:700;padding-left:5px;text-align:left;vertical-align:middle}
+.CalendarDesc{font-family:Verdana;font-size:8pt;font-weight:400;padding-left:5px;text-align:left;vertical-align:middle}
+.CalendarHoliday{color:maroon;vertical-align:middle}
+.CalendarWorking{vertical-align:middle}
+.butCompSearch{background-color:buttonface;border:1px solid #C1A380;color:#666;font-family:Arial;font-size:7.5pt;padding:1px 4px;text-decoration:none}
+.tableWithBorder{border-bottom:1px solid #E7E2DB;border-left:1px solid #E7E2DB;border-right:1px solid #E7E2DB;border-top:1px solid #E7E2DB}
+.msgGrid td{border:solid 1px #5975a4;font-family:Verdana,arial, Arial Narrow, Mangal}
+.msgGridItem{background-color:#FFF;font-size:smaller}
+.msgGridAltItem{background-color:#e1ecfc;font-size:10px}
+.msgGridAltItemHeading{background-color:#e1ecfc;border:solid 1px #5975a4;color:#000;font-family:Verdana,arial, Arial Narrow, Mangal;font-size:8pt;font-weight:700}
+.msgGridHeader td{background-color:#a7c5f7;border:solid 1px #5975a4;color:#000;font-family:Verdana;font-size:8pt;font-weight:700;padding-left:5px;text-align:center;vertical-align:middle}
+a.aLinkPage:hover{border-bottom:solid 1px red;color:navy;font-size:10pt;font-weight:400;text-decoration:none}
+.InnerLinkBorder{background-color:#FFF;border-bottom:1px solid silver;color:#000;font-family:Verdana;font-size:12pt;font-weight:700}
+a.NavLink:hover{border-bottom:solid 1px #7D316A;color:#7D316A;font-size:8pt;font-weight:400;text-decoration:none}
+a.RoleDisplay{color:maroon;font-weight:400}
+a.OSDisplayTitle{color:navy}
+a.RoleDisplayTitle{color:maroon}
+a.OSDisplayLink{border-bottom:solid 1px;color:navy;font-weight:400}
+a.RoleDisplayLink{border-bottom:solid 1px;color:maroon;font-weight:400}
+a.RuleDisplay{color:#00AE00;cursor:auto;font-weight:400;text-decoration:none}
+.menuBullet{color:#666;padding-left:4px;padding-top:5px;vertical-align:top;width:2px}
+.WelcomeMsg{color:Maroon;font-family:verdana;font-size:8pt;font-weight:400}
+.homeBullet{padding-top:5px;vertical-align:top;width:2px}
+.signUp{font-family:Verdana;font-size:12px;font-weight:400}
+.TableClass{background-color:Navy}
+.tdclass{background-color:#FFF}
+.tdheaderclass{background-color:#e1ecfc;color:Navy;text-align:center}
+.htmlTable{background-color:navy;font-family:Verdana;font-size:8px;padding:0;width:100%}
+.htmlHeaderRow{background-color:#e1ecfc;color:navy;font-family:Verdana;font-size:8px;text-align:center}
+.htmlRow{background-color:#FFF;font-family:Verdana;font-size:8px}
+.paperDispaly{padding:5px 0 10px 30px}
+.studRegHeader{font-family:Verdana;font-size:10pt;font-weight:700;text-align:center}
+.studRegData{font-family:Verdana;font-size:10pt;font-weight:400}
+.logoName{color:#e76d00;font-size:10pt;font-weight:700}
+.logoAddress{color:#8a8a8a;font-size:7pt}
+.PageHeadingCaption{color:#000;font-family:Verdana;font-size:8pt;font-weight:700;padding-left:5px}
+.clContainer{border-bottom:silver 0 solid;border-left:silver 0 solid;border-right:silver 0 solid;border-top:silver 0 solid;float:left;width:25%}
+.clColumn{border-bottom:silver 1px solid;border-left:silver 1px solid;border-right:silver 1px solid;border-top:silver 1px solid;height:120px;margin:1em;padding-top:5px;text-align:center;vertical-align:bottom;width:100%}
+.clImagediv{height:70%;width:80%}
+.clCheckBox{background-color:#efefef;height:18px;width:100%}
+.clFooter{background-color:silver;height:18px;width:100%}
+.LeftMenuParentDivL{float:left;height:15px;width:20px}
+.LeftMenuParentDivR{float:left}
+.LeftMenuDiv{clear:left;min-height:5px;vertical-align:middle}
+.LeftMenuDivL{float:left;padding:3px}
+.LeftMenuDivR a{color:#666;float:left;font-size:8pt;font-weight:400;padding:3px;text-decoration:none}
+#imageholder{height:60px;text-align:center;vertical-align:top}
+a.TopHome:link,a.TopHome:visited{color:#666;font-size:8pt;font-weight:700;text-decoration:none}
+.gridHeaderLeft,.StatsGrid{background-color:#CDCCDF;color:navy;filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#eeeeee',EndColorStr='#CDCCDF');font-size:8pt;font-weight:400;text-decoration:none}
+.gridMouseOver,.msgGridMouseOver{cursor:hand}
+.gridMouseOut,.msgGridMouseOut{cursor:default}
+a.Side:link,a.Side:visited{color:navy;font-size:8pt;font-weight:400;text-decoration:none}
+a.Top:link,a.Top:visited{color:#fff;font-size:8pt;font-weight:400;text-decoration:none}
+.grid,.msgGrid{border:solid 1px #5975a4;color:#000;font-family:Verdana,arial, Arial Narrow, Mangal;font-size:10pt;font-weight:700}
+a.aLinkPage:link,a.aLinkPage:visited{color:navy;font-size:10pt;font-weight:400;text-decoration:none}
+a.NavLink:link,a.NavLink:visited{color:#7D316A;font-size:8pt;font-weight:400;text-decoration:none}
+a.OSDisplay,a.footerLink{color:navy;font-weight:400}
+a.Statictics:link,a.Statictics:visited,a.Statictics:hover{border-bottom:solid 1px navy;color:navy;font-size:10pt;font-weight:400}

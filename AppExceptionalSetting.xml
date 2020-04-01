@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Exceptionals>
+  <ExceptionalModules>
+    <ExceptionalModule>Eligibility</ExceptionalModule>
+    <ExceptionalModule>StudentRegistration</ExceptionalModule>
+    <ExceptionalModule>CATALOGS</ExceptionalModule>
+    <ExceptionalModule>PublisherPortal</ExceptionalModule>
+  </ExceptionalModules>
+  <ExceptionalPages>
+    <ExceptionalPage>LOGOUT</ExceptionalPage>
+    <ExceptionalPage>BOOKIMAGETEMP</ExceptionalPage>
+    <ExceptionalPage>ONERRORSHOW</ExceptionalPage>
+    <ExceptionalPage>BookInterimImageTemp</ExceptionalPage>
+  </ExceptionalPages>
+</Exceptionals>

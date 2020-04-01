@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Root>
+	<AdmissionChannels>
+		<AdmissionChannel>
+			<ID>999</ID>
+			<ModuleKey>onlineadmissions</ModuleKey>
+			<NavigationKey>OnlineAdmission</NavigationKey>
+		</AdmissionChannel>
+		<AdmissionChannel>
+			<ID>999</ID>
+			<ModuleKey>Regdonlineadmissions</ModuleKey>
+			<NavigationKey>OnlineAdmission</NavigationKey>
+		</AdmissionChannel>
+		<AdmissionChannel>
+			<ID>998</ID>
+			<ModuleKey>ExternalAdmissions</ModuleKey>
+			<NavigationKey>ExternalAdmission</NavigationKey>
+		</AdmissionChannel>
+	</AdmissionChannels>
+	<ModeOfLearnings>
+		<ModeOfLearning>
+			<ID>1</ID>
+			<Text>Regular</Text>
+			<AdmissionMode>3</AdmissionMode>
+			<ExamCenter>N</ExamCenter>
+			<PCPCenter>N</PCPCenter>
+			<!--For SUK in OnlineAdmission 39747-->
+			<IsCoursePartAdmission>N</IsCoursePartAdmission>
+			<FeeProcessedBY>C</FeeProcessedBY>
+			<!--C=College,D=DPC-->
+			<IsBranchChangeAllowed>N</IsBranchChangeAllowed>
+			<!--For SNDT in OnlineAdmission for  Distance only-->
+			<LessonForm>N</LessonForm>
+			<Fee>N</Fee>
+			<!--in OnlineAdmission,Required for SNDT in Qualification screen-->
+			<UETQualifications>N</UETQualifications>
+			<PaymentOptions>
+				<PaymentOption>
+					<Text>Demand Draft</Text>
+					<ID>DD</ID>
+					<!--Added for msub requirement-->
+					<SlipGeneration>
+						N
+					</SlipGeneration>
+				</PaymentOption>
+				<PaymentOption>
+					<Text>Cheque</Text>
+					<ID>CQ</ID>
+					<SlipGeneration>
+						N
+					</SlipGeneration>
+				</PaymentOption>
+
+				<PaymentOption>
+					<Text>Cash Deposit at University</Text>
+					<ID>C</ID>
+					<SlipGeneration>
+						N
+					</SlipGeneration>
+				</PaymentOption>
+			</PaymentOptions>
+		</ModeOfLearning>
+		<ModeOfLearning>
+			<ID>3</ID>
+			<Text>Distance Education</Text>
+			<AdmissionMode>6</AdmissionMode>
+			<ExamCenter>Y</ExamCenter>
+			<PCPCenter>Y</PCPCenter>
+			<!--For SUK in OnlineAdmission 39747-->
+			<IsCoursePartAdmission>Y</IsCoursePartAdmission>
+			<FeeProcessedBY>C</FeeProcessedBY>
+			<!--C=College,D=DPC-->
+			<IsBranchChangeAllowed>N</IsBranchChangeAllowed>
+
+			<!--Y= Yes ,N=NoAdded by Shivani Mam and Pawan for branch change case MSUB-->
+			<!--For SNDT in OnlineAdmission for  Distance only-->
+			<LessonForm>Y</LessonForm>
+			<Fee>Y</Fee>
+			<!--in OnlineAdmission,Required for SNDT in Qualification screen-->
+			<UETQualifications>Y</UETQualifications>
+			<PaymentOptions>
+				<PaymentOption>
+					<Text>Demand Draft</Text>
+					<ID>DD</ID>
+					<SlipGeneration>
+						N
+					</SlipGeneration>
+				</PaymentOption>
+				<!--<PaymentOption>
+          <Text>Cheque</Text>
+          <ID>CQ</ID>
+          <SlipGeneration>
+            N
+          </SlipGeneration>
+        </PaymentOption>-->
+
+				<PaymentOption>
+					<Text>Cash Deposit at University</Text>
+					<ID>C</ID>
+					<SlipGeneration>
+						N
+					</SlipGeneration>
+				</PaymentOption>
+
+			</PaymentOptions>
+		</ModeOfLearning>
+
+	</ModeOfLearnings>
+
+	<!--</AdmissionMode>-->
+
+	<!--<AdmissionMode>
+      <ID>6</ID>
+      <Text>Distance Admissions</Text>
+      <ModeOfLearnings>
+        <ModeOfLearning>
+          <ID>3</ID>
+          <Text>Distance Education</Text>
+        </ModeOfLearning>
+      </ModeOfLearnings>
+    </AdmissionMode>
+    <AdmissionMode>
+      <ID>4</ID>
+      <Text>External Admissions</Text>
+      <ModeOfLearnings>
+        <ModeOfLearning>
+          <ID>2</ID>
+          <Text>External</Text>
+        </ModeOfLearning>
+      </ModeOfLearnings>
+    </AdmissionMode>-->
+	<!--</AdmissionModes>-->
+
+	<!--44082 Addition of field First graduate of family and highest qualification of family in NMUJ-->
+	<IsFirstGraduateInFamily>N</IsFirstGraduateInFamily>
+	<MaxQualInFamily>N</MaxQualInFamily>
+	<HScDataPreFetchRequired>N</HScDataPreFetchRequired>
+	<EditPhotoSign>N</EditPhotoSign>
+	<!--in Arrears SNDT Requirement  #25189 -->
+	<ModeofPaymentsforArrears>Y</ModeofPaymentsforArrears>
+	<HomeState>
+		<ID>21</ID>
+		<Text>Maharashtra</Text>
+	</HomeState>
+
+	<HomeCountry>
+		<ID>107</ID>
+		<Text>India</Text>
+	</HomeCountry>
+
+	<OnlyGenderAllowed>
+		<ID>2</ID>
+		<Text>Female</Text>
+	</OnlyGenderAllowed>
+
+
+	<!--added by garima 28 aug 2012 
+Elements inside <Mandatory> tag are one of the fields name which are used by admission module
+and the Flag 'N' sets that its not mandatory to enter data against this field and 'Y' flag 
+sets its vice versa
+-->
+	<MandatoryFields>
+		<Mandatory>
+			<Receipt_no>N</Receipt_no>
+			<Receipt_Date>Y</Receipt_Date>
+			<SSCQualification>Y</SSCQualification>
+			<DegOutOfMarks>N</DegOutOfMarks>
+			<PhysicallyChallenged>Y</PhysicallyChallenged>
+		</Mandatory>
+	</MandatoryFields>
+
+	<PreExamination>
+		<SRPD>
+			<DownloadTime>3</DownloadTime>
+		</SRPD>
+	</PreExamination>
+
+	<!--Optional Attributes
+  InsertAdmissionDataCoursePartTermWise = 'Y' this will insert next course part term data on updating FY or SY result status to pass and ATKT,
+    InsertAdmissionDataCoursePartWise='Y' this will insert next course part data only on updating FY result status to pass and ATKT.-->
+	<ResultStatusAdmissionEntry DisplayCreditsAndGrades="N" AllAcademicYear="6,7,8,9" InsertAdmissionDataCoursePartTermWise="Y">
+		<!--Strictly follow the squence of result status as this sequence will be followed while editing result status-->
+		<ResultStatus Text="PASS"  ID="2" Status="1"/>
+		<ResultStatus Text="FAIL ATKT"  ID="13" Status="2"/>
+		<ResultStatus Text="FAIL"  ID="3" Status="3"/>
+		<ResultStatus Text="HELD BACK"  ID="6" Status="4"/>
+		<ResultStatus Text="NOT AVAILABLE"  ID="99" Status="5"/>
+
+		<AcademicYear>
+			<AcademicYearId>6</AcademicYearId>
+			<CrPrIndexes>1,2,3,4</CrPrIndexes>
+			<CrPrOrderNo>1,2,3,4</CrPrOrderNo>
+			<ExamEeventId>2</ExamEeventId>
+		</AcademicYear>
+		<AcademicYear>
+			<AcademicYearId>7</AcademicYearId>
+			<CrPrIndexes>1,2,3,4</CrPrIndexes>
+			<CrPrOrderNo>1,2,3,4</CrPrOrderNo>
+			<ExamEeventId>10</ExamEeventId>
+		</AcademicYear>
+		<AcademicYear>
+			<AcademicYearId>8</AcademicYearId>
+			<CrPrIndexes>1,2,3,4</CrPrIndexes>
+			<CrPrOrderNo>1,2,3,4</CrPrOrderNo>
+			<ExamEeventId>16</ExamEeventId>
+		</AcademicYear>
+    <AcademicYear>
+      <AcademicYearId>9</AcademicYearId>
+      <CrPrIndexes>1,2,3,4</CrPrIndexes>
+      <CrPrOrderNo>1,2,3,4</CrPrOrderNo>
+      <ExamEeventId>24</ExamEeventId>
+    </AcademicYear>
+	</ResultStatusAdmissionEntry>
+	<!--in OnlineAdmission,Required for SNDT for PG Courses if Y=show three status 1.Appeared,2.Appearing,3.Passed in Qualification Screen-->
+	<IsDegreeStatus>Y</IsDegreeStatus>
+	<!--in OnlineAdmission,Required for SNDT in Social Reservation Screen. show the text of label as the below one if the following tag exists-->
+	<EBCNote>Students whose family income is below Rs. 1,00,000 per annum, fall under EBC category. The EBC certificate issued by the competent authority is mandatory.</EBCNote>
+	<!--in OnlineAdmission,Required for SNDT in Address Details-->
+	<HostelAccomodation>Y</HostelAccomodation>
+	<!--in OnlineAdmission,Required for MSUB and SNDT in Print Application Form  C=Show College Logo,U= Show University Logo in Print Application Form-->
+	<LogoOnPrintApplicationForm>U</LogoOnPrintApplicationForm>
+  <CDNKeys>
+    <PhotoSignKey>PhotoSign</PhotoSignKey>
+   <SaveImagesToDB>True</SaveImagesToDB>
+  </CDNKeys>
+
+
+</Root>

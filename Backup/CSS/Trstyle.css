@@ -1,0 +1,16 @@
+.cssVisibility
+{
+font-family: Verdana; 
+	font-size: 8pt; 
+	font-weight:normal;
+	color: #000000; 
+	border: 1px solid #000000;
+	height:18px;
+visibility:hidden
+}
+
+.cssLblVisibility
+{
+	visibility:hidden;
+	
+}

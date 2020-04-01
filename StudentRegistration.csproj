@@ -1,0 +1,2985 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D1F07743-6A11-4BE0-8758-46621F5732AD}</ProjectGuid>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>StudentRegistration</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>StudentRegistration</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <PackageAsSingleFile>true</PackageAsSingleFile>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRules>-Microsoft.Design#CA1012;-Microsoft.Design#CA2210;-Microsoft.Design#CA1040;-Microsoft.Design#CA1005;-Microsoft.Design#CA1020;-Microsoft.Design#CA1021;-Microsoft.Design#CA1010;-Microsoft.Design#CA1011;-Microsoft.Design#CA1009;-Microsoft.Design#CA1050;-Microsoft.Design#CA1026;-Microsoft.Design#CA1019;-Microsoft.Design#CA1031;-Microsoft.Design#CA1047;-Microsoft.Design#CA1000;-Microsoft.Design#CA1048;-Microsoft.Design#CA1051;-Microsoft.Design#CA1002;-Microsoft.Design#CA1061;-Microsoft.Design#CA1006;-Microsoft.Design#CA1046;-Microsoft.Design#CA1045;-Microsoft.Design#CA1038;-Microsoft.Design#CA1008;-Microsoft.Design#CA1028;-Microsoft.Design#CA1004;-Microsoft.Design#CA1035;-Microsoft.Design#CA1063;-Microsoft.Design#CA1032;-Microsoft.Design#CA1023;-Microsoft.Design#CA1033;-Microsoft.Design#CA1039;-Microsoft.Design#CA1016;-Microsoft.Design#CA1014;-Microsoft.Design#CA1017;-Microsoft.Design#CA1018;-Microsoft.Design#CA1027;-Microsoft.Design#CA1059;-Microsoft.Design#CA1060;-Microsoft.Design#CA1034;-Microsoft.Design#CA1013;-Microsoft.Design#CA1036;-Microsoft.Design#CA1044;-Microsoft.Design#CA1041;-Microsoft.Design#CA1025;-Microsoft.Design#CA1052;-Microsoft.Design#CA1053;-Microsoft.Design#CA1057;-Microsoft.Design#CA1058;-Microsoft.Design#CA1001;-Microsoft.Design#CA1049;-Microsoft.Design#CA1054;-Microsoft.Design#CA1056;-Microsoft.Design#CA1055;-Microsoft.Design#CA1030;-Microsoft.Design#CA1003;-Microsoft.Design#CA1007;-Microsoft.Design#CA1043;-Microsoft.Design#CA1024;-Microsoft.Design#CA1062;-Microsoft.Globalization#CA1301;-Microsoft.Globalization#CA1302;-Microsoft.Globalization#CA1303;-Microsoft.Globalization#CA1306;-Microsoft.Globalization#CA1304;-Microsoft.Globalization#CA1305;-Microsoft.Globalization#CA1300;-Microsoft.Interoperability#CA1403;-Microsoft.Interoperability#CA1406;-Microsoft.Interoperability#CA1413;-Microsoft.Interoperability#CA1402;-Microsoft.Interoperability#CA1407;-Microsoft.Interoperability#CA1404;-Microsoft.Interoperability#CA1410;-Microsoft.Interoperability#CA1411;-Microsoft.Interoperability#CA1405;-Microsoft.Interoperability#CA1409;-Microsoft.Interoperability#CA1415;-Microsoft.Interoperability#CA1408;-Microsoft.Interoperability#CA1414;-Microsoft.Interoperability#CA1412;-Microsoft.Interoperability#CA1400;-Microsoft.Interoperability#CA1401;-Microsoft.Maintainability#CA1502;-Microsoft.Maintainability#CA1501;-Microsoft.Maintainability#CA1500;-Microsoft.Mobility#CA1600;-Microsoft.Mobility#CA1601;-Microsoft.Performance#CA1809;-Microsoft.Performance#CA1811;-Microsoft.Performance#CA1812;-Microsoft.Performance#CA1807;-Microsoft.Performance#CA1813;-Microsoft.Performance#CA1823;-Microsoft.Performance#CA1816;-Microsoft.Performance#CA1817;-Microsoft.Performance#CA1800;-Microsoft.Performance#CA1818;-Microsoft.Performance#CA1805;-Microsoft.Performance#CA1810;-Microsoft.Performance#CA1822;-Microsoft.Performance#CA1815;-Microsoft.Performance#CA1814;-Microsoft.Performance#CA1819;-Microsoft.Performance#CA1804;-Microsoft.Performance#CA1820;-Microsoft.Performance#CA1802;-Microsoft.Portability#CA1901;-Microsoft.Portability#CA1900;-Microsoft.Reliability#CA2000;-Microsoft.Reliability#CA2002;-Microsoft.Reliability#CA2003;-Microsoft.Reliability#CA2004;-Microsoft.Reliability#CA2006;-Microsoft.Security#CA2116;-Microsoft.Security#CA2117;-Microsoft.Security#CA2105;-Microsoft.Security#CA2115;-Microsoft.Security#CA2104;-Microsoft.Security#CA2122;-Microsoft.Security#CA2114;-Microsoft.Security#CA2123;-Microsoft.Security#CA2111;-Microsoft.Security#CA2108;-Microsoft.Security#CA2107;-Microsoft.Security#CA2103;-Microsoft.Security#CA2100;-Microsoft.Security#CA2118;-Microsoft.Security#CA2109;-Microsoft.Security#CA2119;-Microsoft.Security#CA2106;-Microsoft.Security#CA2112;-Microsoft.Security#CA2110;-Microsoft.Security#CA2120;-Microsoft.Security#CA2101;-Microsoft.Security#CA2121;-Microsoft.Security#CA2126;-Microsoft.Security#CA2124;-Microsoft.Usage#CA2209;-Microsoft.Usage#CA2236;-Microsoft.Usage#CA2227;-Microsoft.Usage#CA2213;-Microsoft.Usage#CA2216;-Microsoft.Usage#CA2215;-Microsoft.Usage#CA2214;-Microsoft.Usage#CA2222;-Microsoft.Usage#CA2202;-Microsoft.Usage#CA1806;-Microsoft.Usage#CA2217;-Microsoft.Usage#CA2212;-Microsoft.Usage#CA2219;-Microsoft.Usage#CA2201;-Microsoft.Usage#CA2228;-Microsoft.Usage#CA2221;-Microsoft.Usage#CA2220;-Microsoft.Usage#CA2240;-Microsoft.Usage#CA2229;-Microsoft.Usage#CA2238;-Microsoft.Usage#CA2207;-Microsoft.Usage#CA2208;-Microsoft.Usage#CA2235;-Microsoft.Usage#CA2237;-Microsoft.Usage#CA2232;-Microsoft.Usage#CA2223;-Microsoft.Usage#CA2211;-Microsoft.Usage#CA2233;-Microsoft.Usage#CA2225;-Microsoft.Usage#CA2226;-Microsoft.Usage#CA2231;-Microsoft.Usage#CA2224;-Microsoft.Usage#CA2218;-Microsoft.Usage#CA2234;-Microsoft.Usage#CA2241;-Microsoft.Usage#CA2239;-Microsoft.Usage#CA2200;-Microsoft.Usage#CA1801;-Microsoft.Usage#CA2205;-Microsoft.Usage#CA2230</CodeAnalysisRules>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <FileAlignment>4096</FileAlignment>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <BaseAddress>285212672</BaseAddress>
+    <Optimize>true</Optimize>
+    <FileAlignment>4096</FileAlignment>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRules>-Microsoft.Design#CA1012;-Microsoft.Design#CA2210;-Microsoft.Design#CA1040;-Microsoft.Design#CA1005;-Microsoft.Design#CA1020;-Microsoft.Design#CA1021;-Microsoft.Design#CA1010;-Microsoft.Design#CA1011;-Microsoft.Design#CA1009;-Microsoft.Design#CA1050;-Microsoft.Design#CA1026;-Microsoft.Design#CA1019;-Microsoft.Design#CA1031;-Microsoft.Design#CA1047;-Microsoft.Design#CA1000;-Microsoft.Design#CA1048;-Microsoft.Design#CA1051;-Microsoft.Design#CA1002;-Microsoft.Design#CA1061;-Microsoft.Design#CA1006;-Microsoft.Design#CA1046;-Microsoft.Design#CA1045;-Microsoft.Design#CA1038;-Microsoft.Design#CA1008;-Microsoft.Design#CA1028;-Microsoft.Design#CA1004;-Microsoft.Design#CA1035;-Microsoft.Design#CA1063;-Microsoft.Design#CA1032;-Microsoft.Design#CA1023;-Microsoft.Design#CA1033;-Microsoft.Design#CA1039;-Microsoft.Design#CA1016;-Microsoft.Design#CA1014;-Microsoft.Design#CA1017;-Microsoft.Design#CA1018;-Microsoft.Design#CA1027;-Microsoft.Design#CA1059;-Microsoft.Design#CA1060;-Microsoft.Design#CA1034;-Microsoft.Design#CA1013;-Microsoft.Design#CA1036;-Microsoft.Design#CA1044;-Microsoft.Design#CA1041;-Microsoft.Design#CA1025;-Microsoft.Design#CA1052;-Microsoft.Design#CA1053;-Microsoft.Design#CA1057;-Microsoft.Design#CA1058;-Microsoft.Design#CA1001;-Microsoft.Design#CA1049;-Microsoft.Design#CA1054;-Microsoft.Design#CA1056;-Microsoft.Design#CA1055;-Microsoft.Design#CA1030;-Microsoft.Design#CA1003;-Microsoft.Design#CA1007;-Microsoft.Design#CA1043;-Microsoft.Design#CA1024;-Microsoft.Design#CA1062;-Microsoft.Globalization#CA1301;-Microsoft.Globalization#CA1302;-Microsoft.Globalization#CA1303;-Microsoft.Globalization#CA1306;-Microsoft.Globalization#CA1304;-Microsoft.Globalization#CA1305;-Microsoft.Globalization#CA1300;-Microsoft.Interoperability#CA1403;-Microsoft.Interoperability#CA1406;-Microsoft.Interoperability#CA1413;-Microsoft.Interoperability#CA1402;-Microsoft.Interoperability#CA1407;-Microsoft.Interoperability#CA1404;-Microsoft.Interoperability#CA1410;-Microsoft.Interoperability#CA1411;-Microsoft.Interoperability#CA1405;-Microsoft.Interoperability#CA1409;-Microsoft.Interoperability#CA1415;-Microsoft.Interoperability#CA1408;-Microsoft.Interoperability#CA1414;-Microsoft.Interoperability#CA1412;-Microsoft.Interoperability#CA1400;-Microsoft.Interoperability#CA1401;-Microsoft.Maintainability#CA1502;-Microsoft.Maintainability#CA1501;-Microsoft.Maintainability#CA1500;-Microsoft.Mobility#CA1600;-Microsoft.Mobility#CA1601;-Microsoft.Performance#CA1809;-Microsoft.Performance#CA1811;-Microsoft.Performance#CA1812;-Microsoft.Performance#CA1807;-Microsoft.Performance#CA1813;-Microsoft.Performance#CA1823;-Microsoft.Performance#CA1816;-Microsoft.Performance#CA1817;-Microsoft.Performance#CA1800;-Microsoft.Performance#CA1818;-Microsoft.Performance#CA1805;-Microsoft.Performance#CA1810;-Microsoft.Performance#CA1822;-Microsoft.Performance#CA1815;-Microsoft.Performance#CA1814;-Microsoft.Performance#CA1819;-Microsoft.Performance#CA1804;-Microsoft.Performance#CA1820;-Microsoft.Performance#CA1802;-Microsoft.Portability#CA1901;-Microsoft.Portability#CA1900;-Microsoft.Reliability#CA2000;-Microsoft.Reliability#CA2002;-Microsoft.Reliability#CA2003;-Microsoft.Reliability#CA2004;-Microsoft.Reliability#CA2006;-Microsoft.Security#CA2116;-Microsoft.Security#CA2117;-Microsoft.Security#CA2105;-Microsoft.Security#CA2115;-Microsoft.Security#CA2104;-Microsoft.Security#CA2122;-Microsoft.Security#CA2114;-Microsoft.Security#CA2123;-Microsoft.Security#CA2111;-Microsoft.Security#CA2108;-Microsoft.Security#CA2107;-Microsoft.Security#CA2103;-Microsoft.Security#CA2100;-Microsoft.Security#CA2118;-Microsoft.Security#CA2109;-Microsoft.Security#CA2119;-Microsoft.Security#CA2106;-Microsoft.Security#CA2112;-Microsoft.Security#CA2110;-Microsoft.Security#CA2120;-Microsoft.Security#CA2101;-Microsoft.Security#CA2121;-Microsoft.Security#CA2126;-Microsoft.Security#CA2124;-Microsoft.Usage#CA2209;-Microsoft.Usage#CA2236;-Microsoft.Usage#CA2227;-Microsoft.Usage#CA2213;-Microsoft.Usage#CA2216;-Microsoft.Usage#CA2215;-Microsoft.Usage#CA2214;-Microsoft.Usage#CA2222;-Microsoft.Usage#CA2202;-Microsoft.Usage#CA1806;-Microsoft.Usage#CA2217;-Microsoft.Usage#CA2212;-Microsoft.Usage#CA2219;-Microsoft.Usage#CA2201;-Microsoft.Usage#CA2228;-Microsoft.Usage#CA2221;-Microsoft.Usage#CA2220;-Microsoft.Usage#CA2240;-Microsoft.Usage#CA2229;-Microsoft.Usage#CA2238;-Microsoft.Usage#CA2207;-Microsoft.Usage#CA2208;-Microsoft.Usage#CA2235;-Microsoft.Usage#CA2237;-Microsoft.Usage#CA2232;-Microsoft.Usage#CA2223;-Microsoft.Usage#CA2211;-Microsoft.Usage#CA2233;-Microsoft.Usage#CA2225;-Microsoft.Usage#CA2226;-Microsoft.Usage#CA2231;-Microsoft.Usage#CA2224;-Microsoft.Usage#CA2218;-Microsoft.Usage#CA2234;-Microsoft.Usage#CA2241;-Microsoft.Usage#CA2239;-Microsoft.Usage#CA2200;-Microsoft.Usage#CA1801;-Microsoft.Usage#CA2205;-Microsoft.Usage#CA2230</CodeAnalysisRules>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AAASecurity, Version=1.0.6053.28541, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\AAASecurity.dll</HintPath>
+    </Reference>
+    <Reference Include="Ajax, Version=5.7.22.2, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Documents and Settings\vijayb\Desktop\S\Ajax.dll</HintPath>
+    </Reference>
+    <Reference Include="AjaxControlToolkit, Version=3.0.30930.28736, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Classes, Version=2.0.4008.29631, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Classes.dll</HintPath>
+    </Reference>
+    <Reference Include="CourseRepository, Version=2.0.3859.23557, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Documents and Settings\shivanip.MKCLINDIA\Desktop\CourseRepository.dll</HintPath>
+    </Reference>
+    <Reference Include="DPLocalization, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\DPLocalization.dll</HintPath>
+    </Reference>
+    <Reference Include="DPTemplate2, Version=1.0.4912.27783, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\DPTemplate2.dll</HintPath>
+    </Reference>
+    <Reference Include="DUConfigurations, Version=2014.10.28.5, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\DUConfigurations.dll</HintPath>
+    </Reference>
+    <Reference Include="generalRepository, Version=2.0.3643.22375, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\generalRepository.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.84.0.0, Culture=neutral, PublicKeyToken=1b03e6acf1164f73">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>referenceDLL\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="InstituteRepository, Version=2.0.3490.24858, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Microsoft.ReportViewer.WebForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="ReportWrapper, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\07_09_09_StudentRegisterationBackup\StudentRegistration\bin\ReportWrapper.dll</HintPath>
+    </Reference>
+    <Reference Include="Sancharak, Version=2014.8.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Sancharak.dll</HintPath>
+    </Reference>
+    <Reference Include="ServerSideValidations, Version=2.0.3334.24559, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Documents and Settings\shivanip.MKCLINDIA\Desktop\DLLs to be replaced for using the SelectSingleCourse User Ctrl\ServerSideValidations.dll</HintPath>
+    </Reference>
+    <Reference Include="SOAClasses, Version=1.0.3344.27403, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\SOAClasses.dll</HintPath>
+    </Reference>
+    <Reference Include="Student, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Student.dll</HintPath>
+    </Reference>
+    <Reference Include="StudentRepository, Version=1.0.2743.23531, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\StudentAccount\bin\StudentRepository.dll</HintPath>
+    </Reference>
+    <Reference Include="sysglobl" />
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="TripleDESEncryption, Version=1.0.2614.30255, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\TripleDESEncryption.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AcademicCalendarDisplay.aspx" />
+    <Content Include="AlertsandReminders.ascx" />
+    <Content Include="AppExceptionalSetting.xml" />
+    <Content Include="bin\DPLocalization.dll" />
+    <Content Include="bin\DUPortalService.dll" />
+    <Content Include="bin\Microsoft.ReportViewer.Common.dll" />
+    <Content Include="bin\Microsoft.ReportViewer.WebForms.dll" />
+    <Content Include="bin\SOAClasses.dll" />
+    <Content Include="CalendarDisplay.aspx" />
+    <Content Include="CircularControl.ascx" />
+    <Content Include="DefaultHeader.ascx" />
+    <Content Include="DUConfiguration.xml" />
+    <Content Include="Eligibility\AdmissionEligConfiguration.aspx" />
+    <Content Include="Eligibility\AdmissionEligConfiguration__1.aspx" />
+    <Content Include="Eligibility\rptStudProgrameValidity.aspx" />
+    <Content Include="Eligibility\ELGV2rptInvoiceGenration_MonthlyReport.aspx" />
+    <Content Include="Eligibility\ELGV2_ReplacePRN.aspx" />
+    <Content Include="Eligibility\ELGV2_BulkProcess__3.aspx" />
+    <Content Include="Eligibility\ELGV2_PaperChange__3.aspx" />
+    <Content Include="Eligibility\ELGV2_ProvisionalNonProvisionalImport_Bulk.aspx" />
+    <Content Include="Eligibility\ELGV2_ProvisionalNonProvisionalImport_Bulk__1.aspx" />
+    <Content Include="Eligibility\ELGV2_rptViewStatus_MUHS.aspx" />
+    <Content Include="Eligibility\ELGV2_CETDetails.aspx" />
+    <Content Include="Eligibility\ELGV2_rpt_FormBReport.aspx" />
+    <Content Include="Eligibility\DeleteProfile.aspx" />
+    <Content Include="Eligibility\ELGV2rptUploadedStudentStatistics_CoursePartLessThanOneYear.aspx" />
+    <Content Include="Eligibility\ELGV2_BulkProcess__1.aspx" />
+    <Content Include="Eligibility\ConfigureEligibilityRights.aspx" />
+    <Content Include="Eligibility\ELGV2_ChangeProcessedEligibilityStatus.aspx" />
+    <Content Include="Eligibility\ELGV2_ChangeProcessedEligibilityStatus__2.aspx" />
+    <Content Include="Eligibility\ELGV2_ManualProcess.aspx" />
+    <Content Include="Eligibility\ELGV2_PaperChange__4.aspx" />
+    <Content Include="Eligibility\ELGV2_PaperChange__5.aspx" />
+    <Content Include="Eligibility\ELGV2_PaperChange__6.aspx" />
+    <Content Include="Eligibility\ELGV2_ResolvePending.aspx" />
+    <Content Include="Eligibility\ELGV2_rptCancelAdmission_Report.aspx" />
+    <Content Include="Eligibility\ELGV2_rptCrPrTermwiseUploadedandElgStatistics.aspx" />
+    <Content Include="Eligibility\ELGV2_rptStuDetailWithPaperChange.aspx" />
+    <Content Include="Eligibility\ELGV2_rpt_FormAReport.aspx" />
+    <Content Include="Eligibility\ELGV2_rpt_GenerateRegistrationReceipt.aspx" />
+    <Content Include="Eligibility\Elgv2_rpt_GetCollegeCourseStudentDetails.aspx" />
+    <Content Include="Eligibility\ELGV2_StudentAdditionalPapers.aspx" />
+    <Content Include="Eligibility\ELGV2_StudyCenterChange.aspx" />
+    <Content Include="Eligibility\ELGV2_TransferPreviousAdmissions.aspx" />
+    <Content Include="Eligibility\ELGV2_ViewStatus.aspx" />
+    <Content Include="Eligibility\EligibilityIndex.aspx" />
+    <Content Include="Eligibility\ELGV2_ManualProcess__1.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Eligibility\ELGV2_ManualProcess__2.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Eligibility\ImportSelectCntPRNList.aspx" />
+    <Content Include="Eligibility\jscript\changescheme.js" />
+    <Content Include="Eligibility\LP_rptStuDetailWithPaperChange.aspx" />
+    <Content Include="Eligibility\PhotoAndSignTemp.aspx" />
+    <Content Include="Eligibility\ELGV2_ResolvePending__1.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Eligibility\ELGV2_ResolvePending__2.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Eligibility\ELGV2_BulkProcess.aspx" />
+    <Content Include="Eligibility\ELGV2_ViewStatus__1.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Eligibility\ELGV2_ViewStatus__2.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Eligibility\ELGV2_ImportPRNFromExcel.aspx" />
+    <Content Include="Eligibility\StudentRegistrationPage1.aspx" />
+    <Content Include="Eligibility\Trial.aspx">
+      <SubType>Form</SubType>
+    </Content>
+    <Content Include="Eligibility\MercyAllow.aspx" />
+    <Content Include="Eligibility\MercyAllow__1.aspx" />
+    <Content Include="Eligibility\WebCtrl\SelectSingleCourseMUHS.ascx" />
+    <Content Include="Eligibility\WebCtrl\StudentAdvanceSeachForConfigureChangeElgUnprocess.ascx" />
+    <Content Include="Eligibility\WebCtrl\searchInstNewChangeElgUnprocess.ascx" />
+    <Content Include="Eligibility\WebCtrl\SelectSingleCourseExamEvent.ascx" />
+    <Content Include="Eligibility\WebCtrl\StudentAdvanceSeachForConfigure.ascx" />
+    <Content Include="Eligibility\WebCtrl\StudentsAdvancedSearch.ascx" />
+    <Content Include="Eligibility\WebCtrl\StudentsStatusSearch.ascx">
+      <SubType>UserControl</SubType>
+    </Content>
+    <Content Include="facultyWiseCourses.aspx" />
+    <Content Include="FileUploadTest.aspx" />
+    <Content Include="Footer.ascx" />
+    <Content Include="Global.asax" />
+    <Content Include="GR.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="HomeContentControl.ascx" />
+    <Content Include="HomeContentDisplay.aspx" />
+    <Content Include="Home_R.aspx" />
+    <Content Include="images\ac0047-48[1].gif" />
+    <Content Include="images\ac0054-48[1].gif" />
+    <Content Include="images\ac0055-48[1].gif" />
+    <Content Include="images\ac0060-48[1].gif" />
+    <Content Include="images\ac0062-48[1].gif" />
+    <Content Include="images\admin.jpg" />
+    <Content Include="images\admin_O.jpg" />
+    <Content Include="images\admission.jpg" />
+    <Content Include="images\admissions.gif" />
+    <Content Include="images\adobe_get_logo.gif" />
+    <Content Include="images\aff.swf" />
+    <Content Include="images\affi.jpg" />
+    <Content Include="images\Agenda.gif" />
+    <Content Include="images\AgendaDetails.gif" />
+    <Content Include="images\annoucementbg.gif" />
+    <Content Include="images\Attendance.gif" />
+    <Content Include="images\bg.gif" />
+    <Content Include="images\box01_bottom.gif" />
+    <Content Include="images\box01_topstrip.gif" />
+    <Content Include="images\box02_bottom.gif" />
+    <Content Include="images\box02_topstrip.gif" />
+    <Content Include="images\box03_topstrip.gif" />
+    <Content Include="images\box04_topstrip.gif" />
+    <Content Include="images\branding.gif" />
+    <Content Include="images\bullet01.gif" />
+    <Content Include="images\bullet02.gif" />
+    <Content Include="images\bullet03.gif" />
+    <Content Include="images\bullet04.gif" />
+    <Content Include="images\bullet1.gif" />
+    <Content Include="images\button_close.gif" />
+    <Content Include="images\button_delete.gif" />
+    <Content Include="images\button_new.gif" />
+    <Content Include="images\button_print.gif" />
+    <Content Include="images\button_reset.gif" />
+    <Content Include="images\button_save.gif" />
+    <Content Include="images\bwlogo.gif" />
+    <Content Include="images\cal.gif" />
+    <Content Include="images\cap.jpg" />
+    <Content Include="images\closeBtn.GIF" />
+    <Content Include="images\colleges.gif" />
+    <Content Include="images\coming_soon.swf" />
+    <Content Include="images\Committee.gif" />
+    <Content Include="images\CommitteeMember.gif" />
+    <Content Include="images\CommitteeType.gif" />
+    <Content Include="images\comp.jpg" />
+    <Content Include="images\Computer.gif" />
+    <Content Include="images\CoomingSoon.gif" />
+    <Content Include="images\courses.gif" />
+    <Content Include="images\departments.gif" />
+    <Content Include="images\digilib.JPG" />
+    <Content Include="images\dish.JPG" />
+    <Content Include="images\DocketInward.gif" />
+    <Content Include="images\dot.gif" />
+    <Content Include="images\down.bmp" />
+    <Content Include="images\down4.GIF" />
+    <Content Include="images\downarrow.GIF" />
+    <Content Include="images\download.jpg" />
+    <Content Include="images\earn.gif" />
+    <Content Include="images\earth.jpg" />
+    <Content Include="images\ed_about.gif" />
+    <Content Include="images\ed_align_center.gif" />
+    <Content Include="images\ed_align_left.gif" />
+    <Content Include="images\ed_align_right.gif" />
+    <Content Include="images\ed_color_bg.gif" />
+    <Content Include="images\ed_color_fg.gif" />
+    <Content Include="images\ed_format_bold.gif" />
+    <Content Include="images\ed_format_italic.gif" />
+    <Content Include="images\ed_format_strike.gif" />
+    <Content Include="images\ed_format_sub.gif" />
+    <Content Include="images\ed_format_sup.gif" />
+    <Content Include="images\ed_format_underline.gif" />
+    <Content Include="images\ed_hr.gif" />
+    <Content Include="images\ed_html.gif" />
+    <Content Include="images\ed_image.gif" />
+    <Content Include="images\ed_indent_less.gif" />
+    <Content Include="images\ed_indent_more.gif" />
+    <Content Include="images\ed_link.gif" />
+    <Content Include="images\ed_list_bullet.gif" />
+    <Content Include="images\ed_list_num.gif" />
+    <Content Include="images\envelope.gif" />
+    <Content Include="images\exa.gif" />
+    <Content Include="images\folder.gif" />
+    <Content Include="images\FP1.jpg" />
+    <Content Include="images\FP2.jpg" />
+    <Content Include="images\FS1.jpg" />
+    <Content Include="images\FS2.jpg" />
+    <Content Include="images\fullscreen_maximize.gif" />
+    <Content Include="images\fullscreen_minimize.GIF" />
+    <Content Include="images\gallery.swf" />
+    <Content Include="images\go.gif" />
+    <Content Include="images\goto.GIF" />
+    <Content Include="images\gray.gif" />
+    <Content Include="images\green.jpg" />
+    <Content Include="images\hostel.jpg" />
+    <Content Include="images\icon01.gif" />
+    <Content Include="images\icon033.gif" />
+    <Content Include="images\icon04.gif" />
+    <Content Include="images\icon05.gif" />
+    <Content Include="images\icon08.gif" />
+    <Content Include="images\icon_mail1.gif" />
+    <Content Include="images\image_arrow.gif" />
+    <Content Include="images\img_arrow.gif" />
+    <Content Include="images\inn_left_arrow.gif" />
+    <Content Include="images\insert_table.gif" />
+    <Content Include="images\Jack0.JPG" />
+    <Content Include="images\Jack1.jpg" />
+    <Content Include="images\Jack2.jpg" />
+    <Content Include="images\Jack3.jpg" />
+    <Content Include="images\Jack4.jpg" />
+    <Content Include="images\Jack5.jpg" />
+    <Content Include="images\kolaskar.jpg" />
+    <Content Include="images\l.gif" />
+    <Content Include="images\left-corner.gif" />
+    <Content Include="images\lib.JPG" />
+    <Content Include="images\link-bg.gif" />
+    <Content Include="images\linkbg.gif" />
+    <Content Include="images\Login.GIF" />
+    <Content Include="images\logo.gif" />
+    <Content Include="images\logo.JPG" />
+    <Content Include="images\main.gif" />
+    <Content Include="images\mainimage.jpg" />
+    <Content Include="images\Map1.jpg" />
+    <Content Include="images\Map2.jpg" />
+    <Content Include="images\mass.jpg" />
+    <Content Include="images\mass_O.jpg" />
+    <Content Include="images\MasterEntry.gif" />
+    <Content Include="images\MeetingDetails.gif" />
+    <Content Include="images\meet_man.jpg" />
+    <Content Include="images\meet_man_O.jpg" />
+    <Content Include="images\Member.gif" />
+    <Content Include="images\mid.JPG" />
+    <Content Include="images\middlespacer.gif" />
+    <Content Include="images\mid_bottom.gif" />
+    <Content Include="images\mid_bottom04.gif" />
+    <Content Include="images\mid_top01.gif" />
+    <Content Include="images\mid_top02.gif" />
+    <Content Include="images\minus.gif" />
+    <Content Include="images\Minutes.gif" />
+    <Content Include="images\MIS_copy_watermark.gif" />
+    <Content Include="images\MomDetails.gif" />
+    <Content Include="images\MP1.JPG" />
+    <Content Include="images\MP2.jpg" />
+    <Content Include="images\MS1.jpg" />
+    <Content Include="images\MS2.jpg" />
+    <Content Include="images\nd0044-48[1].gif" />
+    <Content Include="images\next.gif" />
+    <Content Include="images\p.gif" />
+    <Content Include="images\P108438.jpg" />
+    <Content Include="images\P206097.jpg" />
+    <Content Include="images\P232512.jpg" />
+    <Content Include="images\P245314.jpg" />
+    <Content Include="images\pencil.gif" />
+    <Content Include="images\pgTask.gif" />
+    <Content Include="images\plus.gif" />
+    <Content Include="images\poonaunivercity-1.jpg" />
+    <Content Include="images\prev.gif" />
+    <Content Include="images\progress_bar1.gif" />
+    <Content Include="images\PU-Logo.jpg" />
+    <Content Include="images\PU-Logo.png" />
+    <Content Include="images\PU-Logo1.JPG" />
+    <Content Include="images\red.jpg" />
+    <Content Include="images\Report.gif" />
+    <Content Include="images\result.jpg" />
+    <Content Include="images\right-corner.gif" />
+    <Content Include="images\right.gif" />
+    <Content Include="images\rightcorner.gif" />
+    <Content Include="images\road.JPG" />
+    <Content Include="images\rt.GIF" />
+    <Content Include="images\S108438.jpg" />
+    <Content Include="images\S206097.jpg" />
+    <Content Include="images\S232512.jpg" />
+    <Content Include="images\S245314.jpg" />
+    <Content Include="images\Schedule.gif" />
+    <Content Include="images\Schedule2.gif" />
+    <Content Include="images\scolar.gif" />
+    <Content Include="images\Search.gif" />
+    <Content Include="images\spacer.gif" />
+    <Content Include="images\sport.jpg" />
+    <Content Include="images\teacherreg.jpg" />
+    <Content Include="images\uni.jpg" />
+    <Content Include="images\University_Logo..JPG" />
+    <Content Include="images\univ_pune.jpg" />
+    <Content Include="images\uniword.png" />
+    <Content Include="images\up.bmp" />
+    <Content Include="images\up.gif" />
+    <Content Include="images\up4.GIF" />
+    <Content Include="images\uparrow.GIF" />
+    <Content Include="images\view.jpg" />
+    <Content Include="images\wi0002-48[1].gif" />
+    <Content Include="images\wi0040-48[1].gif" />
+    <Content Include="images\wi0042-48[1].gif" />
+    <Content Include="InnerHeader.ascx" />
+    <Content Include="InnerMenuControl.ascx" />
+    <Content Include="jscript\changescheme.js" />
+    <Content Include="jscript\dropDownCommon.js" />
+    <Content Include="jscript\gen.js" />
+    <Content Include="jscript\jquery-latest.js" />
+    <Content Include="jscript\jscript_validations.js" />
+    <Content Include="jscript\menu_com.js" />
+    <Content Include="jscript\mnuUniversity.js" />
+    <Content Include="jscript\SPXMLHTTP.js" />
+    <Content Include="jscript\ypSlideOutMenusC.js" />
+    <Content Include="JS\change.js" />
+    <Content Include="JS\CommonFunctions.js" />
+    <Content Include="JS\datetimepicker.js" />
+    <Content Include="JS\dropDown.js" />
+    <Content Include="JS\dropDownCommon.js" />
+    <Content Include="JS\footer.js" />
+    <Content Include="JS\header.js" />
+    <Content Include="JS\jsAjaxMethod.js" />
+    <Content Include="JS\jscript_validations.js" />
+    <Content Include="JS\SPXMLHTTP.js" />
+    <Content Include="JS\ts_picker.js" />
+    <Content Include="JS\ValidatePRN.js" />
+    <Content Include="JS\Validations.js" />
+    <Content Include="LandingPage.aspx" />
+    <Content Include="LanguageOptions.ascx" />
+    <Content Include="LinkBaseServices.aspx" />
+    <Content Include="Logout.aspx" />
+    <Content Include="MenuControl.ascx" />
+    <Content Include="MessagingInbox.ascx" />
+    <Content Include="mnuAcademics.ascx" />
+    <Content Include="mnuActivitiesServices.ascx" />
+    <Content Include="mnuIPRPublication.ascx" />
+    <Content Include="mnuMedia.ascx" />
+    <Content Include="MySettings.aspx" />
+    <Content Include="OnErrorShow.aspx" />
+    <Content Include="OrgStrControl.ascx" />
+    <Content Include="OrgStructure.aspx" />
+    <Content Include="PhotoEnlarge.aspx" />
+    <Content Include="PhotoGallary.aspx" />
+    <Content Include="PrintMenus.aspx" />
+    <Content Include="SideLinks.ascx" />
+    <Content Include="SiteMap.aspx" />
+    <Content Include="StudentPhoto.aspx" />
+    <Content Include="StudentSignature.aspx" />
+    <Content Include="SubLinkUserControl.ascx" />
+    <Content Include="Suggestions.aspx" />
+    <Content Include="Syllabus.aspx" />
+    <Content Include="ucBreadCrumb.ascx" />
+    <Content Include="ucChannel.ascx" />
+    <Content Include="ucFooter.ascx" />
+    <Content Include="ucGoldPlusServices.ascx" />
+    <Content Include="VisualTour.aspx" />
+    <Compile Include="Classes\clsAdmissionElgConfig.cs" />
+    <Compile Include="Classes\clsOthers.cs" />
+    <Compile Include="Classes\clsStudent.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dsDisc.Designer.cs">
+      <DependentUpon>dsDisc.xsd</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="DSFormAB.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSFormAB.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsMIS.cs">
+      <DependentUpon>dsMIS.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="dsMIS.Designer.cs">
+      <DependentUpon>dsMIS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dsMIS1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsMIS.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DSOAReports.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSOAReports.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsStudProgramValidity.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsStudProgramValidity.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsViewElgStatus.cs">
+      <DependentUpon>dsViewElgStatus.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="dsViewElgStatus.Designer.cs">
+      <DependentUpon>dsViewElgStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dsViewElgStatus1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsViewElgStatus.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DS_CrPrTermwiseUploadedandElgStatistics.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DS_CrPrTermwiseUploadedandElgStatistics.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\AdmissionEligConfiguration.aspx.cs">
+      <DependentUpon>AdmissionEligConfiguration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\AdmissionEligConfiguration.aspx.designer.cs">
+      <DependentUpon>AdmissionEligConfiguration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\AdmissionEligConfiguration__1.aspx.cs">
+      <DependentUpon>AdmissionEligConfiguration__1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\AdmissionEligConfiguration__1.aspx.designer.cs">
+      <DependentUpon>AdmissionEligConfiguration__1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\CancelAdmission.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>CancelAdmission.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\CancelAdmission.aspx.designer.cs">
+      <DependentUpon>CancelAdmission.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\CancelAdmission__1.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>CancelAdmission__1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\CancelAdmission__1.aspx.designer.cs">
+      <DependentUpon>CancelAdmission__1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\CancelAdmission__2.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>CancelAdmission__2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\CancelAdmission__2.aspx.designer.cs">
+      <DependentUpon>CancelAdmission__2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\CollegeProfile.ascx.cs">
+      <DependentUpon>CollegeProfile.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\CollegeProfile.ascx.designer.cs">
+      <DependentUpon>CollegeProfile.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ElgClasses\clsRegStudent.cs" />
+    <Compile Include="Eligibility\rptStudProgrameValidity.aspx.cs">
+      <DependentUpon>rptStudProgrameValidity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\rptStudProgrameValidity.aspx.designer.cs">
+      <DependentUpon>rptStudProgrameValidity.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ElgClasses\clsInvoiceGenration.cs" />
+    <Compile Include="Eligibility\ELGV2rptInvoiceGenration_MonthlyReport.aspx.cs">
+      <DependentUpon>ELGV2rptInvoiceGenration_MonthlyReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2rptInvoiceGenration_MonthlyReport.aspx.designer.cs">
+      <DependentUpon>ELGV2rptInvoiceGenration_MonthlyReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ReplacePRN.aspx.cs">
+      <DependentUpon>ELGV2_ReplacePRN.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ReplacePRN.aspx.designer.cs">
+      <DependentUpon>ELGV2_ReplacePRN.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_BulkProcess__3.aspx.cs">
+      <DependentUpon>ELGV2_BulkProcess__3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_BulkProcess__3.aspx.designer.cs">
+      <DependentUpon>ELGV2_BulkProcess__3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_PaperChange__3.aspx.cs">
+      <DependentUpon>ELGV2_PaperChange__3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_PaperChange__3.aspx.designer.cs">
+      <DependentUpon>ELGV2_PaperChange__3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ProvisionalNonProvisionalImport_Bulk.aspx.cs">
+      <DependentUpon>ELGV2_ProvisionalNonProvisionalImport_Bulk.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ProvisionalNonProvisionalImport_Bulk.aspx.designer.cs">
+      <DependentUpon>ELGV2_ProvisionalNonProvisionalImport_Bulk.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ProvisionalNonProvisionalImport_Bulk__1.aspx.cs">
+      <DependentUpon>ELGV2_ProvisionalNonProvisionalImport_Bulk__1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ProvisionalNonProvisionalImport_Bulk__1.aspx.designer.cs">
+      <DependentUpon>ELGV2_ProvisionalNonProvisionalImport_Bulk__1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_rptViewStatus_MUHS.aspx.cs">
+      <DependentUpon>ELGV2_rptViewStatus_MUHS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_rptViewStatus_MUHS.aspx.designer.cs">
+      <DependentUpon>ELGV2_rptViewStatus_MUHS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_CETDetails.aspx.cs">
+      <DependentUpon>ELGV2_CETDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_CETDetails.aspx.designer.cs">
+      <DependentUpon>ELGV2_CETDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_rpt_FormBReport.aspx.cs">
+      <DependentUpon>ELGV2_rpt_FormBReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_rpt_FormBReport.aspx.designer.cs">
+      <DependentUpon>ELGV2_rpt_FormBReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\CourseProfile.ascx.cs">
+      <DependentUpon>CourseProfile.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\CourseProfile.ascx.designer.cs">
+      <DependentUpon>CourseProfile.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="dsCollegewisePaperExemption.cs">
+      <DependentUpon>dsCollegewisePaperExemption.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="dsCollegewisePaperExemption.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCollegewisePaperExemption.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\DataSets\dsCollegewisePaperExemption__1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCollegewisePaperExemption__1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\DataSets\dsCoursewisePaperExemption.cs">
+      <DependentUpon>dsCoursewisePaperExemption.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Eligibility\DataSets\dsCoursewisePaperExemption.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCoursewisePaperExemption.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\DataSets\dsDiscStudents.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsDiscStudents.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dsDistrictWise.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsDistrictWise.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\DeleteProfile.aspx.cs">
+      <DependentUpon>DeleteProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\DeleteProfile.aspx.designer.cs">
+      <DependentUpon>DeleteProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ElgClasses\clsCollegeAdmissionReports.cs" />
+    <Compile Include="Eligibility\ElgClasses\Clsdivya.cs" />
+    <Compile Include="Eligibility\ElgClasses\clsElgStudent.cs" />
+    <Compile Include="Eligibility\ElgClasses\clsEligibilityRights.cs" />
+    <Compile Include="Eligibility\AjaxMethods.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Eligibility\ElgClasses\clsPaperChange.cs" />
+    <Compile Include="Eligibility\ElgClasses\clsRegionalStudyCenter.cs" />
+    <Compile Include="Eligibility\ElgClasses\clsReports.cs" />
+    <Compile Include="Eligibility\ElgClasses\FastZip.cs" />
+    <Compile Include="Eligibility\ElgClasses\PaperStudXML.cs" />
+    <Compile Include="Eligibility\ELGV2rptUploadedStudentStatistics_CoursePart.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ELGV2rptUploadedStudentStatistics_CoursePart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2rptUploadedStudentStatistics_CoursePart.aspx.designer.cs">
+      <DependentUpon>ELGV2rptUploadedStudentStatistics_CoursePart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2rptUploadedStudentStatistics_CoursePartLessThanOneYear.aspx.cs">
+      <DependentUpon>ELGV2rptUploadedStudentStatistics_CoursePartLessThanOneYear.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2rptUploadedStudentStatistics_CoursePartLessThanOneYear.aspx.designer.cs">
+      <DependentUpon>ELGV2rptUploadedStudentStatistics_CoursePartLessThanOneYear.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_BulkProcess_reg_Students.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ELGV2_BulkProcess_reg_Students.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_BulkProcess_reg_Students.aspx.designer.cs">
+      <DependentUpon>ELGV2_BulkProcess_reg_Students.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_BulkProcess_reg_Students__1.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ELGV2_BulkProcess_reg_Students__1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_BulkProcess_reg_Students__1.aspx.designer.cs">
+      <DependentUpon>ELGV2_BulkProcess_reg_Students__1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_BulkProcess_reg_Students__2.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ELGV2_BulkProcess_reg_Students__2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_BulkProcess_reg_Students__2.aspx.designer.cs">
+      <DependentUpon>ELGV2_BulkProcess_reg_Students__2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_BulkProcess_reg_Students__3.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ELGV2_BulkProcess_reg_Students__3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_BulkProcess_reg_Students__3.aspx.designer.cs">
+      <DependentUpon>ELGV2_BulkProcess_reg_Students__3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_BulkProcess__1.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ELGV2_BulkProcess__1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_BulkProcess__1.aspx.designer.cs">
+      <DependentUpon>ELGV2_BulkProcess__1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ElgClasses\clsAjaxMethods.cs" />
+    <Compile Include="Eligibility\ElgClasses\clsInstitute.cs" />
+    <Compile Include="Eligibility\ElgClasses\clsInstituteType.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Eligibility\clsEligibilityDBAccess.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Eligibility\ConfigureEligibilityRights.aspx.cs">
+      <DependentUpon>ConfigureEligibilityRights.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\ConfigureEligibilityRights.aspx.designer.cs">
+      <DependentUpon>ConfigureEligibilityRights.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_BulkProcess__2.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ELGV2_BulkProcess__2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_BulkProcess__2.aspx.designer.cs">
+      <DependentUpon>ELGV2_BulkProcess__2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ChangeProcessedEligibilityStatus.aspx.cs">
+      <DependentUpon>ELGV2_ChangeProcessedEligibilityStatus.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ChangeProcessedEligibilityStatus.aspx.designer.cs">
+      <DependentUpon>ELGV2_ChangeProcessedEligibilityStatus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ChangeProcessedEligibilityStatus__2.aspx.cs">
+      <DependentUpon>ELGV2_ChangeProcessedEligibilityStatus__2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ChangeProcessedEligibilityStatus__2.aspx.designer.cs">
+      <DependentUpon>ELGV2_ChangeProcessedEligibilityStatus__2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_DownloadPhotoSign.aspx.cs">
+      <DependentUpon>ELGV2_DownloadPhotoSign.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_DownloadPhotoSign.aspx.designer.cs">
+      <DependentUpon>ELGV2_DownloadPhotoSign.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ManualProcess.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ELGV2_ManualProcess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ManualProcess.aspx.designer.cs">
+      <DependentUpon>ELGV2_ManualProcess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\elgDBAccess.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ManualProcess_reg_Students.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ELGV2_ManualProcess_reg_Students.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ManualProcess_reg_Students.aspx.designer.cs">
+      <DependentUpon>ELGV2_ManualProcess_reg_Students.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ManualProcess_reg_Students__1.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ELGV2_ManualProcess_reg_Students__1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ManualProcess_reg_Students__1.aspx.designer.cs">
+      <DependentUpon>ELGV2_ManualProcess_reg_Students__1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ManualProcess_reg_Students__2.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ELGV2_ManualProcess_reg_Students__2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ManualProcess_reg_Students__2.aspx.designer.cs">
+      <DependentUpon>ELGV2_ManualProcess_reg_Students__2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ManualProcess_reg_Students__3.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ELGV2_ManualProcess_reg_Students__3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ManualProcess_reg_Students__3.aspx.designer.cs">
+      <DependentUpon>ELGV2_ManualProcess_reg_Students__3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ManualProcess__3.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ELGV2_ManualProcess__3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ManualProcess__3.aspx.designer.cs">
+      <DependentUpon>ELGV2_ManualProcess__3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_PaperChange.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ELGV2_PaperChange.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_PaperChange.aspx.designer.cs">
+      <DependentUpon>ELGV2_PaperChange.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_PaperChange__1.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ELGV2_PaperChange__1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_PaperChange__1.aspx.designer.cs">
+      <DependentUpon>ELGV2_PaperChange__1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_PaperChange__2.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ELGV2_PaperChange__2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_PaperChange__2.aspx.designer.cs">
+      <DependentUpon>ELGV2_PaperChange__2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_PaperChange__4.aspx.cs">
+      <DependentUpon>ELGV2_PaperChange__4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_PaperChange__4.aspx.designer.cs">
+      <DependentUpon>ELGV2_PaperChange__4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_PaperChange__5.aspx.cs">
+      <DependentUpon>ELGV2_PaperChange__5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_PaperChange__5.aspx.designer.cs">
+      <DependentUpon>ELGV2_PaperChange__5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_PaperChange__6.aspx.cs">
+      <DependentUpon>ELGV2_PaperChange__6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_PaperChange__6.aspx.designer.cs">
+      <DependentUpon>ELGV2_PaperChange__6.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_PaperExemptionApproval.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ELGV2_PaperExemptionApproval.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_PaperExemptionApproval.aspx.designer.cs">
+      <DependentUpon>ELGV2_PaperExemptionApproval.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_PaperExemptionApproval__1.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ELGV2_PaperExemptionApproval__1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_PaperExemptionApproval__1.aspx.designer.cs">
+      <DependentUpon>ELGV2_PaperExemptionApproval__1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_PaperExemptionApproval__2.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ELGV2_PaperExemptionApproval__2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_PaperExemptionApproval__2.aspx.designer.cs">
+      <DependentUpon>ELGV2_PaperExemptionApproval__2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_PaperExemptionChangeDecision.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ELGV2_PaperExemptionChangeDecision.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_PaperExemptionChangeDecision.aspx.designer.cs">
+      <DependentUpon>ELGV2_PaperExemptionChangeDecision.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_PaperExemptionClaim.aspx.cs">
+      <DependentUpon>ELGV2_PaperExemptionClaim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_PaperExemptionClaim.aspx.designer.cs">
+      <DependentUpon>ELGV2_PaperExemptionClaim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_rptCancelAdmission_Report.aspx.cs">
+      <DependentUpon>ELGV2_rptCancelAdmission_Report.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_rptCancelAdmission_Report.aspx.designer.cs">
+      <DependentUpon>ELGV2_rptCancelAdmission_Report.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_rptCrPrTermwiseUploadedandElgStatistics.aspx.cs">
+      <DependentUpon>ELGV2_rptCrPrTermwiseUploadedandElgStatistics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_rptCrPrTermwiseUploadedandElgStatistics.aspx.designer.cs">
+      <DependentUpon>ELGV2_rptCrPrTermwiseUploadedandElgStatistics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_rptDistrictWiseUploadedCountReport.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ELGV2_rptDistrictWiseUploadedCountReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_rptDistrictWiseUploadedCountReport.aspx.designer.cs">
+      <DependentUpon>ELGV2_rptDistrictWiseUploadedCountReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_rptPaperExemptionCollegeWise__1.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ELGV2_rptPaperExemptionCollegeWise__1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_rptPaperExemptionCollegeWise__1.aspx.designer.cs">
+      <DependentUpon>ELGV2_rptPaperExemptionCollegeWise__1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ResolvePending.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ELGV2_ResolvePending.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ResolvePending.aspx.designer.cs">
+      <DependentUpon>ELGV2_ResolvePending.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ResolvePending_reg_Students.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ELGV2_ResolvePending_reg_Students.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ResolvePending_reg_Students.aspx.designer.cs">
+      <DependentUpon>ELGV2_ResolvePending_reg_Students.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ResolvePending_reg_Students__1.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ELGV2_ResolvePending_reg_Students__1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ResolvePending_reg_Students__1.aspx.designer.cs">
+      <DependentUpon>ELGV2_ResolvePending_reg_Students__1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ResolvePending_reg_Students__2.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ELGV2_ResolvePending_reg_Students__2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ResolvePending_reg_Students__2.aspx.designer.cs">
+      <DependentUpon>ELGV2_ResolvePending_reg_Students__2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ResolvePending_reg_Students__3.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ELGV2_ResolvePending_reg_Students__3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ResolvePending_reg_Students__3.aspx.designer.cs">
+      <DependentUpon>ELGV2_ResolvePending_reg_Students__3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ResolvePending__3.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ELGV2_ResolvePending__3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ResolvePending__3.aspx.designer.cs">
+      <DependentUpon>ELGV2_ResolvePending__3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ResolveProvisional.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ELGV2_ResolveProvisional.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ResolveProvisional.aspx.designer.cs">
+      <DependentUpon>ELGV2_ResolveProvisional.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ResolveProvisional__3.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ELGV2_ResolveProvisional__3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ResolveProvisional__3.aspx.designer.cs">
+      <DependentUpon>ELGV2_ResolveProvisional__3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_rptDiscrepancyReport.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ELGV2_rptDiscrepancyReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_rptDiscrepancyReport.aspx.designer.cs">
+      <DependentUpon>ELGV2_rptDiscrepancyReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_rptDiscrepancyReport__1.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ELGV2_rptDiscrepancyReport__1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_rptDiscrepancyReport__1.aspx.designer.cs">
+      <DependentUpon>ELGV2_rptDiscrepancyReport__1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_rptMIS.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ELGV2_rptMIS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_rptMIS.aspx.designer.cs">
+      <DependentUpon>ELGV2_rptMIS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_rptPaperExemptionCollegeWise.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ELGV2_rptPaperExemptionCollegeWise.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_rptPaperExemptionCollegeWise.aspx.designer.cs">
+      <DependentUpon>ELGV2_rptPaperExemptionCollegeWise.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_rptPaperExemptionCoursewise.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ELGV2_rptPaperExemptionCoursewise.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_rptPaperExemptionCoursewise.aspx.designer.cs">
+      <DependentUpon>ELGV2_rptPaperExemptionCoursewise.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_rptPaperExemptionStudentStatus.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ELGV2_rptPaperExemptionStudentStatus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_rptPaperExemptionStudentStatus.aspx.designer.cs">
+      <DependentUpon>ELGV2_rptPaperExemptionStudentStatus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_rptStuDetailWithPaperChange.aspx.cs">
+      <DependentUpon>ELGV2_rptStuDetailWithPaperChange.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_rptStuDetailWithPaperChange.aspx.designer.cs">
+      <DependentUpon>ELGV2_rptStuDetailWithPaperChange.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_rpt_FormAReport.aspx.cs">
+      <DependentUpon>ELGV2_rpt_FormAReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_rpt_FormAReport.aspx.designer.cs">
+      <DependentUpon>ELGV2_rpt_FormAReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_rpt_GenerateRegistrationReceipt.aspx.cs">
+      <DependentUpon>ELGV2_rpt_GenerateRegistrationReceipt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_rpt_GenerateRegistrationReceipt.aspx.designer.cs">
+      <DependentUpon>ELGV2_rpt_GenerateRegistrationReceipt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\Elgv2_rpt_GetCollegeCourseStudentDetails.aspx.cs">
+      <DependentUpon>Elgv2_rpt_GetCollegeCourseStudentDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\Elgv2_rpt_GetCollegeCourseStudentDetails.aspx.designer.cs">
+      <DependentUpon>Elgv2_rpt_GetCollegeCourseStudentDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_StudentAdditionalPapers.aspx.cs">
+      <DependentUpon>ELGV2_StudentAdditionalPapers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_StudentAdditionalPapers.aspx.designer.cs">
+      <DependentUpon>ELGV2_StudentAdditionalPapers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_StudyCenterChange.aspx.cs">
+      <DependentUpon>ELGV2_StudyCenterChange.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_StudyCenterChange.aspx.designer.cs">
+      <DependentUpon>ELGV2_StudyCenterChange.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_TransferPreviousAdmissions.aspx.cs">
+      <DependentUpon>ELGV2_TransferPreviousAdmissions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_TransferPreviousAdmissions.aspx.designer.cs">
+      <DependentUpon>ELGV2_TransferPreviousAdmissions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ViewStatus.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ELGV2_ViewStatus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ViewStatus.aspx.designer.cs">
+      <DependentUpon>ELGV2_ViewStatus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ViewStatus__3.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ELGV2_ViewStatus__3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ViewStatus__3.aspx.designer.cs">
+      <DependentUpon>ELGV2_ViewStatus__3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\EligibilityIndex.aspx.cs">
+      <DependentUpon>EligibilityIndex.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\EligibilityIndex.aspx.designer.cs">
+      <DependentUpon>EligibilityIndex.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ManualProcess__1.aspx.cs">
+      <DependentUpon>ELGV2_ManualProcess__1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ManualProcess__1.aspx.designer.cs">
+      <DependentUpon>ELGV2_ManualProcess__1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ManualProcess__2.aspx.cs">
+      <DependentUpon>ELGV2_ManualProcess__2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ManualProcess__2.aspx.designer.cs">
+      <DependentUpon>ELGV2_ManualProcess__2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ImportSelectCntPRNList.aspx.cs">
+      <DependentUpon>ImportSelectCntPRNList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\ImportSelectCntPRNList.aspx.designer.cs">
+      <DependentUpon>ImportSelectCntPRNList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\LP_PaperExemptions.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>LP_PaperExemptions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\LP_PaperExemptions.aspx.designer.cs">
+      <DependentUpon>LP_PaperExemptions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\LP_PaperExemptions1.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>LP_PaperExemptions1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\LP_PaperExemptions1.aspx.designer.cs">
+      <DependentUpon>LP_PaperExemptions1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\LP_RegisteredStudents.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>LP_RegisteredStudents.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\LP_RegisteredStudents.aspx.designer.cs">
+      <DependentUpon>LP_RegisteredStudents.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\LP_Reports.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>LP_Reports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\LP_Reports.aspx.designer.cs">
+      <DependentUpon>LP_Reports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\LP_rptStuDetailWithPaperChange.aspx.cs">
+      <DependentUpon>LP_rptStuDetailWithPaperChange.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\LP_rptStuDetailWithPaperChange.aspx.designer.cs">
+      <DependentUpon>LP_rptStuDetailWithPaperChange.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\LP_UnRegisteredStudents.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>LP_UnRegisteredStudents.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\LP_UnRegisteredStudents.aspx.designer.cs">
+      <DependentUpon>LP_UnRegisteredStudents.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\LP_UploadStatistics.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>LP_UploadStatistics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\LP_UploadStatistics.aspx.designer.cs">
+      <DependentUpon>LP_UploadStatistics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\MatchingProfile.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>MatchingProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\MatchingProfile.aspx.designer.cs">
+      <DependentUpon>MatchingProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\MatchingProfile__1.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>MatchingProfile__1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\MatchingProfile__1.aspx.designer.cs">
+      <DependentUpon>MatchingProfile__1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\MatchingProfile__2.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>MatchingProfile__2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\MatchingProfile__2.aspx.designer.cs">
+      <DependentUpon>MatchingProfile__2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\MatchingProfile__3.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>MatchingProfile__3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\MatchingProfile__3.aspx.designer.cs">
+      <DependentUpon>MatchingProfile__3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\MatchingProfile__4.aspx.cs">
+      <DependentUpon>MatchingProfile__4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\MatchingProfile__4.aspx.designer.cs">
+      <DependentUpon>MatchingProfile__4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\PhotoAndSignTemp.aspx.cs">
+      <DependentUpon>PhotoAndSignTemp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\PhotoAndSignTemp.aspx.designer.cs">
+      <DependentUpon>PhotoAndSignTemp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ResolvePending__1.aspx.cs">
+      <DependentUpon>ELGV2_ResolvePending__1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ResolvePending__1.aspx.designer.cs">
+      <DependentUpon>ELGV2_ResolvePending__1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ResolvePending__2.aspx.cs">
+      <DependentUpon>ELGV2_ResolvePending__2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ResolvePending__2.aspx.designer.cs">
+      <DependentUpon>ELGV2_ResolvePending__2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ResolveProvisional__1.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ELGV2_ResolveProvisional__1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ResolveProvisional__1.aspx.designer.cs">
+      <DependentUpon>ELGV2_ResolveProvisional__1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ResolveProvisional__2.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ELGV2_ResolveProvisional__2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ResolveProvisional__2.aspx.designer.cs">
+      <DependentUpon>ELGV2_ResolveProvisional__2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_rptUploadedStudentStatistics.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ELGV2_rptUploadedStudentStatistics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_rptUploadedStudentStatistics.aspx.designer.cs">
+      <DependentUpon>ELGV2_rptUploadedStudentStatistics.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_rptUploadedStudentStatistics__1.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ELGV2_rptUploadedStudentStatistics__1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_rptUploadedStudentStatistics__1.aspx.designer.cs">
+      <DependentUpon>ELGV2_rptUploadedStudentStatistics__1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_rptViewStatus.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ELGV2_rptViewStatus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_rptViewStatus.aspx.designer.cs">
+      <DependentUpon>ELGV2_rptViewStatus.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_BulkProcess.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ELGV2_BulkProcess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_BulkProcess.aspx.designer.cs">
+      <DependentUpon>ELGV2_BulkProcess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ViewStatus__1.aspx.cs">
+      <DependentUpon>ELGV2_ViewStatus__1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ViewStatus__1.aspx.designer.cs">
+      <DependentUpon>ELGV2_ViewStatus__1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ViewStatus__2.aspx.cs">
+      <DependentUpon>ELGV2_ViewStatus__2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ViewStatus__2.aspx.designer.cs">
+      <DependentUpon>ELGV2_ViewStatus__2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\PhotoSignHandler.ashx.cs">
+      <DependentUpon>PhotoSignHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ImportPRNFromExcel.aspx.cs">
+      <DependentUpon>ELGV2_ImportPRNFromExcel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\ELGV2_ImportPRNFromExcel.aspx.designer.cs">
+      <DependentUpon>ELGV2_ImportPRNFromExcel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\StudentRegistrationPage1.aspx.cs">
+      <DependentUpon>StudentRegistrationPage1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\StudentRegistrationPage1.aspx.designer.cs">
+      <DependentUpon>StudentRegistrationPage1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\Trial.aspx.cs">
+      <DependentUpon>Trial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\Trial.aspx.designer.cs">
+      <DependentUpon>Trial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\MercyAllow.aspx.cs">
+      <DependentUpon>MercyAllow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\MercyAllow.aspx.designer.cs">
+      <DependentUpon>MercyAllow.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\MercyAllow__1.aspx.cs">
+      <DependentUpon>MercyAllow__1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\MercyAllow__1.aspx.designer.cs">
+      <DependentUpon>MercyAllow__1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\WebCtrl\SelectSingleCourseMUHS.ascx.cs">
+      <DependentUpon>SelectSingleCourseMUHS.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\WebCtrl\SelectSingleCourseMUHS.ascx.designer.cs">
+      <DependentUpon>SelectSingleCourseMUHS.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\WebCtrl\StudentAdvanceSeachForConfigureChangeElgUnprocess.ascx.cs">
+      <DependentUpon>StudentAdvanceSeachForConfigureChangeElgUnprocess.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\WebCtrl\StudentAdvanceSeachForConfigureChangeElgUnprocess.ascx.designer.cs">
+      <DependentUpon>StudentAdvanceSeachForConfigureChangeElgUnprocess.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\WebCtrl\searchInstNewChangeElgUnprocess.ascx.cs">
+      <DependentUpon>searchInstNewChangeElgUnprocess.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\WebCtrl\searchInstNewChangeElgUnprocess.ascx.designer.cs">
+      <DependentUpon>searchInstNewChangeElgUnprocess.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\WebCtrl\PageTitle.ascx.cs">
+      <DependentUpon>PageTitle.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\WebCtrl\PageTitle.ascx.designer.cs">
+      <DependentUpon>PageTitle.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\WebCtrl\Progress_Control.ascx.cs">
+      <DependentUpon>Progress_Control.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\WebCtrl\Progress_Control.ascx.designer.cs">
+      <DependentUpon>Progress_Control.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\WebCtrl\searchInstNew.ascx.cs">
+      <DependentUpon>searchInstNew.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\WebCtrl\searchInstNew.ascx.designer.cs">
+      <DependentUpon>searchInstNew.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\WebCtrl\SelectSingleCourse.ascx.cs">
+      <DependentUpon>SelectSingleCourse.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\WebCtrl\SelectSingleCourse.ascx.designer.cs">
+      <DependentUpon>SelectSingleCourse.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\WebCtrl\SelectSingleCourseExamEvent.ascx.cs">
+      <DependentUpon>SelectSingleCourseExamEvent.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\WebCtrl\SelectSingleCourseExamEvent.ascx.designer.cs">
+      <DependentUpon>SelectSingleCourseExamEvent.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\WebCtrl\ShowStudentPhoto.ascx.cs">
+      <DependentUpon>ShowStudentPhoto.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\WebCtrl\ShowStudentPhoto.ascx.designer.cs">
+      <DependentUpon>ShowStudentPhoto.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\WebCtrl\StudentAdvancedSearchforManualProcess.ascx.cs">
+      <DependentUpon>StudentAdvancedSearchforManualProcess.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\WebCtrl\StudentAdvancedSearchforManualProcess.ascx.designer.cs">
+      <DependentUpon>StudentAdvancedSearchforManualProcess.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\WebCtrl\StudentAdvancedSearchforManualProcess_reg_Students.ascx.cs">
+      <DependentUpon>StudentAdvancedSearchforManualProcess_reg_Students.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\WebCtrl\StudentAdvancedSearchforManualProcess_reg_Students.ascx.designer.cs">
+      <DependentUpon>StudentAdvancedSearchforManualProcess_reg_Students.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\WebCtrl\StudentAdvanceSeachForConfigure.ascx.cs">
+      <DependentUpon>StudentAdvanceSeachForConfigure.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\WebCtrl\StudentAdvanceSeachForConfigure.ascx.designer.cs">
+      <DependentUpon>StudentAdvanceSeachForConfigure.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\WebCtrl\StudentAdvanceSearchForConfigure_reg_Students.ascx.cs">
+      <DependentUpon>StudentAdvanceSearchForConfigure_reg_Students.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\WebCtrl\StudentAdvanceSearchForConfigure_reg_Students.ascx.designer.cs">
+      <DependentUpon>StudentAdvanceSearchForConfigure_reg_Students.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\WebCtrl\StudentsAdvancedSearch.ascx.cs">
+      <DependentUpon>StudentsAdvancedSearch.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\WebCtrl\StudentsAdvancedSearch.ascx.designer.cs">
+      <DependentUpon>StudentsAdvancedSearch.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\WebCtrl\StudentSearch_Control.ascx.cs">
+      <DependentUpon>StudentSearch_Control.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\WebCtrl\StudentSearch_Control.ascx.designer.cs">
+      <DependentUpon>StudentSearch_Control.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\WebCtrl\StudentsStatusSearch.ascx.cs">
+      <DependentUpon>StudentsStatusSearch.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\WebCtrl\StudentsStatusSearch.ascx.designer.cs">
+      <DependentUpon>StudentsStatusSearch.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Eligibility\WebCtrl\ctrlSelectCourseOrCollege.ascx.cs">
+      <DependentUpon>ctrlSelectCourseOrCollege.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Eligibility\WebCtrl\ctrlSelectCourseOrCollege.ascx.designer.cs">
+      <DependentUpon>ctrlSelectCourseOrCollege.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="generatereceipt.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>generatereceipt.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Image.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Image.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Image.aspx.designer.cs">
+      <DependentUpon>Image.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Content Include="Eligibility\App_LocalResources\BulkInsert_Uni_StudentStatus_reg_Students.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\BulkInsert_Uni_StudentStatus_reg_Students.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\BulkInsert_Uni_StudentStatus.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\AdmissionEligConfiguration.aspx.resx" />
+    <Content Include="Eligibility\App_LocalResources\AdmissionEligConfiguration.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\AdmissionEligConfiguration.aspx.en-US-YCMOU.resx" />
+    <Content Include="Eligibility\App_LocalResources\AdmissionEligConfiguration.aspx.en-US-MSUB.resx" />
+    <Content Include="Eligibility\App_LocalResources\BulkInsert_Uni_StudentStatus.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\AdmissionEligConfiguration.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\BulkInsert_Uni_StudentStatus.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\AdmissionEligConfiguration.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\BulkInsert_Uni_StudentStatus.aspx.en-US-HR.resx" />
+    <EmbeddedResource Include="Eligibility\App_LocalResources\BulkInsert_Uni_StudentStatus.aspx.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eligibility\App_LocalResources\BulkInsert_Uni_StudentStatus.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="Eligibility\App_LocalResources\ConfigureEligibilityRights.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ConfigureEligibilityRights.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ConfigureEligibilityRights.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_BulkProcess__1.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_BulkProcess__1.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_BulkProcess__1.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_BulkProcess_reg_Students__1.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_BulkProcess_reg_Students__1.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_BulkProcess_reg_Students__1.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_BulkProcess_reg_Students__2.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_BulkProcess_reg_Students__2.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_BulkProcess_reg_Students__2.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ManualProcess__1.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ManualProcess__2.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ManualProcess_reg_Students__1.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ManualProcess_reg_Students__2.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolvePending__1.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolvePending__2.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolvePending_reg_Students__1.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolvePending_reg_Students__2.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolveProvisional__1.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolveProvisional__2.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolveProvisional_reg_Students__1.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolveProvisional_reg_Students__2.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptUploadedStudentStatistics__1.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptViewStatus__1.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ViewStatus__1.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ViewStatus__2.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\EligibilityIndex.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ManualProcess_reg_Students__1.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ManualProcess_reg_Students__1.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ManualProcess_reg_Students__2.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ManualProcess_reg_Students__2.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ManualProcess__1.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ManualProcess__1.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ManualProcess__2.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ManualProcess__2.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolvePending_reg_Students__1.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolvePending_reg_Students__1.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolvePending_reg_Students__2.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolvePending_reg_Students__2.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolvePending__1.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolvePending__1.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolvePending__2.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolvePending__2.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolveProvisional_reg_Students__1.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolveProvisional_reg_Students__1.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolveProvisional_reg_Students__2.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolveProvisional_reg_Students__2.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolveProvisional__1.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolveProvisional__1.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolveProvisional__2.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolveProvisional__2.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptUploadedStudentStatistics__1.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptUploadedStudentStatistics__1.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptViewStatus__1.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptViewStatus__1.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ViewStatus__1.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ViewStatus__1.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ViewStatus__2.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ViewStatus__2.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\EligibilityIndex.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\EligibilityIndex.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_BulkProcess__2.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_BulkProcess__2.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_BulkProcess__2.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\BulkInsert_Uni_StudentStatus_reg_Students.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2rptUploadedStudentStatistics_CoursePart.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2rptUploadedStudentStatistics_CoursePart.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2rptUploadedStudentStatistics_CoursePart.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_RptUploadedStudentStatistics_CoursePart.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_RptUploadedStudentStatistics_CoursePart.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_RptUploadedStudentStatistics_CoursePart.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptUploadedStudentStatistics.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptUploadedStudentStatistics.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptUploadedStudentStatistics.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptMIS.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptDiscrepancyReport__1.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptDiscrepancyReport.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptDiscrepancyReport.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptDiscrepancyReport.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptDiscrepancyReport__1.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptDiscrepancyReport__1.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptMIS.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptMIS.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptViewStatus.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptViewStatus.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptViewStatus.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperExemptionChangeDecision.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperExemptionChangeDecision.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperExemptionChangeDecision.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperExemptionApproval__1.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperExemptionApproval__1.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperExemptionApproval__1.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperExemptionApproval__2.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperExemptionApproval__2.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperExemptionApproval__2.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperExemptionApproval.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperExemptionApproval.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperExemptionApproval.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptPaperExemptionCoursewise.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptPaperExemptionCoursewise.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\LP_PaperExemptions.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\LP_PaperExemptions.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptPaperExemptionCollegeWise__1.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptPaperExemptionCollegeWise__1.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptPaperExemptionStudentStatus.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptPaperExemptionStudentStatus.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\LP_UnRegisteredStudents.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\LP_UnRegisteredStudents.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\LP_RegisteredStudents.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\LP_RegisteredStudents.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\LP_RegisteredStudents.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\CourseProfile.ascx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\CourseProfile.ascx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\CourseProfile.ascx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\CollegeProfile.ascx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\CollegeProfile.ascx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\CollegeProfile.ascx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\MatchingProfile__1.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\MatchingProfile__1.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\MatchingProfile__2.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\MatchingProfile__2.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\MatchingProfile__3.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\MatchingProfile__3.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperChange__2.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperChange__2.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperChange__2.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\MatchingProfile__4.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\CancelAdmission.aspx.resx" />
+    <Content Include="Eligibility\App_LocalResources\DeleteProfile.aspx.resx" />
+    <Content Include="Eligibility\App_LocalResources\CancelAdmission__2.aspx.resx" />
+    <Content Include="Eligibility\App_LocalResources\CancelAdmission__2.aspx.en-US-MSBTE.resx" />
+    <Content Include="Eligibility\App_LocalResources\CancelAdmission__2.aspx.en-US-YCMOU.resx" />
+    <Content Include="Eligibility\App_LocalResources\CancelAdmission.aspx.en-US-YCMOU.resx" />
+    <Content Include="Eligibility\App_LocalResources\CancelAdmission.aspx.en-US-MSBTE.resx" />
+    <Content Include="Eligibility\App_LocalResources\DeleteProfile.aspx.en-US-YCMOU.resx" />
+    <Content Include="Eligibility\App_LocalResources\DeleteProfile.aspx.en-US-MSBTE.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ManualProcess__2.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolvePending__2.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolveProvisional__2.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ManualProcess_reg_Students__2.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\BulkInsert_Uni_StudentStatus.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\BulkInsert_Uni_StudentStatus_reg_Students.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\CancelAdmission.aspx.en-US-MSUB.resx" />
+    <Content Include="Eligibility\App_LocalResources\CancelAdmission__2.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ConfigureEligibilityRights.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_BulkProcess__1.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_BulkProcess__2.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_BulkProcess_reg_Students__1.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_BulkProcess_reg_Students__2.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ManualProcess__1.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ManualProcess_reg_Students__1.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperChange__2.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperExemptionApproval.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperExemptionApproval__1.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\DeleteProfile.aspx.en-US-MSUB.resx" />
+    <Content Include="Eligibility\App_LocalResources\CourseProfile.ascx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\CollegeProfile.ascx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperExemptionApproval__2.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperExemptionChangeDecision.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperExemptionClaim.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolvePending__1.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolvePending_reg_Students__1.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolvePending_reg_Students__2.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolveProvisional__1.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolveProvisional_reg_Students__1.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolveProvisional_reg_Students__2.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptDiscrepancyReport.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptDiscrepancyReport__1.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptMIS.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptPaperExemptionCollegeWise.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptPaperExemptionCollegeWise__1.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptPaperExemptionCoursewise.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptPaperExemptionStudentStatus.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptUploadedStudentStatistics.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptUploadedStudentStatistics__1.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_RptUploadedStudentStatistics_CoursePart.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptViewStatus.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptViewStatus__1.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ViewStatus__1.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ViewStatus__2.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2rptUploadedStudentStatistics_CoursePart.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\EligibilityIndex.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\LP_PaperExemptions.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\LP_PaperExemptions1.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\LP_RegisteredStudents.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\LP_UnRegisteredStudents.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\MatchingProfile.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\MatchingProfile__1.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\MatchingProfile__2.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\MatchingProfile__3.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptDistrictWiseUploadedCountReport.aspx.en-US-MSBTE.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptDistrictWiseUploadedCountReport.aspx.en-US-YCMOU.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptDistrictWiseUploadedCountReport.aspx.en-US-MSUB.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptCrPrTermwiseUploadedandElgStatistics.aspx.en-US-MSBTE.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptCrPrTermwiseUploadedandElgStatistics.aspx.en-US-YCMOU.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptStuDetailWithPaperChange.aspx.en-US-YCMOU.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptStuDetailWithPaperChange.aspx.en-US-MSBTE.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptStuDetailWithPaperChange.aspx.en-US-MSUB.resx" />
+    <Content Include="Eligibility\App_LocalResources\BulkInsert_Uni_StudentStatus_reg_Students.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\CancelAdmission.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\CancelAdmission__2.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\CollegeProfile.ascx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\ConfigureEligibilityRights.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_BulkProcess_reg_Students__1.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_BulkProcess__2.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\DeleteProfile.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_BulkProcess__1.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_BulkProcess_reg_Students__2.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ManualProcess__1.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ManualProcess_reg_Students__1.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ManualProcess_reg_Students__2.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ManualProcess__2.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperChange__2.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperExemptionApproval.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperExemptionApproval__1.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperExemptionApproval__2.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2rptUploadedStudentStatistics_CoursePart.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\CourseProfile.ascx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperExemptionChangeDecision.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperChange.aspx.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperChange.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperChange__1.aspx.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperChange__1.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\BulkInsert_Uni_StudentStatus_reg_Students.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\CancelAdmission.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\CancelAdmission__2.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\CollegeProfile.ascx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\ConfigureEligibilityRights.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\CourseProfile.ascx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\DeleteProfile.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_BulkProcess__1.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_BulkProcess__2.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_BulkProcess_reg_Students__1.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_BulkProcess_reg_Students__2.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_DownloadPhotoSign.aspx.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ManualProcess__1.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ManualProcess__2.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ManualProcess_reg_Students__1.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ManualProcess_reg_Students__2.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperChange.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperChange__1.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperChange__2.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperExemptionApproval.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperExemptionApproval__1.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperExemptionApproval__2.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperExemptionChangeDecision.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2rptUploadedStudentStatistics_CoursePart.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\BulkInsert_Uni_StudentStatus_reg_Students.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\CancelAdmission.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\CancelAdmission__2.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\ConfigureEligibilityRights.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\DeleteProfile.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_BulkProcess_reg_Students__1.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_BulkProcess_reg_Students__2.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_BulkProcess__1.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_BulkProcess__2.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_DownloadPhotoSign.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ManualProcess_reg_Students__1.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ManualProcess_reg_Students__2.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ManualProcess__1.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ManualProcess__2.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperChange.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperChange__1.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperChange__2.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperExemptionApproval.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperExemptionApproval__1.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperExemptionApproval__2.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperExemptionChangeDecision.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperExemptionClaim.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2rptUploadedStudentStatistics_CoursePart.aspx.en-US-HR.resx" />
+    <EmbeddedResource Include="Eligibility\App_LocalResources\ELGV2_PaperExemptionClaim.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperExemptionClaim.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_PaperExemptionClaim.aspx.en-US-MUM.resx" />
+    <EmbeddedResource Include="Eligibility\App_LocalResources\ELGV2_PaperExemptionClaim.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eligibility\App_LocalResources\ELGV2_PaperExemptionClaim.aspx.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptPaperExemptionCoursewise.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptPaperExemptionCollegeWise.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptPaperExemptionCollegeWise.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptPaperExemptionCollegeWise.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\LP_PaperExemptions.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptPaperExemptionCollegeWise__1.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptPaperExemptionStudentStatus.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\LP_PaperExemptions1.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\LP_PaperExemptions1.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\LP_PaperExemptions1.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\LP_UnRegisteredStudents.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptDistrictWiseUploadedCountReport.aspx.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptCrPrTermwiseUploadedandElgStatistics.aspx.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptStuDetailWithPaperChange.aspx.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolvePending_reg_Students__1.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolvePending_reg_Students__2.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolvePending__2.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolvePending__1.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolveProvisional__1.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolveProvisional__2.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolveProvisional_reg_Students__1.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolveProvisional_reg_Students__2.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptCrPrTermwiseUploadedandElgStatistics.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptDiscrepancyReport.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptDiscrepancyReport__1.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptDistrictWiseUploadedCountReport.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptMIS.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptPaperExemptionCollegeWise.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptPaperExemptionCollegeWise__1.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptPaperExemptionCoursewise.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptPaperExemptionStudentStatus.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptUploadedStudentStatistics.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_RptUploadedStudentStatistics_CoursePart.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptUploadedStudentStatistics__1.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptViewStatus.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptViewStatus__1.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ViewStatus__1.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ViewStatus__2.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\EligibilityIndex.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\LP_PaperExemptions.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\LP_PaperExemptions1.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\LP_RegisteredStudents.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\LP_UnRegisteredStudents.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptStuDetailWithPaperChange.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolvePending__1.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolvePending_reg_Students__1.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolvePending_reg_Students__2.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolvePending__2.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolveProvisional_reg_Students__1.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolveProvisional__1.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolveProvisional__2.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolveProvisional_reg_Students__2.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptCrPrTermwiseUploadedandElgStatistics.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptDiscrepancyReport.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptDiscrepancyReport__1.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptDistrictWiseUploadedCountReport.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptMIS.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptPaperExemptionCollegeWise.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptPaperExemptionCollegeWise__1.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptPaperExemptionCoursewise.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptPaperExemptionStudentStatus.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptStuDetailWithPaperChange.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptUploadedStudentStatistics.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptUploadedStudentStatistics__1.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_RptUploadedStudentStatistics_CoursePart.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptViewStatus.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptViewStatus__1.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ViewStatus__1.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ViewStatus__2.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\EligibilityIndex.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\LP_PaperExemptions.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\LP_PaperExemptions1.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\LP_RegisteredStudents.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\LP_UnRegisteredStudents.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolvePending_reg_Students__1.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolvePending_reg_Students__2.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolvePending__1.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolvePending__2.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolveProvisional__1.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolveProvisional_reg_Students__1.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolveProvisional_reg_Students__2.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ResolveProvisional__2.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptCrPrTermwiseUploadedandElgStatistics.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptDiscrepancyReport.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptDiscrepancyReport__1.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptDistrictWiseUploadedCountReport.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptMIS.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptPaperExemptionCollegeWise.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptPaperExemptionCollegeWise__1.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptPaperExemptionCoursewise.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptPaperExemptionStudentStatus.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptStuDetailWithPaperChange.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptUploadedStudentStatistics.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_RptUploadedStudentStatistics_CoursePart.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptUploadedStudentStatistics__1.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptViewStatus.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_rptViewStatus__1.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ViewStatus__1.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ViewStatus__2.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\EligibilityIndex.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\LP_PaperExemptions.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\LP_PaperExemptions1.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\LP_RegisteredStudents.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\LP_UnRegisteredStudents.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\MatchingProfile.aspx.en-US-HR.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ViewStatus.aspx.resx" />
+    <Content Include="Eligibility\App_LocalResources\ELGV2_ViewStatus.aspx.en-US-HR.resx" />
+    <EmbeddedResource Include="Eligibility\App_LocalResources\MatchingProfile.aspx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="Eligibility\App_LocalResources\MatchingProfile.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\MatchingProfile.aspx.en-US-MUM.resx" />
+    <EmbeddedResource Include="Eligibility\App_LocalResources\MatchingProfile.aspx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="Eligibility\App_LocalResources\MatchingProfile.aspx.end-US-MSBTE.resx" />
+    <EmbeddedResource Include="Eligibility\App_LocalResources\MatchingProfile.aspx.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Content Include="Eligibility\App_LocalResources\MatchingProfile__1.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\MatchingProfile__2.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\MatchingProfile__3.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\MatchingProfile__4.aspx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\MatchingProfile__1.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\MatchingProfile__2.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\MatchingProfile__3.aspx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\App_LocalResources\MatchingProfile__1.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\MatchingProfile__2.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\MatchingProfile__3.aspx.en-US-MUM.resx" />
+    <Content Include="Eligibility\App_LocalResources\MatchingProfile__3.aspx.en-US-YCMOU..resx" />
+    <Content Include="Eligibility\App_LocalResources\MatchingProfile__1.aspx.en-US-HR.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\MatchingProfile__2.aspx.en-US-HR.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\MatchingProfile__3.aspx.en-US-HR.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\App_LocalResources\MatchingProfile__4.aspx.en-US-HR.resx" />
+    <EmbeddedResource Include="Eligibility\EligibilityIndex.aspx.resx">
+      <DependentUpon>EligibilityIndex.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eligibility\ELGV2_ManualProcess__1.aspx.resx">
+      <DependentUpon>ELGV2_ManualProcess__1.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eligibility\ELGV2_ManualProcess__2.aspx.resx">
+      <DependentUpon>ELGV2_ManualProcess__2.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eligibility\PhotoAndSignTemp.aspx.resx">
+      <DependentUpon>PhotoAndSignTemp.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eligibility\ELGV2_ResolvePending__1.aspx.resx">
+      <DependentUpon>ELGV2_ResolvePending__1.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eligibility\ELGV2_ResolvePending__2.aspx.resx">
+      <DependentUpon>ELGV2_ResolvePending__2.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eligibility\ELGV2_ViewStatus__1.aspx.resx">
+      <DependentUpon>ELGV2_ViewStatus__1.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eligibility\ELGV2_ViewStatus__2.aspx.resx">
+      <DependentUpon>ELGV2_ViewStatus__2.aspx.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eligibility\Rdlc\CollwisePpExem.rdlc" />
+    <EmbeddedResource Include="Eligibility\Rdlc\CollwisePpExemStud.rdlc" />
+    <EmbeddedResource Include="Eligibility\Rdlc\CollwisePpExemWithOutRCcode.rdlc" />
+    <EmbeddedResource Include="Eligibility\Rdlc\rptStudentProgrameValidity.rdlc" />
+    <EmbeddedResource Include="Eligibility\Rdlc\ViewElgStatus_MUHS.rdlc" />
+    <EmbeddedResource Include="Eligibility\Rdlc\GenerateRegistrationReceipt.rdlc" />
+    <EmbeddedResource Include="Eligibility\Rdlc\Report1.rdlc" />
+    <EmbeddedResource Include="Eligibility\Rdlc\rptCollegeCourseStudentDetailsMUHS.rdlc" />
+    <EmbeddedResource Include="Eligibility\Rdlc\rptFormB.rdlc" />
+    <EmbeddedResource Include="Eligibility\Rdlc\DistrictWiseUplStudCountWithOutRCcode.rdlc" />
+    <EmbeddedResource Include="Eligibility\Rdlc\CrPrTermWiseDiscWithOutRCcode.rdlc" />
+    <EmbeddedResource Include="Eligibility\Rdlc\MISWithOutRCcode.rdlc" />
+    <EmbeddedResource Include="Eligibility\Rdlc\rptFormA.rdlc" />
+    <EmbeddedResource Include="Eligibility\Rdlc\rptStudentDetailwithPaperChangeForCollege.rdlc" />
+    <EmbeddedResource Include="Eligibility\Rdlc\CoursewisePaperExemption.rdlc" />
+    <EmbeddedResource Include="Eligibility\Rdlc\CrPrTermWiseDisc.rdlc" />
+    <EmbeddedResource Include="Eligibility\Rdlc\CrPrTermwiseUploadedandElgStatistics.rdlc" />
+    <EmbeddedResource Include="Eligibility\Rdlc\DiscStudents.rdlc" />
+    <EmbeddedResource Include="Eligibility\Rdlc\DistrictWiseUplStudCount.rdlc" />
+    <EmbeddedResource Include="Eligibility\Rdlc\MIS.rdlc" />
+    <EmbeddedResource Include="Eligibility\Rdlc\rptStudentDetailwithPaperChange.rdlc" />
+    <EmbeddedResource Include="Eligibility\Rdlc\rpt_CancelAdmission.rdlc" />
+    <EmbeddedResource Include="Eligibility\Rdlc\rpt_CollegeCourseStudentDetails.rdlc" />
+    <EmbeddedResource Include="Eligibility\Rdlc\ViewElgStatus.rdlc" />
+    <EmbeddedResource Include="Eligibility\Rdlc\RptUploadedStudentStatistics_CoursePart.rdlc" />
+    <EmbeddedResource Include="Eligibility\Trial.aspx.resx">
+      <DependentUpon>Trial.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\searchInstNew.ascx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\StudentAdvancedSearchforManualProcess.ascx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\StudentAdvancedSearchforManualProcess_reg_Students.ascx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\StudentAdvanceSeachForConfigure.ascx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\StudentAdvanceSearchForConfigure_reg_Students.ascx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\StudentsAdvancedSearch.ascx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\StudentsStatusSearch.ascx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\searchInstNew.ascx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\searchInstNew.ascx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\StudentAdvancedSearchforManualProcess.ascx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\StudentAdvancedSearchforManualProcess.ascx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\StudentAdvancedSearchforManualProcess_reg_Students.ascx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\StudentAdvancedSearchforManualProcess_reg_Students.ascx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\StudentAdvanceSeachForConfigure.ascx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\StudentAdvanceSeachForConfigure.ascx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\StudentAdvanceSearchForConfigure_reg_Students.ascx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\StudentAdvanceSearchForConfigure_reg_Students.ascx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\StudentsAdvancedSearch.ascx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\StudentsAdvancedSearch.ascx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\StudentsStatusSearch.ascx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\StudentsStatusSearch.ascx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\SelectSingleCourse.ascx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\SelectSingleCourse.ascx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\SelectSingleCourse.ascx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\PageTitle.ascx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\PageTitle.ascx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\PageTitle.ascx.en-US.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\PageTitle.ascx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\ShowStudentPhoto.ascx.en-US-MSBTE.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\ShowStudentPhoto.ascx.en-US-YCMOU.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\ShowStudentPhoto.ascx.en-US.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\ShowStudentPhoto.ascx.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\StudentSearch_Control.ascx.resx" />
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\StudentSearch_Control.ascx.en-US-YCMOU.resx" />
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\StudentSearch_Control.ascx.en-US-MSBTE.resx" />
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\PageTitle.ascx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\searchInstNew.ascx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\SelectSingleCourse.ascx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\ShowStudentPhoto.ascx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\StudentAdvancedSearchforManualProcess.ascx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\StudentAdvancedSearchforManualProcess_reg_Students.ascx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\StudentAdvanceSeachForConfigure.ascx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\StudentAdvanceSearchForConfigure_reg_Students.ascx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\StudentsAdvancedSearch.ascx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\StudentSearch_Control.ascx.en-US-MSUB.resx" />
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\StudentsStatusSearch.ascx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\PageTitle.ascx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\searchInstNew.ascx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\SelectSingleCourse.ascx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\ShowStudentPhoto.ascx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\StudentAdvancedSearchforManualProcess.ascx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\StudentAdvancedSearchforManualProcess_reg_Students.ascx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\StudentAdvanceSeachForConfigure.ascx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\StudentAdvanceSearchForConfigure_reg_Students.ascx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\StudentsAdvancedSearch.ascx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\StudentSearch_Control.ascx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\StudentsStatusSearch.ascx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\SelectSingleCourseExamEvent.ascx.resx" />
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\SelectSingleCourseExamEvent.ascx.en-US-SNDT.resx" />
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\PageTitle.ascx.en-US-HR.resx" />
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\searchInstNew.ascx.en-US-HR.resx">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\SelectSingleCourse.ascx.en-US-HR.resx" />
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\SelectSingleCourseExamEvent.ascx.en-US-HR.resx" />
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\ShowStudentPhoto.ascx.en-US-HR.resx" />
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\StudentAdvancedSearchforManualProcess.ascx.en-US-HR.resx" />
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\StudentAdvancedSearchforManualProcess_reg_Students.ascx.en-US-HR.resx" />
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\StudentAdvanceSeachForConfigure.ascx.en-US-HR.resx" />
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\StudentAdvanceSearchForConfigure_reg_Students.ascx.en-US-HR.resx" />
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\StudentsAdvancedSearch.ascx.en-US-HR.resx" />
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\StudentSearch_Control.ascx.en-US-HR.resx" />
+    <Content Include="Eligibility\WebCtrl\App_LocalResources\StudentsStatusSearch.ascx.en-US-HR.resx" />
+    <EmbeddedResource Include="Eligibility\WebCtrl\StudentsAdvancedSearch.ascx.resx">
+      <DependentUpon>StudentsAdvancedSearch.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eligibility\WebCtrl\StudentsStatusSearch.ascx.resx">
+      <DependentUpon>StudentsStatusSearch.ascx.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram2.cd" />
+    <None Include="DSFormAB.xsc">
+      <DependentUpon>DSFormAB.xsd</DependentUpon>
+    </None>
+    <None Include="DSFormAB.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSFormAB.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSFormAB.xss">
+      <DependentUpon>DSFormAB.xsd</DependentUpon>
+    </None>
+    <None Include="DSOAReports.xsc">
+      <DependentUpon>DSOAReports.xsd</DependentUpon>
+    </None>
+    <None Include="DSOAReports.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSOAReports.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSOAReports.xss">
+      <DependentUpon>DSOAReports.xsd</DependentUpon>
+    </None>
+    <None Include="dsStudProgramValidity.xsc">
+      <DependentUpon>dsStudProgramValidity.xsd</DependentUpon>
+    </None>
+    <None Include="dsStudProgramValidity.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsStudProgramValidity.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsStudProgramValidity.xss">
+      <DependentUpon>dsStudProgramValidity.xsd</DependentUpon>
+    </None>
+    <None Include="generatereceipt.xsc">
+      <DependentUpon>generatereceipt.xsd</DependentUpon>
+    </None>
+    <None Include="generatereceipt.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>generatereceipt.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="generatereceipt.xss">
+      <DependentUpon>generatereceipt.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\ELGV2_rptCrPrTermwiseUploadedandElgStatistics.aspx.en-US-MSUB.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\ICSharpCode.SharpZipLib.dll" />
+    <Content Include="bin\OWC11.dll" />
+    <Content Include="bin\RTFBox.dll" />
+    <Content Include="bin\TripleDESEncryption.dll" />
+    <Content Include="Eligibility\ELGV2_BulkProcess_reg_Students.aspx" />
+    <Content Include="Eligibility\ELGV2_BulkProcess_reg_Students__1.aspx" />
+    <Content Include="Eligibility\ELGV2_BulkProcess_reg_Students__2.aspx" />
+    <Content Include="Eligibility\ELGV2_BulkProcess_reg_Students__3.aspx" />
+    <Content Include="Eligibility\ELGV2_BulkProcess__2.aspx" />
+    <Content Include="Eligibility\ELGV2_ManualProcess_reg_Students.aspx" />
+    <Content Include="Eligibility\ELGV2_ManualProcess_reg_Students__1.aspx" />
+    <Content Include="Eligibility\ELGV2_ManualProcess_reg_Students__2.aspx" />
+    <Content Include="Eligibility\ELGV2_ManualProcess_reg_Students__3.aspx" />
+    <Content Include="Eligibility\ELGV2_ManualProcess__3.aspx" />
+    <Content Include="Eligibility\ELGV2_ResolvePending_reg_Students.aspx" />
+    <Content Include="Eligibility\ELGV2_ResolvePending_reg_Students__1.aspx" />
+    <Content Include="Eligibility\ELGV2_ResolvePending_reg_Students__2.aspx" />
+    <Content Include="Eligibility\ELGV2_ResolvePending_reg_Students__3.aspx" />
+    <Content Include="Eligibility\ELGV2_ResolvePending__3.aspx" />
+    <Content Include="Eligibility\ELGV2_ResolveProvisional.aspx" />
+    <Content Include="Eligibility\ELGV2_ResolveProvisional__3.aspx" />
+    <Content Include="Eligibility\ELGV2_ViewStatus__3.aspx" />
+    <Content Include="Eligibility\ELGV2_ResolveProvisional__1.aspx" />
+    <Content Include="Eligibility\ELGV2_ResolveProvisional__2.aspx" />
+    <Content Include="Eligibility\ELGV2_rptUploadedStudentStatistics.aspx" />
+    <Content Include="Eligibility\ELGV2_rptUploadedStudentStatistics__1.aspx" />
+    <Content Include="Eligibility\ELGV2_rptViewStatus.aspx" />
+    <Content Include="Eligibility\WebCtrl\searchInstNew.ascx" />
+    <Content Include="Eligibility\WebCtrl\StudentAdvancedSearchforManualProcess.ascx" />
+    <Content Include="Eligibility\WebCtrl\StudentAdvancedSearchforManualProcess_reg_Students.ascx" />
+    <Content Include="Eligibility\WebCtrl\StudentAdvanceSearchForConfigure_reg_Students.ascx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AppPortalSettings.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="dsDisc.xsc">
+      <DependentUpon>dsDisc.xsd</DependentUpon>
+    </None>
+    <None Include="dsDisc.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsDisc.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsDisc.xss">
+      <DependentUpon>dsDisc.xsd</DependentUpon>
+    </None>
+    <None Include="dsMIS.xsc">
+      <DependentUpon>dsMIS.xsd</DependentUpon>
+    </None>
+    <None Include="dsMIS.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsMIS1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsMIS.xss">
+      <DependentUpon>dsMIS.xsd</DependentUpon>
+    </None>
+    <None Include="dsViewElgStatus.xsc">
+      <DependentUpon>dsViewElgStatus.xsd</DependentUpon>
+    </None>
+    <None Include="dsViewElgStatus.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsViewElgStatus1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dsViewElgStatus.xss">
+      <DependentUpon>dsViewElgStatus.xsd</DependentUpon>
+    </None>
+    <None Include="DS_CrPrTermwiseUploadedandElgStatistics.xsc">
+      <DependentUpon>DS_CrPrTermwiseUploadedandElgStatistics.xsd</DependentUpon>
+    </None>
+    <None Include="DS_CrPrTermwiseUploadedandElgStatistics.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DS_CrPrTermwiseUploadedandElgStatistics.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DS_CrPrTermwiseUploadedandElgStatistics.xss">
+      <DependentUpon>DS_CrPrTermwiseUploadedandElgStatistics.xsd</DependentUpon>
+    </None>
+    <EmbeddedResource Include="Eligibility\App_LocalResources\ELGV2_rptCrPrTermwiseUploadedandElgStatistics.aspx.en-US-MSUB.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="dsCollegewisePaperExemption.xsc">
+      <DependentUpon>dsCollegewisePaperExemption.xsd</DependentUpon>
+    </None>
+    <None Include="dsCollegewisePaperExemption.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCollegewisePaperExemption.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsCollegewisePaperExemption.xss">
+      <DependentUpon>dsCollegewisePaperExemption.xsd</DependentUpon>
+    </None>
+    <None Include="Eligibility\DataSets\dsCollegewisePaperExemption__1.xsc">
+      <DependentUpon>dsCollegewisePaperExemption__1.xsd</DependentUpon>
+    </None>
+    <None Include="Eligibility\DataSets\dsCollegewisePaperExemption__1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCollegewisePaperExemption__1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Eligibility\DataSets\dsCollegewisePaperExemption__1.xss">
+      <DependentUpon>dsCollegewisePaperExemption__1.xsd</DependentUpon>
+    </None>
+    <None Include="Eligibility\DataSets\dsCoursewisePaperExemption.xsc">
+      <DependentUpon>dsCoursewisePaperExemption.xsd</DependentUpon>
+    </None>
+    <None Include="Eligibility\DataSets\dsCoursewisePaperExemption.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCoursewisePaperExemption.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Eligibility\DataSets\dsCoursewisePaperExemption.xss">
+      <DependentUpon>dsCoursewisePaperExemption.xsd</DependentUpon>
+    </None>
+    <None Include="Eligibility\DataSets\dsDiscStudents.xsc">
+      <DependentUpon>dsDiscStudents.xsd</DependentUpon>
+    </None>
+    <None Include="Eligibility\DataSets\dsDiscStudents.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsDiscStudents.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Eligibility\DataSets\dsDiscStudents.xss">
+      <DependentUpon>dsDiscStudents.xsd</DependentUpon>
+    </None>
+    <None Include="dsDistrictWise.xsc">
+      <DependentUpon>dsDistrictWise.xsd</DependentUpon>
+    </None>
+    <None Include="dsDistrictWise.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsDistrictWise.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="dsDistrictWise.xss">
+      <DependentUpon>dsDistrictWise.xsd</DependentUpon>
+    </None>
+    <Content Include="bin\Student.dll" />
+    <Content Include="ColorPallete.ascx" />
+    <Content Include="CSS\color1.css" />
+    <Content Include="CSS\template.css" />
+    <Content Include="Eligibility\CancelAdmission__1.aspx" />
+    <Content Include="Eligibility\CancelAdmission__2.aspx" />
+    <Content Include="Eligibility\CSS\3-StepLaunch.css" />
+    <Content Include="Eligibility\ELGV2_PaperChange__2.aspx" />
+    <Content Include="Eligibility\MatchingProfile__4.aspx" />
+    <Content Include="Eligibility\WebCtrl\PageTitle.ascx" />
+    <Content Include="Eligibility\WebCtrl\ShowStudentPhoto.ascx" />
+    <Content Include="bin\AAASecurity.dll" />
+    <Content Include="bin\AjaxControlToolkit.dll" />
+    <Content Include="bin\Classes.dll" />
+    <Content Include="bin\DPTemplate2.dll" />
+    <Content Include="bin\InstituteRepository.dll" />
+    <Content Include="Eligibility\CancelAdmission.aspx" />
+    <Content Include="Eligibility\CollegeProfile.ascx" />
+    <Content Include="Eligibility\CSS\Eligibility_CSS.css" />
+    <Content Include="Eligibility\ELGV2_PaperChange.aspx" />
+    <Content Include="Eligibility\ELGV2_PaperChange__1.aspx" />
+    <Content Include="Eligibility\ELGV2_rptDistrictWiseUploadedCountReport.aspx" />
+    <Content Include="Eligibility\ELGV2_rptPaperExemptionCollegeWise__1.aspx" />
+    <Content Include="Eligibility\ELGV2_rptPaperExemptionCollegeWise.aspx" />
+    <Content Include="Eligibility\ELGV2_rptPaperExemptionCoursewise.aspx" />
+    <Content Include="Eligibility\ELGV2_rptPaperExemptionStudentStatus.aspx" />
+    <Content Include="Eligibility\LP_PaperExemptions.aspx" />
+    <Content Include="Eligibility\LP_PaperExemptions1.aspx" />
+    <Content Include="Eligibility\LP_RegisteredStudents.aspx" />
+    <Content Include="Eligibility\LP_Reports.aspx" />
+    <Content Include="Eligibility\LP_UnRegisteredStudents.aspx" />
+    <Content Include="Eligibility\LP_UploadStatistics.aspx" />
+    <Content Include="Eligibility\MatchingProfile__3.aspx" />
+    <Content Include="Eligibility\CourseProfile.ascx" />
+    <Content Include="Eligibility\ELGV2_PaperExemptionChangeDecision.aspx" />
+    <Content Include="Eligibility\ELGV2_PaperExemptionClaim.aspx" />
+    <Content Include="Eligibility\jscript\jscript_validations.js" />
+    <Content Include="Eligibility\MatchingProfile__2.aspx" />
+    <Content Include="Eligibility\PhotoSignHandler.ashx" />
+    <Content Include="bin\CourseRepository.dll" />
+    <Content Include="bin\generalRepository.dll" />
+    <Content Include="bin\Sancharak.dll" />
+    <Content Include="bin\ServerSideValidations.dll" />
+    <Content Include="CSS\DCPortal.css" />
+    <Content Include="CSS\gray.css" />
+    <Content Include="CSS\Mail.css" />
+    <Content Include="CSS\Portal.css" />
+    <Content Include="CSS\Services.css" />
+    <Content Include="CSS\SOA.css" />
+    <Content Include="CSS\style.css" />
+    <Content Include="CSS\Trstyle.css" />
+    <Content Include="Eligibility\CSS\calendar-blue.css" />
+    <Content Include="Eligibility\CSS\PopUp.css" />
+    <Content Include="Eligibility\ELGV2rptUploadedStudentStatistics_CoursePart.aspx" />
+    <Content Include="Eligibility\ELGV2_DownloadPhotoSign.aspx" />
+    <Content Include="Eligibility\ELGV2_PaperExemptionApproval.aspx" />
+    <Content Include="Eligibility\ELGV2_PaperExemptionApproval__1.aspx" />
+    <Content Include="Eligibility\ELGV2_PaperExemptionApproval__2.aspx" />
+    <Content Include="Eligibility\ELGV2_rptDiscrepancyReport.aspx" />
+    <Content Include="Eligibility\ELGV2_rptDiscrepancyReport__1.aspx" />
+    <Content Include="Eligibility\ELGV2_rptMIS.aspx" />
+    <Content Include="Eligibility\images\cal.gif" />
+    <Content Include="Eligibility\images\loading.gif" />
+    <Content Include="Eligibility\jscript\calendar-en.js" />
+    <Content Include="Eligibility\jscript\calendar.js" />
+    <Content Include="Eligibility\jscript\DatePickerJs.js" />
+    <Content Include="Eligibility\jscript\datetimepicker.js" />
+    <Content Include="Eligibility\jscript\InitCalendarFunc.js" />
+    <Content Include="Eligibility\jscript\jquery-latest.js" />
+    <Content Include="Eligibility\JS\ValidatePRN.js" />
+    <Content Include="Eligibility\JS\Validations.js" />
+    <Content Include="Eligibility\MatchingProfile.aspx" />
+    <Content Include="Eligibility\MatchingProfile__1.aspx" />
+    <Content Include="Eligibility\RegdPaperSelectionXSLT.xslt" />
+    <Content Include="Eligibility\WebCtrl\ctrlSelectCourseOrCollege.ascx" />
+    <Content Include="Eligibility\WebCtrl\Progress_Control.ascx" />
+    <Content Include="Eligibility\WebCtrl\SelectSingleCourse.ascx" />
+    <Content Include="bin\Ajax.dll" />
+    <Content Include="bin\StudentRepository.dll" />
+    <Content Include="CSS\calendar-blue.css" />
+    <Content Include="CSS\tree.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Eligibility\WebCtrl\StudentSearch_Control.ascx" />
+    <Content Include="error.html" />
+    <Content Include="gallery.html" />
+    <Content Include="bin\office.dll" />
+    <Content Include="bin\ReportWrapper.dll" />
+    <Content Include="bin\RKLib.ExportData.dll" />
+    <Content Include="CSS\blue.css" />
+    <Content Include="CSS\green.css" />
+    <Content Include="CSS\maroon.css" />
+    <Content Include="CSS\Orange.css" />
+    <Content Include="CSS\UniPortal.css" />
+    <Content Include="FooterSOA.ascx" />
+    <Content Include="HeaderSOA.ascx" />
+    <Content Include="Image.aspx" />
+    <Content Include="images.xml" />
+    <Content Include="images\16-em-cross.png" />
+    <Content Include="images\alert-large.gif" />
+    <Content Include="images\BackBtn.jpg" />
+    <Content Include="images\backstrip_blue.jpg" />
+    <Content Include="images\backstrip_green.jpg" />
+    <Content Include="images\backstrip_grey.jpg" />
+    <Content Include="images\backstrip_mauve.jpg" />
+    <Content Include="images\backstrip_orange.jpg" />
+    <Content Include="images\blue-top.gif" />
+    <Content Include="images\CenterImage.jpg" />
+    <Content Include="images\chkboxchk.GIF" />
+    <Content Include="images\cross_mark.jpg" />
+    <Content Include="images\dd.gif" />
+    <Content Include="images\down.gif" />
+    <Content Include="images\down.png" />
+    <Content Include="images\easy_web.jpg" />
+    <Content Include="images\esuvidha.gif" />
+    <Content Include="images\gray-top.gif" />
+    <Content Include="images\green-top.gif" />
+    <Content Include="images\Info.jpg" />
+    <Content Include="images\light-H.gif" />
+    <Content Include="images\loading.gif" />
+    <Content Include="images\logo_o.gif" />
+    <Content Include="images\maroon-top.gif" />
+    <Content Include="images\mozilla_blu.gif" />
+    <Content Include="images\orange-top.gif" />
+    <Content Include="images\parent-h.gif" />
+    <Content Include="images\parent-V.gif" />
+    <Content Include="images\projName.gif" />
+    <Content Include="images\tick_mark.jpg" />
+    <Content Include="images\up.png" />
+    <Content Include="images\warn1.jpg" />
+    <Content Include="Index.aspx" />
+    <Content Include="jscript\jscript_validations_old.js" />
+    <Content Include="JS\DraggablePopUps.js" />
+    <Content Include="JS\JSAjaxMethodsCD.js" />
+    <Content Include="JS\newWindow.js" />
+    <Content Include="JS\ResultClasses.js" />
+    <Content Include="LeftCommonCtrl.ascx" />
+    <Content Include="leftSideMenu.ascx" />
+    <Content Include="LoadList.html" />
+    <Content Include="Login.aspx" />
+    <Content Include="mainLink.ascx" />
+    <Content Include="NewFooter.ascx" />
+    <Content Include="NewHeader.ascx" />
+    <Content Include="NewLeftMenuBar.ascx" />
+    <Content Include="NewTopMenuBar.ascx" />
+    <Content Include="RoleWiseUserMessages.ascx" />
+    <Content Include="SOAHeader.ascx" />
+    <Content Include="SubLinkMenuControl.ascx" />
+    <Content Include="topLink.ascx" />
+    <Content Include="topMenuBar.ascx" />
+    <Content Include="ucHeader.ascx" />
+    <Content Include="UCInnerMenuControl.ascx" />
+    <Content Include="Home.Master" />
+    <None Include="Resources\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Eligibility\TempDirectory\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <SaveServerSettingsInUserFile>True</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

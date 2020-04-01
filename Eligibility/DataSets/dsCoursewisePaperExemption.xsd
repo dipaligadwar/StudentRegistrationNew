@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsCoursewisePaperExemption" targetNamespace="http://tempuri.org/dsCoursewisePaperExemption.xsd" xmlns:mstns="http://tempuri.org/dsCoursewisePaperExemption.xsd" xmlns="http://tempuri.org/dsCoursewisePaperExemption.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsCoursewisePaperExemption" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsCoursewisePaperExemption" msprop:Generator_DataSetName="dsCoursewisePaperExemption">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtCoursewisePaperExemption" msprop:Generator_UserTableName="dtCoursewisePaperExemption" msprop:Generator_RowDeletedName="dtCoursewisePaperExemptionRowDeleted" msprop:Generator_RowChangedName="dtCoursewisePaperExemptionRowChanged" msprop:Generator_RowClassName="dtCoursewisePaperExemptionRow" msprop:Generator_RowChangingName="dtCoursewisePaperExemptionRowChanging" msprop:Generator_RowEvArgName="dtCoursewisePaperExemptionRowChangeEvent" msprop:Generator_RowEvHandlerName="dtCoursewisePaperExemptionRowChangeEventHandler" msprop:Generator_TableClassName="dtCoursewisePaperExemptionDataTable" msprop:Generator_TableVarName="tabledtCoursewisePaperExemption" msprop:Generator_RowDeletingName="dtCoursewisePaperExemptionRowDeleting" msprop:Generator_TablePropName="dtCoursewisePaperExemption">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Course_x0020_Name" msprop:Generator_UserColumnName="Course Name" msprop:Generator_ColumnPropNameInRow="Course_Name" msprop:Generator_ColumnVarNameInTable="columnCourse_Name" msprop:Generator_ColumnPropNameInTable="Course_NameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Granted_x0020_Count" msprop:Generator_UserColumnName="Granted Count" msprop:Generator_ColumnPropNameInRow="Granted_Count" msprop:Generator_ColumnVarNameInTable="columnGranted_Count" msprop:Generator_ColumnPropNameInTable="Granted_CountColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Denied_x0020_Count" msprop:Generator_UserColumnName="Denied Count" msprop:Generator_ColumnPropNameInRow="Denied_Count" msprop:Generator_ColumnVarNameInTable="columnDenied_Count" msprop:Generator_ColumnPropNameInTable="Denied_CountColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Pending_x0020_Count" msprop:Generator_UserColumnName="Pending Count" msprop:Generator_ColumnPropNameInRow="Pending_Count" msprop:Generator_ColumnVarNameInTable="columnPending_Count" msprop:Generator_ColumnPropNameInTable="Pending_CountColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

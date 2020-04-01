@@ -1,0 +1,276 @@
+.OS{color:#666;font-family:Verdana;font-size:12px;font-weight:700;text-align:left}
+.Role{color:#666;font-family:Verdana;font-size:10pt;text-align:left;text-decoration:underline}
+.User{color:#666;font-family:Verdana;font-size:8pt;font-style:italic;text-align:left}
+.Rule{color:#666;font-family:Verdana;font-size:8pt;text-align:left}
+.saveNote{color:green;font-family:Verdana;font-size:8pt;font-weight:700}
+.errorNote{color:#ff7200;font-family:Verdana;font-size:8pt;font-weight:700}
+.menuTD{color:#666;cursor:hand;font-family:Verdana;font-size:10px;font-weight:700;padding-left:2px;padding-top:1px;width:165px}
+.rightMenuTD{color:#666;cursor:hand;font-family:Verdana;font-size:10px;font-weight:700;nowrap:true;padding-left:3px;padding-top:3px;width:165px}
+.clLogin{border-bottom:#7e989b 1px solid;border-left:#7e989b 1px solid;border-right:#7e989b 1px solid;border-top:#7e989b 1px solid;color:#988a74;font-family:Verdana;font-size:10px;width:110px}
+.menu{color:#666;font-weight:700;text-decoration:none}
+.childMenuTR{background-color:#e7e2db;font-weight:700;vertical-align:middle}
+.childMenuTable{background-color:#cdc5b6;border-collapse:collapse;border-width:0}
+.txtBox{border-bottom:#7e989b 1px solid;border-left:#7e989b 1px solid;border-right:#7e989b 1px solid;border-top:#7e989b 1px solid;color:#988a74;font-family:Verdana;font-size:10px}
+.loginBox{border-bottom:#7e989b 1px solid;border-left:#7e989b 1px solid;border-right:#7e989b 1px solid;border-top:#7e989b 1px solid;color:#988a74;font-family:Verdana;font-size:10px;width:100px}
+.lblColor{color:#807e7c;font-family:Verdana;font-size:11px;font-weight:700}
+.lblFont{color:#000;font-family:Verdana;font-size:12pt}
+.tblBgColor{background-color:#e7e2db}
+.tblHeaderTR{background-color:#cdc5b6;color:#62452c;font-family:Verdana;font-size:11px;font-weight:700}
+.GridHeaderHome{background-color:#f3efd2;color:#62452c;font-family:Verdana;font-size:8pt;font-weight:700;text-align:center}
+.gridItemHome{background-color:#FFF;font-family:Verdana;font-size:8pt;padding-left:4px;vertical-align:middle}
+.calendar{background-color:#FFF;border-bottom:#7e989b 1px solid;border-left:#7e989b 1px solid;border-right:#7e989b 1px solid;border-top:#7e989b 1px solid;font-size:10px}
+.calendarHeaderTD{background-color:#f3efd2;border-bottom:#7e989b 1px solid;border-left:#7e989b 1px solid;border-right:#7e989b 1px solid;border-top:#7e989b 1px solid;color:#62452c;font-family:Verdana;font-size:12px;font-weight:700;text-align:center}
+.calendarMonthTD{background-color:#f3efd2;border-bottom:#7e989b 1px solid;border-left:#7e989b 1px solid;border-right:#7e989b 1px solid;border-top:#7e989b 1px solid;color:#62452c;font-family:Verdana;font-size:12px;font-weight:700;text-align:left}
+.calendarItem{background-color:#FFF;border-bottom:#7e989b 1px solid;border-left:#7e989b 1px solid;border-right:#7e989b 1px solid;border-top:#7e989b 1px solid;font-family:Verdana;font-size:10px;padding-left:4px;vertical-align:middle}
+.calendarBulletTD{background-color:#FFF;border-bottom:#7e989b 1px solid;border-left:#7e989b 1px solid;border-top:#7e989b 1px solid;text-align:center;vertical-align:middle}
+.calendarNoText{background-color:#fff;border-left:#7e989b 1px solid;border-right:#7e989b 1px solid}
+.calendarBulletRightTD{background-color:#FFF;border-bottom:#7e989b 1px solid;border-right:#7e989b 1px solid;border-top:#7e989b 1px solid;text-align:left;vertical-align:middle}
+.gridAltItemHome{background-color:#faf7ed;font-size:8pt;padding-left:4px}
+.gridHeaderLeftHome{background-color:#f3efd2;color:#62452c;font-family:Verdana;font-size:8pt;font-weight:700;padding-left:5px;text-align:left;vertical-align:middle}
+.gridHeaderLeft{background-color:#a7c5f7;color:navy;font-family:Verdana;font-size:8pt;font-weight:700;padding-left:5px;text-align:left;vertical-align:middle}
+.gridHeaderLeftLight{background-color:#c9dbfa;color:navy;font-family:Verdana;font-size:8pt;font-weight:400;padding-left:5px;text-align:left;vertical-align:middle}
+.GridAlternate{background-color:#cdc5b6;font-family:Verdana;font-size:8pt;font-weight:400;padding-left:2px}
+.GridItems{background-color:#e7e2db;color:#666;font-family:Verdana;font-size:8pt;font-weight:400;padding-left:4px}
+.gridItem{background-color:#FFF;font-size:8pt}
+.gridAltItem{background-color:#e1ecfc;font-size:8pt}
+.gridItemPending{background-color:#FF0;font-size:8pt;padding-left:4px}
+.gridItemPendingTimeOut{background-color:olive;font-size:8pt;padding-left:4px}
+.gridItemSolved{background-color:green;font-size:8pt;padding-left:4px}
+.gridItemScope{background-color:red;font-size:8pt;padding-left:4px}
+.gridItemScopeTimeOut{background-color:maroon;font-size:8pt;padding-left:4px}
+.gridItemRefer{background-color:blue;font-size:8pt;padding-left:4px}
+.gridItemReferTimeOut{background-color:purple;font-size:8pt;padding-left:4px}
+.gridNoText{background-color:#fff;font-size:8pt;padding-left:4px}
+.RepeaterHeader{background-color:#dedfd4;color:#5c5135;font-family:Verdana;font-size:10px;font-weight:700}
+.RepeaterItem{background-color:#eeefe9;color:#797a77;font-family:Verdana;font-size:10px;font-weight:700}
+SELECT{border-bottom:#7e989b 1px solid;border-left:#7e989b 1px solid;border-right:#7e989b 1px solid;border-top:#7e989b 1px solid;color:#5c5135;font-family:Verdana;font-size:10px}
+.SideLeft{background-color:#e1ecfc;border-right:#ffd275 1px solid;padding-left:10px}
+.FooterTop{background-color:#fff;border-top:#ffd275 1px solid}
+.AdminHeader{background-color:#cdc5b6;color:#62452c;font-family:Verdana;font-size:14px;font-weight:700}
+.btnSave{background-color:#d8d4d2;color:appworkspace;font-family:Verdana;font-size:10px}
+.btnGo{background-color:#666;border-bottom:0;border-left:0;border-right:0;border-top:0;color:#fff;font-family:Verdana;font-size:10px}
+.butSubmit{background-color:#cdccdf;border-bottom:#003c74 1px solid;border-left:#003c74 1px solid;border-right:#003c74 1px solid;border-top:#003c74 1px solid;color:#000;filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#FFFFFF',EndColorStr='#CDCCDF');font-family:Verdana;font-size:8pt;font-weight:400}
+.newsTD{background:#dedfd4;color:#787a69;font-family:Verdana;font-size:11px;font-weight:700;height:18px;nowrap:true;vertical-align:top;width:165px}
+.newsBox{background:#eeefe9}
+.downloadsHeaderTD{background:#e9cfd9;color:#936e7d;font-family:Verdana;font-size:11px;font-weight:700;height:18px;nowrap:true;vertical-align:top;width:165px}
+.downloadBox{background:#f4e7ec}
+.downloadsTD{color:#936e7d;font-family:Verdana;font-size:11px;font-weight:400;text-decoration:none}
+.downloadsNews{color:#666;font-family:Verdana;font-size:11px;font-weight:400;text-decoration:none;vertical-align:top}
+.login{background:#c0e1e9}
+.defaultTopLinks{color:#FFF;font-family:Verdana;font-size:11px}
+LI{color:#936e7d;left:1px;margin-left:-10px}
+.UpdationDate{color:red;left:1px;list-style-type:circle;margin-left:-10px}
+.Mandatory{color:red;font-family:Verdana;font-size:8pt;font-weight:400;padding-left:5px}
+A{color:#666;text-decoration:none}
+A.DisplayFAQ{color:navy;cursor:hand;font-size:8pt;font-weight:400;text-decoration:none}
+A.DisplayFAQ:hover{color:navy;cursor:hand;font-size:8pt;font-weight:400;text-decoration:underline}
+A.Side:hover{color:navy;font-size:8pt;font-weight:400;text-decoration:underline}
+A.TopHome:hover{border-bottom:#ffd275 1px solid;color:red;font-size:8pt;font-weight:700;text-decoration:underline}
+A.Top:hover{color:#ee6340;font-size:8pt;font-weight:400;text-decoration:none}
+.mainLinks{color:#666}
+InnerTxtJustfy{text-align:justify}
+.GridBorderTop{background-color:#e1ecfc;border-bottom:#e1ecfc 0 solid;border-left:#e1ecfc 1px solid;border-right:#e1ecfc 0 solid;border-top:#e1ecfc 1px solid;cursor:default}
+.GridBorderLeft{background-color:#b6cee7;border-bottom:#e1ecfc 0 solid;border-left:#e1ecfc 1px solid;border-right:#e1ecfc 0 solid;border-top:#e1ecfc 0 solid;color:#62452c;cursor:default}
+.TopLink{background-color:#1744a6;border-bottom:#ffd275 3px solid;border-top:#a8a8a8 1px solid;color:#fff;filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#97B5E6',EndColorStr='#1744A6');font-family:Verdana;font-size:8pt;font-weight:400}
+.topMenuBar{color:#fff;font-family:Verdana;font-size:8pt;font-weight:400}
+.TopLink .TopMenuBar{color:#FFF;font-family:Verdana;font-size:8pt;font-weight:400}
+.Heading{border-bottom:#e9ddad 1px solid;border-left:#e9ddad 1px solid;border-right:#e9ddad 1px solid;border-top:#e9ddad 1px solid;color:#666;filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#FFFFFF',EndColorStr='#F4EED6');font-size:8pt;font-weight:700}
+.PageHeading{color:#ee6340;font-family:Verdana;font-size:10pt;font-weight:700}
+.ComplaintMessageHeading{color:#000;font-family:Verdana;font-size:10pt;font-weight:400}
+.ComplaintMessageNote{color:#000;font-family:Verdana;font-size:9pt;font-style:italic;font-weight:400}
+.legendTitle{color:navy;font-family:Verdana;font-size:8pt;font-weight:400}
+.legendTitlePreLog{color:maroon;font-family:Verdana;font-size:8pt;font-weight:400}
+.inputboxReadOnly{background-color:#dfeaf4;border-bottom:#369 1px solid;border-left:#369 1px solid;border-right:#369 1px solid;border-top:#369 1px solid;color:#000;font-family:Verdana;font-size:8pt;font-weight:400;padding-left:3px}
+.inputboxReadOnlyHome{background-color:#f4eed6;border-bottom:#000 1px solid;border-left:#000 1px solid;border-right:#000 1px solid;border-top:#000 1px solid;color:#000;font-family:Verdana;font-size:8pt;font-weight:400;padding-left:3px}
+.SelectBox{background-color:#e1ecfc;color:#000;font-family:Verdana;font-size:8pt;font-weight:400}
+.SelectBoxHome{background-color:#f4eed6;color:#000;font-family:Verdana;font-size:8pt;font-weight:400}
+.Fieldset{background-color:#a7c5f7;border-bottom:#a7c5f7 1px solid;border-left:#a7c5f7 1px solid;border-right:#a7c5f7 1px solid;border-top:#a7c5f7 1px solid;color:#000;filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#F0F5FE',EndColorStr='#A7C5F7');font-family:Verdana;font-size:8pt;font-weight:400}
+.ButTop{background-color:#ece9d8;border-bottom:gray 1px solid;border-left:gray 1px solid;border-right:gray 1px solid;border-top:gray 1px solid;font-family:Verdana;font-size:8pt}
+.ButSp{background-color:#fee197;border-bottom:navy 1px solid;border-left:navy 1px solid;border-right:navy 1px solid;border-top:navy 1px solid;color:#039;font-family:Verdana;font-size:8pt;height:18px;text-decoration:none;vertical-align:middle}
+.LeftParentLink{border-bottom:red 1px solid;color:#000;font-size:8pt;font-weight:400;text-decoration:none}
+.CalendarTitle{background-color:#f3efd2;border-bottom:#BDB76B 1px solid;border-left:#BDB76B 1px solid;border-right:#BDB76B 1px solid;border-top:#BDB76B 1px solid;color:#62452c;font-family:Verdana;font-size:8pt;font-weight:700;padding-left:5px;text-align:left;vertical-align:middle}
+.RuleCountMessage{border-bottom:silver 1px solid;border-left:silver 1px solid;border-right:silver 1px solid;border-top:silver 1px solid;color:maroon;font-family:Verdana;font-size:8pt;font-weight:700;padding-left:5px;text-align:left;vertical-align:middle}
+.CalendarDesc{font-family:Verdana;font-size:8pt;font-weight:400;padding-left:5px;text-align:left;vertical-align:middle}
+.CalendarHoliday{color:maroon;vertical-align:middle}
+.CalendarWorking{vertical-align:middle}
+.butCompSearch{background-color:buttonface;border-bottom:#c1a380 1px solid;border-left:#c1a380 1px solid;border-right:#c1a380 1px solid;border-top:#c1a380 1px solid;color:#666;font-family:Arial;font-size:7.5pt;padding:1px 4px;text-decoration:none}
+.tableWithBorder{border-bottom:#e7e2db 1px solid;border-left:#e7e2db 1px solid;border-right:#e7e2db 1px solid;border-top:#e7e2db 1px solid}
+.msgGridItem{background-color:#FFF;font-size:smaller}
+.msgGridAltItem{background-color:#e1ecfc;font-size:10px}
+.msgGridHeader TD{background-color:#a7c5f7;border-bottom:#5975a4 1px solid;border-left:#5975a4 1px solid;border-right:#5975a4 1px solid;border-top:#5975a4 1px solid;color:#000;font-family:Verdana;font-size:8pt;font-weight:700;padding-left:5px;text-align:center;vertical-align:middle}
+A.aLinkPage:hover{border-bottom:red 1px solid;color:navy;font-size:10pt;font-weight:400;text-decoration:none}
+.InnerLinkBorder{background-color:#fff;border-bottom:silver 1px solid;color:#000;font-family:Verdana;font-size:12pt;font-weight:700}
+A.NavLink:hover{border-bottom:#7d316a 1px solid;color:#7d316a;font-size:8pt;font-weight:400;text-decoration:none}
+A.RoleDisplay{color:maroon;font-weight:400}
+A.OSDisplayTitle{color:navy}
+A.RoleDisplayTitle{color:maroon}
+A.OSDisplayLink{border-bottom:1px solid;color:navy;font-weight:400}
+A.RoleDisplayLink{border-bottom:1px solid;color:maroon;font-weight:400}
+A.RuleDisplay{color:#00ae00;cursor:auto;font-weight:400;text-decoration:none}
+.clOn{display:block}
+A.UserDisplay{color:#666;cursor:auto;font-weight:400;text-decoration:none}
+.menuBullet{color:#666;padding-left:4px;padding-top:5px;vertical-align:top;width:2px}
+.WelcomeMsg{color:maroon;font-family:verdana;font-size:8pt;font-weight:400}
+.homeBullet{padding-top:5px;vertical-align:top;width:2px}
+.logoName{color:#e76d00;font-size:10pt;font-weight:700}
+.logoAddress{color:#8a8a8a;font-size:7pt}
+.StatsGrid{background-color:#cdccdf;color:navy;filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#eeeeee',EndColorStr='#CDCCDF');font-size:8pt;font-weight:400;text-decoration:none}
+.loginLabels{color:#666;font-family:Verdana;font-size:7pt;font-weight:400}
+.clContainer{border-bottom:silver 0 solid;border-left:silver 0 solid;border-right:silver 0 solid;border-top:silver 0 solid;float:left;width:25%}
+.clColumn{border-bottom:silver 1px solid;border-left:silver 1px solid;border-right:silver 1px solid;border-top:silver 1px solid;height:120px;margin:1em;padding-top:5px;text-align:center;vertical-align:bottom;width:100%}
+.clImagediv{height:70%;width:80%}
+.clCheckBox{background-color:#efefef;height:18px;width:100%}
+.clFooter{background-color:silver;height:18px;width:100%}
+.chkChecked{border-width:1px}
+BODY{background-color:#fff;color:#000;font-family:Verdana;font-size:8pt;font-weight:400;margin:2px}
+.BottomLink{background-color:#fff;border-top:#ffd275 1px solid;color:#000;font-family:Verdana;font-size:8pt;font-weight:400}
+.FormName{background-color:#fff;border-bottom:#ffd275 1px solid;color:#000;font-family:Verdana;font-size:12pt;font-weight:700;padding-top:5px}
+P.breakhere{page-break-after:always}
+.pageBreakBefor{page-break-before:always}
+.PageHeadingCaption{color:#000;font-family:Verdana;font-size:8pt;font-weight:700;padding-left:0}
+.NonEditableLebels{background-color:#dfeaf4;border-bottom:#369 1px solid;border-left:#369 1px solid;border-right:#369 1px solid;border-top:#369 1px solid;color:#000;font-family:Verdana;font-size:8pt;font-weight:700;padding-left:3px}
+.inputbox{border-bottom:#000 1px solid;border-left:#000 1px solid;border-right:#000 1px solid;border-top:#000 1px solid;color:#000;font-family:Verdana;font-size:8pt;font-weight:400;height:14px}
+.textArea{border-bottom:#000 1px solid;border-left:#000 1px solid;border-right:#000 1px solid;border-top:#000 1px solid;color:#000;font-family:Verdana;font-size:8pt;font-weight:400}
+.RadioButton{color:#c00000;font-family:Verdana;font-size:8pt;font-weight:400}
+.butSubmitHover{background-color:#cdccdf;border-bottom:#f90 1px solid;border-left:#f90 1px solid;border-right:#f90 1px solid;border-top:#f90 1px solid;color:#000;filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#FFFFFF',EndColorStr='#CDCCDF');font-family:Verdana;font-size:8pt;font-weight:400}
+.BorderTop{border-bottom:#369 0 solid;border-left:#369 0 solid;border-right:#369 0 solid;border-top:#369 1px solid}
+.BorderBottom{border-bottom:#369 1px solid}
+.BorderLeft{border-bottom:#369 0 solid;border-left:#369 1px solid;border-right:#369 0 solid;border-top:#369 0 solid}
+.BorderRight{border-right:#369 1px solid}
+.BorderLTR{border-left:#369 1px solid;border-right:#369 1px solid;border-top:#369 1px solid}
+.BorderLBR{border-bottom:#369 1px solid;border-left:#369 1px solid;border-right:#369 1px solid}
+.BorderBR{border-bottom:#369 1px solid;border-right:#369 1px solid}
+.BorderLR{border-left:#369 1px solid;border-right:#369 1px solid}
+.BorderTB{border-bottom:#369 1px solid;border-top:#369 1px solid}
+.BorderLTRB{border-bottom:#369 1px solid;border-left:#369 1px solid;border-right:#369 1px solid;border-top:#369 1px solid}
+.BorderRight2px{background-color:#f4f4f4;border-bottom:#369 0 solid;border-right:#369 1px solid;border-top:#369 0 solid}
+.GridHeading{background-color:#a7c5f7;border-bottom:#000 1px solid;border-left:#000 1px solid;border-right:#000 1px solid;border-top:#000 1px solid;color:navy;font-family:Verdana;font-size:8pt;font-weight:700;padding-left:5px}
+.GridSubHeading{background-color:#e4edfd;border-bottom:#369 1px solid;border-left:#369 1px solid;border-right:#369 1px solid;border-top:#369 1px solid;color:#c00000;font-family:Verdana;font-size:8pt;font-weight:700;padding-left:5px;width:100%}
+.GridData1{background-color:#a7c5f7;color:#000;font-family:Verdana;font-size:8pt;font-weight:400;padding-left:5px}
+.GridData3{background-color:#FFF;color:#000;font-family:Verdana;font-size:8pt;font-weight:400;padding-left:5px}
+.SaveInfo{color:red;font-family:Verdana;font-size:8pt;font-weight:400;padding-right:5px}
+.DeleteButton{background-color:transparent;background-image:url(../images/button_delete.gif);border-bottom:#6b6bb6 0 solid;border-left:#6b6bb6 0 solid;border-right:#6b6bb6 0 solid;border-top:#6b6bb6 0 solid;color:#000;font-family:Arial;font-size:7.5pt;height:20px;width:16px}
+.tblCss{border-bottom:1px;border-collapse:collapse;border-left:1px;border-right:1px;border-top:1px;padding:4px}
+.tblTRTD1{background-color:#dadada;border-bottom:#ffd275 1px solid;border-left:#ffd275 1px solid;border-right:#ffd275 1px solid;border-top:#ffd275 1px solid;color:navy;font-weight:700}
+.tblTR2TD1{background-color:#dadada;border-bottom:#ffd275 1px solid;border-left:#ffd275 1px solid;border-right-color:#ffd275;border-top:#ffd275 1px solid;color:navy}
+.tblTR2TD2{border-bottom:#ffd275;border-left:#ffd275 1px solid;border-right:#ffd275;border-top:#ffd275 1px solid;color:navy}
+.tblTR3TD1{border-bottom-color:#ffd275;border-left:#ffd275;border-right:#ffd275;border-top:#ffd275;height:18px}
+.lbltext{color:green;font-family:Times New Roman;font-size:15px;font-weight:700;height:29px}
+.dgstyle{border-bottom:#369 1px solid;border-left:#369 1px solid;border-right:#369 1px solid;border-top:#369 1px solid;color:#FFF;width:100%}
+.dgheaderstyle{background-color:#a7c5f7;border-bottom:#000 1px solid;border-left:#000 1px solid;border-right:#000 1px solid;border-top:#000 1px solid;color:#000;font-family:Verdana;font-size:8pt;font-weight:700;padding-left:5px}
+.tblBackColor{background-color:silver}
+.rFont{background-color:#FFF}
+.clRight{float:Right}
+.LeftMenuParentDivL{float:left;height:15px;width:20px}
+.LeftMenuDiv{clear:left;min-height:5px;vertical-align:middle}
+.LeftMenuDivL{float:left;padding:3px}
+.LeftMenuDivR a{color:#666;float:left;font-size:8pt;font-weight:400;padding:3px;text-decoration:none}
+#imageholder{height:60px;text-align:center;vertical-align:top}
+#headerLink li.first{background:none;float:left;margin:0 5px 0 0;padding:.25em 0 .2em 9px}
+#HeaderTopLine{background-color:#1744A6;height:5px;width:100%}
+#main{background-color:#FFF;padding-top:5px;text-align:center;width:900px}
+#logo{float:left;width:8%}
+#header{float:left;text-align:left;width:91%}
+#header #headerLink{float:right;text-align:right;vertical-align:top;width:100%}
+#headerLink ul{float:right;list-style-type:none;margin:0}
+#headerLink li{background:url(../Images/bullet04.gif) no-repeat 0 .77em;float:left;margin:0 5px 0 0;padding:.25em 0 .2em 9px}
+.nodeStyle{font-size:8pt;white-space:normal;width:150px}
+a.nodeStyle:link{text-decoration:none}
+a.nodeStyle:hover{color:#0751AA;text-decoration:none}
+#LeftMenuHolder td{vertical-align:top}
+.clShowPallete{display:inline;position:absolute;width:819px}
+#DIVColorPallete ul{margin:0;padding:0}
+.clGray{background-color:#ADADAD;border:solid 1px #000;float:right;height:10px;margin:2px 5px 2px 2px;width:10px}
+.clBlue{background-color:#97B5E6;border:solid 1px #000;float:right;height:10px;margin:2px 5px 2px 2px;width:10px}
+.clGreen{background-color:#7BAA24;border:solid 1px #000;float:right;height:10px;margin:2px 5px 2px 2px;width:10px}
+.clMaroon{background-color:#BB8883;border:solid 1px #000;float:right;height:10px;margin:2px 5px 2px 2px;width:10px}
+.clOrange{background-color:#EA8311;border:solid 1px #000;float:right;height:10px;margin:2px 10px 2px 2px;width:10px}
+.clColorDown{background-image:url(../images/image_down.gif);height:15px;width:15px}
+.clColorTop{background-image:url(../images/image_top.gif);height:15px;width:15px}
+.clBlueBoxBorder{border:solid 1px #CED7E8}
+.clBlueBoxTitle{background:#CED7E8;color:#4C5A87;font-family:Verdana;font-size:11px;font-weight:700;height:18px;nowrap:true;text-align:left;vertical-align:top}
+.clBlueBox{background:#E7ECF2;border:solid 1px #CED7E8;padding:5px;text-align:left}
+.clGreenBoxBorder{border:solid 1px #DDE8CA}
+.clGreenBoxTitle{background:#DDE8CA;color:#849F4E;font-family:Verdana;font-size:11px;font-weight:700;height:18px;nowrap:true;text-align:left;vertical-align:top}
+.clGreenBox{background:#EFF3E4;border:solid 1px #DDE8CA;text-align:left}
+.clMaroonBoxBorder{border:solid 1px #E8D1D9}
+.clMaroonBoxTitle{background:#E8D1D9;color:#8F737F;font-family:Verdana;font-size:11px;font-weight:700;height:18px;nowrap:true;text-align:left;vertical-align:top}
+.clMaroonBox{background:#F3E8EC;border:solid 1px #E8D1D9;padding:5px;text-align:left}
+.clOrangeBoxBorder{border:solid 1px #F0DECA}
+.clOrangeBoxTitle{background:#F0DECA;color:#C67D39;font-family:Verdana;font-size:11px;font-weight:700;height:18px;nowrap:true;text-align:left;vertical-align:top}
+.clOrangeBox{background:#F7EDE3;border:solid 1px #F0DECA;padding:5px;text-align:left}
+#ControlHolder{padding:5px;text-align:left;width:98%}
+#PageTitleHolder{min-height:20px;width:100%}
+#ctl00_ContentPlaceHolder1_lblSubHeader{font-family:Verdana;font-size:8pt;font-weight:700}
+/*#StudentLinkHolder{border-bottom:1px solid #ffd275;margin-bottom:5px;margin-top:5px;padding-bottom:5px;padding-top:5px}*/
+#StudentLinkHolderDU{border-bottom:1px solid #ffd275;margin-bottom:5px;padding-top:5px}
+.clDULogo{background-image:url(../images/CoomingSoon.gif);height:68px;width:68px}
+.gridItem a:link{text-align:center;text-decoration:none}
+input[type=file]{border-bottom:#000 1px solid;border-left:#000 1px solid;border-right:#000 1px solid;border-top:#000 1px solid;color:#000;font-family:Verdana;font-size:8pt;height:20px}
+input[type=text]{border-bottom:#000 1px solid;border-left:#000 1px solid;border-right:#000 1px solid;border-top:#000 1px solid;color:#000;font-family:Verdana;font-size:8pt;height:15px}
+#footer{border-top:#ffd275 1px solid;font-size:8pt;text-align:center;width:900px}
+#footerLink ul{list-style-type:none;margin:0;padding:0}
+#footerLink li a:hover{color:#000;text-decoration:underline}
+#footerLink{text-align:center;width:100%}
+#footerLink li{background:url(../Images/bullet04.gif) no-repeat 0 .77em;display:inline;margin:0 5px 0 0;padding:.25em 0 .2em 9px}
+#footerLink li.first{background:none;display:inline;margin:0 5px 0 0;padding:.25em 0 .2em 9px}
+.clPopupTable{border:0;min-height:400px;position:absolute;width:350px;z-index:100}
+.clPopupTableHolder{background-image:url(images/bg.gif);border:solid 0 silver;bottom:0;height:100%;left:0;position:fixed;right:0;top:0;vertical-align:middle;width:100%;z-index:1001}
+.clPopupMessage{background-color:#FFFACD;border-bottom:solid 1px red;border-top:solid 1px #000;font-family:Verdana;font-size:8pt;padding:5px;vertical-align:middle;width:100%}
+.clPopupIcon{background-color:#FFFACD;border-bottom:solid 1px red;border-left:solid 1px #000;border-top:solid 1px #000;padding:5px}
+.clPopupClose{background-color:#FFFACD;border-bottom:solid 1px red;border-right:solid 1px #000;border-top:solid 1px #000;text-align:right;vertical-align:top}
+.clCloseImage{background-image:url(../images/button_close.gif);cursor:pointer;height:16px;width:16px}
+.clAlertImage{background-image:url(../images/alert-large.gif);height:32px;width:31px}
+.clArrowImage{background-image:url(../images/arrow.png);height:12px;width:16px}
+.clPopupMessage2{background-color:#FFFACD;border-bottom:solid 1px #000;font-family:Verdana;font-size:8pt;padding:5px;width:100%}
+.clPopupIcon2{background-color:#FFFACD;border-bottom:solid 1px #000;border-left:solid 1px #000;padding:5px;width:20px}
+.clPopupClose2{background-color:#FFFACD;border-bottom:solid 1px #000;border-right:solid 1px #000;padding:2px;text-align:right;vertical-align:top}
+.clAlertBut{background-color:#FFDB7D;border-left:1px solid #FFDB7D;border-top:1px solid #FFDB7D;color:#000;filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#FFDB7D',EndColorStr='#FF9100');font-family:Verdana;font-size:8pt;font-weight:700;height:20px;width:80px}
+.clAlwaysVisible{background-color:#FFFACD;position:fixed}
+a.TopMenus{border:0 solid transparent;color:#fff;font-weight:400;height:20px;margin-top:2px;padding:1px 7px;text-decoration:none}
+.TableTR{height:25px;margin:2px;width:80%}
+.TableTR1{height:53px;margin:2px;width:80%}
+.TableTR2{height:25px;margin:2px;padding-left:15px;width:80%}
+.TableTD1{float:left;font-weight:700;height:25px;padding-left:15px;text-align:right;width:30%}
+.TableTD2{float:left;font-weight:700;width:1.5%}
+.TableTD3{float:left;text-align:left;width:65%}
+.TableTD4{float:left;text-align:left;width:15%}
+.divcol1{border:solid 0 #000;float:left;width:18%}
+.divcol3{border:solid 0 #000;float:left;width:16%}
+.divcol4{border-top:solid 1px #000;float:left;width:100%}
+.divcol5{float:left;width:50%}
+.divcol5left{border-left:solid 1px #000;float:left;width:48%}
+.feehead{border:solid 0 #000;float:left;font-weight:700;width:30%}
+.totatAmount{border:solid 1px #000;float:right;font-weight:700;width:31%}
+.divtitle{border:solid 1px #000;text-align:center;width:100%}
+.maindiv{border:solid 1px #000;width:100%}
+.clMarkFields{padding:3px;text-align:left;width:100%}
+.clCTTDI1{float:left;font-weight:700;height:25%;padding-left:15px;text-align:center;width:50%}
+.clCTTDI2{float:left;font-weight:700;height:25%;text-align:center;vertical-align:middle;width:50%}
+.clCTTDL1{float:left;text-align:left;width:100%}
+.hrSideLeft{border-bottom:#fff 1px solid;border-top:#000 1px solid;padding-top:10px}
+TD,P{font-family:Verdana;font-size:8pt;font-weight:400}
+.NoDisplay,.clOff,.Display,.clHidePallete{display:none}
+.gridMouseOver,.msgGridMouseOver{cursor:hand}
+.gridMouseOut,.msgGridMouseOut{cursor:default}
+A.Side:link,A.Side:visited{color:navy;font-size:8pt;font-weight:400;text-decoration:none}
+A.TopHome:link,A.TopHome:visited{color:#FFF;font-size:8pt;font-weight:700;text-decoration:none}
+A.Top:link,A.Top:visited{color:#fff;font-size:8pt;font-weight:400;text-decoration:none}
+.toplinks,#footerLink li a:visited{color:#000}
+A.toplinks:link,A.toplinks:visited,A.toplinks:hover{color:#000;font-family:Verdana;font-size:7.5pt;font-weight:400}
+.llblContentTitle,.lblContentTitle{color:#666;font-family:Verdana;font-size:13px;font-weight:bold;text-align:left} /* Modified by Rekha Date : 30 Dec 09 */
+.grid,.msgGrid{border-bottom:#5975a4 1px solid;border-left:#5975a4 1px solid;border-right:#5975a4 1px solid;border-top:#5975a4 1px solid;color:#000;font-family:Verdana,arial, Arial Narrow, Mangal;font-size:10pt;font-weight:700}
+.msgGrid TD,.grid TD{border-bottom:#5975a4 1px solid;border-left:#5975a4 1px solid;border-right:#5975a4 1px solid;border-top:#5975a4 1px solid;font-family:Verdana,arial, Arial Narrow, Mangal}
+.msgGridAltItemHeading,.gridAltItemHeading{background-color:#e1ecfc;border-bottom:#5975a4 1px solid;border-left:#5975a4 1px solid;border-right:#5975a4 1px solid;border-top:#5975a4 1px solid;color:#000;font-family:Verdana,arial, Arial Narrow, Mangal;font-size:8pt;font-weight:700}
+A.aLinkPage:link,A.aLinkPage:visited{color:navy;font-size:10pt;font-weight:400;text-decoration:none}
+A.NavLink:link,A.NavLink:visited{color:#7d316a;font-size:8pt;font-weight:400;text-decoration:none}
+A.OSDisplay,A.footerLink{color:navy;font-weight:400}
+.GridData2,.dgitemstyle{background-color:#e1ecfc;color:#000;font-family:Verdana;font-size:8pt;font-weight:400;padding-left:5px}
+.gridHeader,.gridHeader TD{background-color:#EFEFEF;color:#666;font-size:8pt;font-weight:400;text-align:center;text-decoration:none}
+.clLeft,.LeftMenuParentDivR{float:left}
+#headerLink li.last,#footerLink li.last{background:url(../Images/bullet04.gif) no-repeat 0 .77em;margin:0 5px 0 0;padding:.25em 0 .2em 9px}
+#header #headerLink a,#footerLink li a:link{color:#000;text-decoration:none}
+#ctl00_ContentPlaceHolder1_lblPageHead,#ctl00_ContentPlaceHolder1_lblHeader{color:#EE6340;font-family:Verdana;font-size:10pt;font-weight:700}
+.gridItem td,.gridAltItem td{padding:2px;text-align:left}
+#footer div a:link,#footer div a:active,#footer div a:visited{color:#009;text-decoration:none}
+.divcol2,.total{border:solid 1px #000;float:left;font-weight:700;width:23%}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsCollegewisePaperExemption" targetNamespace="http://tempuri.org/dsCollegewisePaperExemption.xsd" xmlns:mstns="http://tempuri.org/dsCollegewisePaperExemption.xsd" xmlns="http://tempuri.org/dsCollegewisePaperExemption.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsCollegewisePaperExemption" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="dsCollegewisePaperExemption" msprop:Generator_UserDSName="dsCollegewisePaperExemption">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtCollegewisePaperExemption" msprop:Generator_TableClassName="dtCollegewisePaperExemptionDataTable" msprop:Generator_RowEvArgName="dtCollegewisePaperExemptionRowChangeEvent" msprop:Generator_TableVarName="tabledtCollegewisePaperExemption" msprop:Generator_TablePropName="dtCollegewisePaperExemption" msprop:Generator_RowDeletingName="dtCollegewisePaperExemptionRowDeleting" msprop:Generator_UserTableName="dtCollegewisePaperExemption" msprop:Generator_RowChangingName="dtCollegewisePaperExemptionRowChanging" msprop:Generator_RowDeletedName="dtCollegewisePaperExemptionRowDeleted" msprop:Generator_RowChangedName="dtCollegewisePaperExemptionRowChanged" msprop:Generator_RowEvHandlerName="dtCollegewisePaperExemptionRowChangeEventHandler" msprop:Generator_RowClassName="dtCollegewisePaperExemptionRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="College_Code" msprop:Generator_ColumnVarNameInTable="columnCollege_Code" msprop:Generator_ColumnPropNameInRow="College_Code" msprop:Generator_ColumnPropNameInTable="College_CodeColumn" msprop:Generator_UserColumnName="College_Code" type="xs:string" minOccurs="0" />
+              <xs:element name="College_Name" msprop:Generator_ColumnVarNameInTable="columnCollege_Name" msprop:Generator_ColumnPropNameInRow="College_Name" msprop:Generator_ColumnPropNameInTable="College_NameColumn" msprop:Generator_UserColumnName="College_Name" type="xs:string" minOccurs="0" />
+              <xs:element name="GrantedCount" msprop:Generator_ColumnVarNameInTable="columnGrantedCount" msprop:Generator_ColumnPropNameInRow="GrantedCount" msprop:Generator_ColumnPropNameInTable="GrantedCountColumn" msprop:Generator_UserColumnName="GrantedCount" type="xs:string" minOccurs="0" />
+              <xs:element name="DeniedCount" msprop:Generator_ColumnVarNameInTable="columnDeniedCount" msprop:Generator_ColumnPropNameInRow="DeniedCount" msprop:Generator_ColumnPropNameInTable="DeniedCountColumn" msprop:Generator_UserColumnName="DeniedCount" type="xs:string" minOccurs="0" />
+              <xs:element name="PendingCount" msprop:Generator_ColumnVarNameInTable="columnPendingCount" msprop:Generator_ColumnPropNameInRow="PendingCount" msprop:Generator_ColumnPropNameInTable="PendingCountColumn" msprop:Generator_UserColumnName="PendingCount" type="xs:string" minOccurs="0" />
+              <xs:element name="RegionalCenterInfo" msprop:Generator_ColumnVarNameInTable="columnRegionalCenterInfo" msprop:Generator_ColumnPropNameInRow="RegionalCenterInfo" msprop:Generator_ColumnPropNameInTable="RegionalCenterInfoColumn" msprop:Generator_UserColumnName="RegionalCenterInfo" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

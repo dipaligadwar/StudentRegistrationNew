@@ -1,0 +1,91 @@
+/* BEGIN : Classes  for inner control */
+
+.boxTitle
+{
+	BORDER-RIGHT: #66655c 1px solid; 
+	PADDING-RIGHT: 3px; 
+	BORDER-TOP: #66655c 1px solid; 
+	PADDING-LEFT: 3px; 
+	PADDING-BOTTOM: 3px; 
+	BORDER-LEFT: #66655c 1px solid; 
+	WIDTH: 100%; PADDING-TOP: 3px; 
+	BORDER-BOTTOM: #66655c 0px solid; 
+	HEIGHT: 20px; 
+	BACKGROUND-COLOR:#66655c;	
+	COLOR: #e9e7c4; 
+	FONT-WEIGHT: bold; 
+	FONT-SIZE: xx-small; 	
+	FONT-FAMILY: Verdana, Helvetica, Arial, sans-serif; 
+	TEXT-ALIGN: left;
+	
+}
+.boxBG
+{
+	BORDER-RIGHT: #333333 0px solid; 
+	BORDER-TOP: #333333 0px solid; 
+	BORDER-LEFT: #333333 0px solid; 
+	BORDER-BOTTOM: #333333 0px solid; 		
+	BACKGROUND-COLOR: #333333;	
+	COLOR: #e9e7c4; 	
+	FONT-SIZE: xx-small; COLOR: #bbbb88; FONT-FAMILY: Verdana, Helvetica, Arial, sans-serif; 
+	visible: false;
+	TEXT-ALIGN: left;	
+}
+.boxBG A
+{
+	color :	#e9e7c4;
+}
+.catBG,.bronzeBG
+{
+	BACKGROUND-COLOR: #EFEFEF;	 
+	BORDER-RIGHT: #9EC0E2 1px DASHED; 
+	BORDER-TOP: #9EC0E2 1px DASHED; 
+	BORDER-LEFT: #9EC0E2 1px DASHED; 
+	BORDER-BOTTOM: #9EC0E2 1px DASHED; 
+}
+/* END : Classes  for inner control */
+
+/* BEGIN : Classes  for services*/
+
+
+.divMore
+{	
+	float:right;
+	padding:3px 3px 3px 3px;
+}
+.paddingLR
+{
+	padding-top:5px;
+	padding-bottom:5px;
+}	
+/* End : Classes  for services*/
+
+
+/** begin : Photos --**/
+
+
+.clPhotoOuter
+{
+	PADDING-RIGHT: 10px; 
+	PADDING-LEFT: 10px;  
+	TEXT-ALIGN: center;	
+}
+
+.clPhotoInner
+{	
+	TEXT-ALIGN: center;
+}
+.clName
+{	
+	TEXT-ALIGN: left;
+	color:#ffffff;
+	
+}
+#MainContainer
+{
+	background-color:#ffffff;
+		
+}
+
+/** end :Photos --**/
+

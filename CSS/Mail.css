@@ -1,0 +1,65 @@
+SELECT{border-bottom:#7e989b 1px solid;border-left:#7e989b 1px solid;border-right:#7e989b 1px solid;border-top:#7e989b 1px solid;color:#5C5135;font-family:Verdana;font-size:10px}
+a.TopHome:hover{border-bottom:solid 1px #FFD275;color:red;font-size:8pt;font-weight:700;text-decoration:underline}
+body{font-family:verdana;font-size:11px;margin:0}
+.LoginButton{border-bottom:1px solid;border-left:1px solid;border-right:1px solid;border-top:1px solid;font-family:Verdana;font-size:8pt;padding:1px 4px}
+.message{color:#99540A;font-family:verdana;font-size:11px;font-weight:700}
+.LoginText{border:1px solid gray;font-family:Verdana;font-size:8pt;padding:1px 4px}
+.button{background-color:#CCD0CE;border:solid 1px #000;color:#000;font-family:Verdana;font-size:11px;font-weight:700}
+.pageTitle{color:#000;font-family:Verdana;font-size:20px;font-weight:700;letter-spacing:2px;padding-bottom:3px;padding-left:5px;padding-top:3px}
+.fontBold{font-family:verdana;font-size:11px;font-weight:700}
+.FontWhite{color:#FFF;font-family:verdana;font-size:11px;font-weight:700}
+.bgcolor{background-color:#68689A}
+.bgcolorAndfont{background-color:#cdc5b6;color:#FFF;font-family:verdana;font-size:11px;font-weight:700}
+.linkPipe{color:#000;font-family:Verdana;font-size:10pt;font-weight:400;text-decoration:none}
+a:hover{border-bottom:solid 1px navy;color:#46466A}
+a.More{color:#FA6A09;text-align:right;text-decoration:none;width:100%}
+a.More:hover{color:red;text-align:right;text-decoration:underline;width:100%}
+a.LogOut:hover{color:red;font-family:Verdana;font-size:8pt;font-weight:700;text-decoration:underline}
+.normalFont{font-family:verdana;font-size:11px}
+.sb1{font-family:verdana;font-size:11px;text-decoration:none}
+.sb2{font-family:verdana;font-size:12px;text-decoration:none}
+.sb3{font-family:verdana;font-size:13px;text-decoration:none}
+.sb4{font-family:verdana;font-size:18px;text-decoration:none}
+.selectBox{background-color:#f0f0f0;color:#000;font-family:Verdana;font-size:8pt;font-weight:400}
+.grid{border:solid 1px #BB2406;color:#000;font-family:Verdana,Verdana, Verdana, Mangal;font-size:10pt;font-weight:700}
+.grid td{border:solid 1px #BB2406;font-family:Verdana,Verdana, Verdana, Mangal}
+.gridMouseOver{cursor:hand}
+.gridMouseOut{cursor:default}
+.TableItem{background:#efe7de}
+.TableAlternatingItem{background:#f5f0eb}
+.englishinput{border-color:#666;border-style:solid;border-width:1px;color:#777;font-family:Verdana;font-size:9pt}
+body,tr,td,p{color:#000;font-family:Verdana;font-size:8pt;font-weight:400}
+.butSubmitt{background-color:#efefef;border:1px solid #e6e6e6;color:#000;font-family:Verdana;font-size:7.5pt;padding:1px 2px;text-decoration:none}
+.tblHeading{color:#999;font-family:Verdana;font-size:14pt;font-weight:bolder}
+.TABLE_BLACK{color:#000;font-family:Verdana;font-size:10pt;font-weight:400}
+.TDRTL{border-bottom:0 solid #v;border-left:1px solid #DADADA;border-right:1px solid #DADADA;border-top:1px solid #DADADA;color:#666;font-family:Verdana;font-size:8pt;font-weight:400}
+.TDRL{border-bottom:0 solid #DADADA;border-left:1px solid #DADADA;border-right:1px solid #DADADA;border-top:0 solid #DADADA;color:#666;font-family:Verdana;font-size:8pt;font-weight:400}
+.TDRLB{border-bottom:1px solid #DADADA;border-left:1px solid #DADADA;border-right:1px solid #DADADA;border-top:0 solid #DADADA;color:#666;font-family:Verdana;font-size:8pt;font-weight:400}
+.TDR{border-bottom:0 solid #DADADA;border-left:0 solid #DADADA;border-right:1px solid #DADADA;border-top:0 solid #DADADA;color:#666;font-family:Verdana;font-size:8pt;font-weight:400}
+.TDB{border-bottom:1px solid #DADADA;border-left:0 solid #DADADA;border-right:0 solid #DADADA;border-top:0 solid #DADADA;color:#666;font-family:Verdana;font-size:8pt;font-weight:400}
+.TDRB{border-bottom:1px solid #DADADA;border-left:0 solid #DADADA;border-right:1px solid #DADADA;border-top:0 solid #DADADA;color:#666;font-family:Verdana;font-size:8pt;font-weight:400}
+.TDTLBR{border-bottom:1px solid #DADADA;border-left:1px solid #DADADA;border-right:1px solid #DADADA;border-top:1px solid #DADADA;color:#666;font-family:Verdana;font-size:8pt;font-weight:400}
+.trHeader{background-color:#B2B2B2;color:#000;font-family:Verdana;font-size:8pt;font-weight:700}
+.trDark{background-color:#DADADA}
+.trLight{background-color:#f0f0f0}
+.txtAttachment{background-color:#DADADA;border-bottom:#DADADA 1px solid;border-left:#DADADA 1px solid;border-right:#DADADA 1px solid;border-top:#DADADA 1px solid;font-family:Verdana;font-size:8pt;font-weight:400;width:216px}
+.gridStyle{background-color:Transparent;border:1px solid #FFF}
+.titleFont{color:#68689A;font-family:Verdana;font-size:10pt;font-weight:700}
+.welcomeTD{background-color:#E6E6EE;border:0 solid #369;color:#68689A;filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=1,StartColorStr='#68689A',EndColorStr='#FFFFFF');font-family:Verdana;font-size:8pt;font-weight:700;padding:4px 1px}
+.welcomeFont{color:#000;font-family:Verdana;font-size:7.5pt;font-weight:700}
+.msgDarkBG{background-color:#ADADC9}
+.linksSeparator{background-color:Transparent;color:#000}
+.logoName{color:#e76d00;font-size:10pt;font-weight:700}
+.logoAddress{color:#8a8a8a;font-size:7pt}
+.clOff{display:none}
+.clOn{display:inline}
+.TopLink{background-color:#1744a6;border-bottom:#ffd275 3px solid;border-top:#a8a8a8 1px solid;color:#fff;filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#97B5E6',EndColorStr='#1744A6');font-family:Verdana;font-size:8pt;font-weight:400}
+a.TopHome:link,a.TopHome:visited{color:#666;font-size:8pt;font-weight:700;text-decoration:none}
+a.toplinks:link,a.toplinks:visited,a.toplinks:hover{color:#000;font-family:Verdana;font-size:7.5pt;font-weight:400}
+.bgcolorLight,.msgLightBG{background-color:#E6E6EE}
+a,a:visited{color:#46466A;text-decoration:none}
+a.Top:link,a.Top:visited{color:#787878;font-family:Verdana;font-size:7pt;font-weight:700;text-decoration:none}
+a.Top:hover,a.MoreAddress:hover{color:red;font-family:Verdana;font-size:7pt;font-weight:700;text-decoration:underline}
+a.LogOut:link,a.LogOut:visited{color:#BB2406;font-family:Verdana;font-size:8pt;font-weight:700;text-decoration:none}
+a.MoreAddress:link,a.MoreAddress:visited{color:red;font-family:Verdana;font-size:7pt;font-weight:700;text-decoration:none}
+a.topMenuBar,a.topMenuBar:Link,a.topMenuBar:visited,a.topMenuBar:hover{border-bottom:#fff 1px solid;border-top:#a8a8a8 1px solid;color:#fff;font-family:Verdana;font-size:8pt;font-weight:400}

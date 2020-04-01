@@ -1,0 +1,52 @@
+﻿.accordionHeader   
+{
+    padding: 3px;
+    margin-top: 5px;
+    cursor: pointer;
+	vertical-align: middle;		
+	height:12px;	 
+}
+
+
+
+.accordaingridHeader 
+{		   
+	color:#666666;
+	font-weight:normal;
+	font-size:8pt;
+	text-decoration:none;					
+	text-align:center;
+	padding:3px 3px 3px 3px;
+	background-color: #e3f1f4; 
+			
+}	
+
+.accordaingridItem 
+{				
+	Border-Color:#04748d;			
+	Border-Width:1px;			
+}
+
+
+.accordainGridBorder
+{
+	Border-Color:#04748d
+}
+
+.accordainHeader   
+{
+    background-color: #e3f1f4;   
+    background :1px solid ;
+	margin-top:4px;
+	cursor:pointer;
+	padding: 5px;
+	border-top:solid 1px #04748d;
+    border-bottom:solid 1px #04748d;
+    border-left:solid 1px #04748d;
+    border-right:solid 1px #04748d;  
+	vertical-align: middle;	
+	height:12px;	 
+}
+
+
+

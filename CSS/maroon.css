@@ -1,0 +1,43 @@
+﻿body{background:#FEFEFE url(../Images/backstrip_mauve.jpg) repeat-x;font-family:Verdana;font-size:8pt;font-weight:400;margin:0}
+#HeaderMenuHolderUni,.clHeaderMenuHolderUni{background:#FEFEFE url(../Images/maroon-top.gif) repeat-x;background-color:#90322A;border-bottom:#ffd275 3px solid;border-top:#efefef 1px solid;color:#fff;float:left;font-family:Verdana;font-size:8pt;font-weight:400;margin-top:5px;min-height:18px;padding:8px 5px;text-align:left;width:890px}
+#HeaderMenuHolder a:Link{color:#FFF}
+.clMenuHeader{background-color:#F2EDEC;border-bottom:solid 1px #DCCCCB;color:#90322A;font-family:Verdana;font-size:8pt;font-weight:700;margin-bottom:2px;min-height:17px;nowrap:false;padding-left:2px;text-align:left;vertical-align:middle}
+.clLeftMenu{border:solid 1px #DCCCCB;text-align:left}
+.clPalleteTitle{border:1px solid #DCCCCB;height:15px;padding:2px;width:120px}
+.clPalleteColor{background-color:#FFF;border-bottom:1px solid #DCCCCB;border-left:1px solid #DCCCCB;border-right:1px solid #DCCCCB;border-top:0 solid #DCCCCB;cursor:pointer;height:15px;padding:5px 5px 5px 0;width:119px}
+.clGrid{border:solid 1px #DCCCCB}
+#TDLeftMenuHolder,#TDMessageLeftMenuHolder{background-color:#F2EDEC;border-right:#ffd275 1px solid;padding-left:5px;width:180px}
+.ToolBar{border-bottom:1px solid #DCCCCB;border-left:1px solid #DCCCCB;border-right:1px solid #DCCCCB;border-top:1px solid #DCCCCB;color:#000;filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#F2EDEC',EndColorStr='#DCCCCB');font-family:Verdana;font-size:18pt;font-weight:400}
+.ToolBar .But{border:0 solid #000;color:#000;filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#F2EDEC',EndColorStr='#DCCCCB');font-family:Verdana;font-size:8pt;height:20px}
+.mailLinks{background-color:#F2EDEC;border-bottom:solid 1px #DCCCCB;color:#000;font-size:8pt;font-weight:700;padding-left:5px}
+.linksData a{color:#000;text-decoration:none}
+.linksData{background-color:#FFF;color:#000;font-size:8pt;text-align:left}
+.TabCourseDetails{background-color:#E6D2D0}
+#HeaderMenuHolder,.clHeaderMenuHolder{background:#FEFEFE url(../Images/maroontop.jpg);background-color:#466114;border-top:#efefef 1px solid;color:#fff;float:left;font-family:Verdana;font-size:8pt;font-weight:400;height:37px;margin-top:5px;text-align:left;width:900px}
+.newsTitle{background-color:#F2EDEC;border-bottom:#DCCCCB 1px solid;font-weight:bolder;height:20px;text-align:center;width:200px}
+.newsBG{border:#DCCCCB 1px solid;text-align:left;width:200px}
+#HeaderMenuBottom{background:#DCCCCB url(../Images/maroonbottom.jpg);background-color:#DCCCCB;color:#fff;height:62px;vertical-align:top;width:548px}
+.clCategoryBoxes{background-color:#F2EDEC;border:dashed 1px #DCCCCB;padding:5px}
+.clBreadCrumb{height:20px;padding:3px}
+.clPhotoFieldSet{background-color:#F2EDEC;border:#DCCCCB 1px solid;margin-bottom:5px;padding-top:5px}
+#topMenuParent{background:#FEFEFE url(../Images/maroon-top.gif) repeat-x;background-color:#90322A;border-bottom:#ffd275 3px solid;border-top:#efefef 1px solid;color:#fff;float:left;font-family:Verdana;font-size:8pt;font-weight:400;margin-top:5px;min-height:24px;padding:8px 0 0;text-align:left;width:900px}
+#topMenuParent ul{list-style-type:none;margin:0;padding:0;width:100%}
+#topMenuParent a{color:#FFF;text-decoration:none}
+#topMenuParent li{background-color:Transparent;background-image:url(../images/img_pipe.gif);background-position:100% 40%;background-repeat:no-repeat;float:left;padding:0 6px 4px;text-align:center;white-space:nowrap}
+.clButtonHolder input[type=button],button,.clButtonHolder input[type=submit],.clButtonHolder input[type=reset]{border:1px solid #DCCCCB;color:#000;filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#F2EDEC',EndColorStr='#DCCCCB');font-family:Verdana;font-size:8pt;font-weight:400}
+
+#toolBarHolder{background:url(../Images/Maroon_ToolBar.png) repeat-x;width:100%;font-family:Verdana;font-size:18pt;}
+#toolBarHolder .But{background:url(../Images/Maroon_ToolBar.jpg) repeat-x;color:#000;font-family:Verdana;font-size:8pt;height:20px;border:none 0px;vertical-align:text-top;padding-bottom:5px;}
+/* For Samvadini Buttons */
+#toolBarHolder ul li input[type=submit], #toolBarHolder ul li input[type=reset], #toolBarHolder ul li input[type=button]{background:url(../Images/Maroon_ToolBar.jpg) repeat-x;color:#000;font-family:Verdana;font-size:8pt;height:20px;border:none 0px;vertical-align:text-top;padding-bottom:5px;}
+.accordainHeader   
+{
+    background-color: #F2EDEC;   
+    background :1px solid ;
+	margin-top:4px;
+	cursor:pointer;
+	padding: 5px;
+	border:solid 1px #DCCCCB;
+	vertical-align: middle;	
+	height:12px;	 
+}

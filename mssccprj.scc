@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[StudentRegistration.sln]
+SCC_Aux_Path = "\\DUvssserver\DUVSS\iccserverwb\StudentRegistrationVSSDB"
+SCC_Project_Name = "$/StudentRegistration", NWCAAAAA
+
+[StudentRegistration.csproj]
+SCC_Aux_Path = "\\DUvssserver\DUVSS\iccserverwb\StudentRegistrationVSSDB"
+SCC_Project_Name = "$/StudentRegistration", NWCAAAAA

@@ -1,0 +1,45 @@
+body{background:#FEFEFE url(../Images/backstrip_blue.jpg) repeat-x;font-family:Verdana;font-size:8pt;font-weight:400;margin:0}
+#HeaderMenuHolderUni,.clHeaderMenuHolderUni{background:#FEFEFE url(../Images/blue-top.gif) repeat-x;background-color:#1744A6;border-bottom:#ffd275 3px solid;border-top:#efefef 1px solid;color:#fff;float:left;font-family:Verdana;font-size:8pt;font-weight:400;margin-top:5px;min-height:18px;padding:8px 5px;text-align:left;width:890px}
+#HeaderMenuHolder a:Link{color:#FFF}
+.clMenuHeader{background-color:#EBF3FB;border-bottom:solid 1px #ACE;color:#0751AA;font-family:Verdana;font-size:8pt;font-weight:700;margin-bottom:2px;min-height:17px;nowrap:false;padding-left:2px;text-align:left;vertical-align:middle}
+.clLeftMenu{border:solid 1px #ACE;text-align:left}
+.clPalleteTitle{border:1px solid #ACE;height:15px;padding:2px;width:120px}
+.clPalleteColor{background-color:#FFF;border-bottom:1px solid #ACE;border-left:1px solid #ACE;border-right:1px solid #ACE;border-top:0 solid #ACE;cursor:pointer;height:15px;padding:5px 5px 5px 0;width:119px}
+.clGrid{border:solid 1px #ACE}
+#TDLeftMenuHolder,#TDMessageLeftMenuHolder{background-color:#EBF3FB;border-right:#ffd275 1px solid;padding-left:5px;width:180px}
+.ToolBar{background-color:#A7C5F7;border-bottom:1px solid #A7C5F7;border-left:1px solid #A7C5F7;border-right:1px solid #A7C5F7;border-top:1px solid #A7C5F7;color:#000;filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#F0F5FE',EndColorStr='#A7C5F7');font-family:Verdana;font-size:18pt;font-weight:400}
+.ToolBar .But{background-color:#A7C5F7;border:0 solid #000;color:#000;filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#F0F5FE',EndColorStr='#A7C5F7');font-family:Verdana;font-size:8pt;height:20px}
+/*.ToolBar .But{width:50px;height:20px;font-family:Verdana;font-size:8pt;color:#000;border:0 solid #000;background:url(../Images/Blue_ToolBar.png) repeat-x}*/
+.mailLinks{background-color:#EBF3FB;border-bottom:solid 1px #ACE;color:#000;font-size:8pt;font-weight:700;padding-left:5px}
+.linksData a{color:#000;text-decoration:none}
+.linksData{background-color:#FFF;color:#000;font-size:8pt;text-align:left}
+.TabCourseDetails{background-color:#C4D3EE}
+#HeaderMenuHolder,.clHeaderMenuHolder{background:#FEFEFE url(../Images/bluetop.jpg);background-color:#466114;border-top:#efefef 1px solid;color:#fff;float:left;font-family:Verdana;font-size:8pt;font-weight:400;height:37px;margin-top:5px;text-align:left;width:900px}
+.newsTitle{background-color:#EBF3FB;border-bottom:#ACE 1px solid;font-weight:bolder;height:20px;text-align:center;width:200px}
+.newsBG{border:#ACE 1px solid;text-align:left;width:200px}
+#HeaderMenuBottom{background:#FEFEFE url(../Images/bluebottom.jpg);background-color:#ACE;color:#fff;height:62px;width:548px}
+.clCategoryBoxes{background-color:#EBF3FB;border:dashed 1px #ACE;padding:5px}
+.clBreadCrumb{font-family:Verdana;height:20px;padding:3px}
+.clPhotoFieldSet{background-color:#EBF3FB;border:#ACE 1px solid;margin-bottom:5px;padding-top:5px}
+#topMenuParent{background:#FEFEFE url(../Images/blue-top.gif) repeat-x;background-color:#1744A6;border-bottom:#ffd275 3px solid;border-top:#efefef 1px solid;color:#fff;float:left;font-family:Verdana;font-size:8pt;font-weight:400;margin-top:5px;min-height:24px;padding:8px 0 0;text-align:left;width:900px}
+#topMenuParent ul{list-style-type:none;margin:0;padding:0;width:100%}
+#topMenuParent a{color:#FFF;text-decoration:none}
+#topMenuParent li{background-color:Transparent;background-image:url(../images/img_pipe.gif);background-position:100% 40%;background-repeat:no-repeat;float:left;padding:0 6px 4px;text-align:center;white-space:nowrap}
+.clButtonHolder input[type=button],button,.clButtonHolder input[type=submit],.clButtonHolder input[type=reset]{border:1px solid #A7C5F7;color:#000;filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#F0F5FE',EndColorStr='#A7C5F7');font-family:Verdana;font-size:8pt;font-weight:400}
+
+#toolBarHolder{background:url(../Images/Blue_ToolBar.png) repeat-x;width:100%;font-family:Verdana;font-size:18pt;}
+#toolBarHolder .But{background:url(../Images/Blue_ToolBar.jpg) repeat-x;color:#000;font-family:Verdana;font-size:8pt;height:25px; border:none 0px;vertical-align:text-top;padding-bottom:5px;}
+/* For Samvadini Buttons */
+#toolBarHolder ul li input[type=submit], #toolBarHolder ul li input[type=reset], #toolBarHolder ul li input[type=button]{background:url(../Images/Blue_ToolBar.jpg) repeat-x;color:#000;font-family:Verdana;font-size:8pt;height:25px;border:none 0px;vertical-align:text-top;padding-bottom:5px;}
+
+.accordainHeader   
+{
+    background-color: #EBF3FB;   
+    background :1px solid;
+	margin-top:4px;
+	cursor:pointer;
+	padding: 5px;
+	border:solid 1px #ACE;
+	vertical-align: middle;	
+	height:12px;	 
+}

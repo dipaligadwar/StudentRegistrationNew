@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsStudProgramValidity" targetNamespace="http://tempuri.org/dsStudProgramValidity.xsd" xmlns:mstns="http://tempuri.org/dsStudProgramValidity.xsd" xmlns="http://tempuri.org/dsStudProgramValidity.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsStudProgramValidity" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsStudProgramValidity" msprop:Generator_UserDSName="dsStudProgramValidity">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DTStudProgramValidity" msprop:Generator_TableClassName="DTStudProgramValidityDataTable" msprop:Generator_TableVarName="tableDTStudProgramValidity" msprop:Generator_TablePropName="DTStudProgramValidity" msprop:Generator_RowDeletingName="DTStudProgramValidityRowDeleting" msprop:Generator_RowChangingName="DTStudProgramValidityRowChanging" msprop:Generator_RowEvHandlerName="DTStudProgramValidityRowChangeEventHandler" msprop:Generator_RowDeletedName="DTStudProgramValidityRowDeleted" msprop:Generator_UserTableName="DTStudProgramValidity" msprop:Generator_RowChangedName="DTStudProgramValidityRowChanged" msprop:Generator_RowEvArgName="DTStudProgramValidityRowChangeEvent" msprop:Generator_RowClassName="DTStudProgramValidityRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PRN_Number" msprop:Generator_ColumnVarNameInTable="columnPRN_Number" msprop:Generator_ColumnPropNameInRow="PRN_Number" msprop:Generator_ColumnPropNameInTable="PRN_NumberColumn" msprop:Generator_UserColumnName="PRN_Number" type="xs:string" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name" type="xs:string" minOccurs="0" />
+              <xs:element name="First_Academic_Year" msprop:Generator_ColumnVarNameInTable="columnFirst_Academic_Year" msprop:Generator_ColumnPropNameInRow="First_Academic_Year" msprop:Generator_ColumnPropNameInTable="First_Academic_YearColumn" msprop:Generator_UserColumnName="First_Academic_Year" type="xs:string" minOccurs="0" />
+              <xs:element name="FIRST_Examination_Event" msprop:Generator_ColumnVarNameInTable="columnFIRST_Examination_Event" msprop:Generator_ColumnPropNameInRow="FIRST_Examination_Event" msprop:Generator_ColumnPropNameInTable="FIRST_Examination_EventColumn" msprop:Generator_UserColumnName="FIRST_Examination_Event" type="xs:string" minOccurs="0" />
+              <xs:element name="Programme_Validity_Count" msprop:Generator_ColumnVarNameInTable="columnProgramme_Validity_Count" msprop:Generator_ColumnPropNameInRow="Programme_Validity_Count" msprop:Generator_ColumnPropNameInTable="Programme_Validity_CountColumn" msprop:Generator_UserColumnName="Programme_Validity_Count" type="xs:string" minOccurs="0" />
+              <xs:element name="Course" msprop:Generator_ColumnVarNameInTable="columnCourse" msprop:Generator_ColumnPropNameInRow="Course" msprop:Generator_ColumnPropNameInTable="CourseColumn" msprop:Generator_UserColumnName="Course" type="xs:string" minOccurs="0" />
+              <xs:element name="Last_Examination_Event" msprop:Generator_ColumnVarNameInTable="columnLast_Examination_Event" msprop:Generator_ColumnPropNameInRow="Last_Examination_Event" msprop:Generator_ColumnPropNameInTable="Last_Examination_EventColumn" msprop:Generator_UserColumnName="Last_Examination_Event" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

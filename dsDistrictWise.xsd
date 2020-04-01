@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsDistrictWise" targetNamespace="http://tempuri.org/dsDistrictWise.xsd" xmlns:mstns="http://tempuri.org/dsDistrictWise.xsd" xmlns="http://tempuri.org/dsDistrictWise.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsDistrictWise" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="dsDistrictWise" msprop:Generator_UserDSName="dsDistrictWise">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtDistrictWise" msprop:Generator_TableClassName="dtDistrictWiseDataTable" msprop:Generator_RowEvArgName="dtDistrictWiseRowChangeEvent" msprop:Generator_TableVarName="tabledtDistrictWise" msprop:Generator_TablePropName="dtDistrictWise" msprop:Generator_RowDeletingName="dtDistrictWiseRowDeleting" msprop:Generator_RowChangingName="dtDistrictWiseRowChanging" msprop:Generator_RowDeletedName="dtDistrictWiseRowDeleted" msprop:Generator_RowEvHandlerName="dtDistrictWiseRowChangeEventHandler" msprop:Generator_UserTableName="dtDistrictWise" msprop:Generator_RowChangedName="dtDistrictWiseRowChanged" msprop:Generator_RowClassName="dtDistrictWiseRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="District" msprop:Generator_ColumnVarNameInTable="columnDistrict" msprop:Generator_ColumnPropNameInRow="District" msprop:Generator_ColumnPropNameInTable="DistrictColumn" msprop:Generator_UserColumnName="District" type="xs:string" minOccurs="0" />
+              <xs:element name="Taluka" msprop:Generator_ColumnVarNameInTable="columnTaluka" msprop:Generator_ColumnPropNameInRow="Taluka" msprop:Generator_ColumnPropNameInTable="TalukaColumn" msprop:Generator_UserColumnName="Taluka" type="xs:string" minOccurs="0" />
+              <xs:element name="Institute_Code" msprop:Generator_ColumnVarNameInTable="columnInstitute_Code" msprop:Generator_ColumnPropNameInRow="Institute_Code" msprop:Generator_ColumnPropNameInTable="Institute_CodeColumn" msprop:Generator_UserColumnName="Institute_Code" type="xs:string" minOccurs="0" />
+              <xs:element name="Institute" msprop:Generator_ColumnVarNameInTable="columnInstitute" msprop:Generator_ColumnPropNameInRow="Institute" msprop:Generator_ColumnPropNameInTable="InstituteColumn" msprop:Generator_UserColumnName="Institute" type="xs:string" minOccurs="0" />
+              <xs:element name="Course_MOL_Pattern" msprop:Generator_ColumnVarNameInTable="columnCourse_MOL_Pattern" msprop:Generator_ColumnPropNameInRow="Course_MOL_Pattern" msprop:Generator_ColumnPropNameInTable="Course_MOL_PatternColumn" msprop:Generator_UserColumnName="Course_MOL_Pattern" type="xs:string" minOccurs="0" />
+              <xs:element name="Part" msprop:Generator_ColumnVarNameInTable="columnPart" msprop:Generator_ColumnPropNameInRow="Part" msprop:Generator_ColumnPropNameInTable="PartColumn" msprop:Generator_UserColumnName="Part" type="xs:string" minOccurs="0" />
+              <xs:element name="Term" msprop:Generator_ColumnVarNameInTable="columnTerm" msprop:Generator_ColumnPropNameInRow="Term" msprop:Generator_ColumnPropNameInTable="TermColumn" msprop:Generator_UserColumnName="Term" type="xs:string" minOccurs="0" />
+              <xs:element name="Total_Intake_Count" msprop:Generator_ColumnVarNameInTable="columnTotal_Intake_Count" msprop:Generator_ColumnPropNameInRow="Total_Intake_Count" msprop:Generator_ColumnPropNameInTable="Total_Intake_CountColumn" msprop:Generator_UserColumnName="Total_Intake_Count" type="xs:string" minOccurs="0" />
+              <xs:element name="Uploaded_Count" msprop:Generator_ColumnVarNameInTable="columnUploaded_Count" msprop:Generator_ColumnPropNameInRow="Uploaded_Count" msprop:Generator_ColumnPropNameInTable="Uploaded_CountColumn" msprop:Generator_UserColumnName="Uploaded_Count" type="xs:string" minOccurs="0" />
+              <xs:element name="Eligible" msprop:Generator_ColumnVarNameInTable="columnEligible" msprop:Generator_ColumnPropNameInRow="Eligible" msprop:Generator_ColumnPropNameInTable="EligibleColumn" msprop:Generator_UserColumnName="Eligible" type="xs:string" minOccurs="0" />
+              <xs:element name="Not_Eligible" msprop:Generator_ColumnVarNameInTable="columnNot_Eligible" msprop:Generator_ColumnPropNameInRow="Not_Eligible" msprop:Generator_ColumnPropNameInTable="Not_EligibleColumn" msprop:Generator_UserColumnName="Not_Eligible" type="xs:string" minOccurs="0" />
+              <xs:element name="Pending_Eligibility" msprop:Generator_ColumnVarNameInTable="columnPending_Eligibility" msprop:Generator_ColumnPropNameInRow="Pending_Eligibility" msprop:Generator_ColumnPropNameInTable="Pending_EligibilityColumn" msprop:Generator_UserColumnName="Pending_Eligibility" type="xs:string" minOccurs="0" />
+              <xs:element name="Provisional_Eligibility" msprop:Generator_ColumnVarNameInTable="columnProvisional_Eligibility" msprop:Generator_ColumnPropNameInRow="Provisional_Eligibility" msprop:Generator_ColumnPropNameInTable="Provisional_EligibilityColumn" msprop:Generator_UserColumnName="Provisional_Eligibility" type="xs:string" minOccurs="0" />
+              <xs:element name="RegionalCenterInfo" msprop:Generator_ColumnVarNameInTable="columnRegionalCenterInfo" msprop:Generator_ColumnPropNameInRow="RegionalCenterInfo" msprop:Generator_ColumnPropNameInTable="RegionalCenterInfoColumn" msprop:Generator_UserColumnName="RegionalCenterInfo" type="xs:string" minOccurs="0" />
+              <xs:element name="Registered_Student_Eligibility_Not_Porcessed" msprop:Generator_ColumnVarNameInTable="columnRegistered_Student_Eligibility_Not_Porcessed" msprop:Generator_ColumnPropNameInRow="Registered_Student_Eligibility_Not_Porcessed" msprop:Generator_ColumnPropNameInTable="Registered_Student_Eligibility_Not_PorcessedColumn" msprop:Generator_UserColumnName="Registered_Student_Eligibility_Not_Porcessed" type="xs:string" minOccurs="0" />
+              <xs:element name="UnRegistered_Student_Eligibility_Not_Porcessed" msprop:Generator_ColumnVarNameInTable="columnUnRegistered_Student_Eligibility_Not_Porcessed" msprop:Generator_ColumnPropNameInRow="UnRegistered_Student_Eligibility_Not_Porcessed" msprop:Generator_ColumnPropNameInTable="UnRegistered_Student_Eligibility_Not_PorcessedColumn" msprop:Generator_UserColumnName="UnRegistered_Student_Eligibility_Not_Porcessed" type="xs:string" minOccurs="0" />
+              <xs:element name="CourseCode" msprop:Generator_ColumnVarNameInTable="columnCourseCode" msprop:Generator_ColumnPropNameInRow="CourseCode" msprop:Generator_ColumnPropNameInTable="CourseCodeColumn" msprop:Generator_UserColumnName="CourseCode" type="xs:string" minOccurs="0" />
+              <xs:element name="Invoice_Generation_Count" msprop:Generator_ColumnVarNameInTable="columnInvoice_Generation_Count" msprop:Generator_ColumnPropNameInRow="Invoice_Generation_Count" msprop:Generator_ColumnPropNameInTable="Invoice_Generation_CountColumn" msprop:Generator_UserColumnName="Invoice_Generation_Count" type="xs:string" minOccurs="0" />
+              <xs:element name="Invoice_Paid_count" msprop:Generator_ColumnVarNameInTable="columnInvoice_Paid_count" msprop:Generator_ColumnPropNameInRow="Invoice_Paid_count" msprop:Generator_ColumnPropNameInTable="Invoice_Paid_countColumn" msprop:Generator_UserColumnName="Invoice_Paid_count" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

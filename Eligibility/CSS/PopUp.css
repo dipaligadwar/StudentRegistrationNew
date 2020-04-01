@@ -1,0 +1,176 @@
+/****************Added by Madhu, Farhat********************************/
+.GridHeadingM1
+{
+	font-family: Verdana; 
+	font-size: 10pt; /*8pt;*/
+	font-weight: bold; 
+	color:white;/* #FFFFFF; */
+	background-color: #800000;/*#336699;*/
+	text-align : center;
+	/*padding-left:5px;*/
+	
+}
+
+.GridHeadingM2
+{
+	font-family: Verdana; 
+	font-size: 8pt; /*8pt;*/
+	font-weight: bold; 
+	color:white;/* #FFFFFF; */
+	background-color:  #ffaa77;/*#336699;*/
+	text-align : center;
+	/*padding-left:5px;*/
+	border:solid 1px #000000;
+	
+}
+
+.GridSubHeadingM
+{
+	font-family: Verdana; 
+	font-size: 8pt;
+	font-weight:bold; 
+	color: #800000; 
+	background-color: #ffddbb;
+	padding-left:5px;
+	border:solid 1px #336699;
+	width:100%;
+}
+
+.GridDataM
+{
+	font-family: Verdana; 
+	font-size: 8pt;
+	font-weight:normal; 
+	color: #000000; 
+	background-color:#ffddbb;/*#DFEAF4;*/
+	padding-left:5px;
+	border: solid 1px #800000;
+	
+}
+
+.GridHeadingMI
+{
+	font-family: Verdana; 
+	font-size: 10pt; /*8pt;*/
+	font-weight: bold; 
+	color:white;/* #FFFFFF; */
+	background-color: Green;/*#336699;*/
+	text-align : center;
+	/*padding-left:5px;*/
+	
+}
+
+/****************Added by Madhu, Farhat Ends****************************/	
+
+ .GridHeadingM3
+{
+	font-family: Verdana; 
+	font-size: 9pt; /*8pt;*/
+	font-weight: bold; 
+	color:white;/* #FFFFFF; */
+	background-color: #800000;/*#336699;*/
+	text-align : center;
+	/*padding-left:5px;*/
+	
+}	
+
+/***********************************************************************************
+				ADDED BY MADHU POCLASSERY ON 23rd JULY 2007
+***********************************************************************************/
+						      /*  STARTS  */
+.tblBackColor
+{
+	background-color:Silver;
+}
+
+.rFont
+{
+	background-color : White; 
+}
+
+
+
+							/*    ENDS    */
+							
+.HeadingBrownforPopUp{
+		
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#FFA997', EndColorStr='#460D00'); 
+	
+	color: #ffd275; 
+    FONT-FAMILY: Verdana; 
+	font-weight:bold;
+	font-size:12px;
+	height:30px;
+}
+
+
+	
+.HideShow
+{
+	font-family:Monotype Corsiva;
+	font-size:12pt;
+	color: White;
+	font-weight: normal;
+	
+}
+
+.BkGrndBrown
+{
+
+	BACKGROUND-COLOR: #FFEFEC;
+	overflow:hidden;
+	Height:0px;
+	
+}
+							
+							
+/***********************************************************************************
+				Added By Jatin on 29 April 2010
+***********************************************************************************/				
+							
+					
+							
+/** For Collapsible Panel - START **/
+
+.clTitleBackground
+{
+	background-color: #efefef;
+	padding: 2px;
+	border: 1px solid #e6e6e6;
+	vertical-align: middle; /*******/
+	height: 13px; /******/
+}
+/*******/
+.clSpace
+{
+	margin-top: 8px;
+}
+.clLeft
+{
+	float: left;
+}
+.clRight
+{
+	float: Right;
+}
+.clLeftBold
+{
+	float: left;
+	font-weight: bold;
+}
+.clRightBold
+{
+	float: Right;
+	font-weight: bold;
+}
+/** For Collapsible Panel - END **/
+
+
+
+.modalBackground {
+	
+		filter:alpha(opacity=70);
+		opacity:0.7;
+	}
+
+

@@ -1,0 +1,56 @@
+body{font-family:Verdana;font-size:8pt;font-weight:400;background:#FEFEFE url(../Images/backstrip_grey.jpg) repeat-x;margin:0}
+#HeaderMenuBottom{background:silver url(../Images/greybottom.jpg);background-color:silver;color:#fff;height:62px;width:548px}
+#HeaderMenuHolder a:Link{color:#FFF}
+#HeaderMenuHolder,.clHeaderMenuHolder{background:#FEFEFE url(../Images/greytop.jpg);background-color:#466114;border-top:#efefef 1px solid;color:#fff;float:left;font-family:Verdana;font-size:8pt;font-weight:400;height:37px;margin-top:5px;text-align:left;width:900px}
+#HeaderMenuHolderUni,.clHeaderMenuHolderUni{background:#FEFEFE url(../Images/gray-top.gif) repeat-x;background-color:#666;border-bottom:#ffd275 3px solid;border-top:#efefef 1px solid;color:#fff;float:left;font-family:Verdana;font-size:8pt;font-weight:400;margin-top:5px;min-height:18px;text-align:left;width:890px;padding:8px 5px}
+#menuholder{background:#323232 url(../Images/topbg_1px_black.jpg) repeat-x;line-height:30px;text-align:left;width:100%}
+#TDLeftMenuHolder,#TDMessageLeftMenuHolder{background-color:#EFEFEF;border-right:#ffd275 1px solid;padding-left:5px;width:180px}
+
+#toolBarHolder .But,#toolBarHolder ul li input[type=submit],#toolBarHolder ul li input[type=reset],#toolBarHolder ul li input[type=button]{background:#8C8E8C url(../Images/Gray_ToolBar.png) repeat-x;color:#000;font-family:Verdana;font-size:8pt;height:20px;border:none 0;vertical-align:text-top;padding-bottom:5px}
+/*#toolBarHolder input[type=submit],input[type=reset],input[type=button]{background:#C2BFBF url(../Images/othebandsbg_black.png) repeat-x;color:#333;cursor:pointer;font-size:9pt;border-width:0;padding:1px 4px}*/
+#toolBarHolder{font-family:Verdana;font-size:18pt;background:#8C8E8C url(../Images/Gray_ToolBar.png) repeat-x;height:28px;width:100%}
+
+#topMenuParent a{color:#FFF;text-decoration:none}
+#topMenuParent li{background-color:Transparent;background-image:url(../images/img_pipe.gif);background-position:100% 40%;background-repeat:no-repeat;float:left;text-align:center;white-space:nowrap;padding:0 6px 4px}
+#topMenuParent ul{list-style-type:none;width:100%;margin:0;padding:0}
+#topMenuParent{background:#FEFEFE url(../Images/gray-top.gif) repeat-x;background-color:#666;border-bottom:#ffd275 3px solid;border-top:#efefef 1px solid;color:#fff;float:left;font-family:Verdana;font-size:8pt;font-weight:400;margin-top:5px;min-height:24px;text-align:left;width:900px;padding:8px 0 0}
+.accordainHeader{background-color:#C2BFBF;background:1px solid;margin-top:4px;cursor:pointer;border:solid 1px #333;vertical-align:middle;height:12px;padding:5px}
+.clBreadCrumb{height:20px;padding:3px}
+.clButtonHolder input[type=button],button,.clButtonHolder input[type=submit],.clButtonHolder input[type=reset]{border:1px solid #adadad;color:#000;filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#EFEFEF',EndColorStr='#adadad');font-family:Verdana;font-size:8pt;font-weight:400}
+.clCategoryBoxes{background-color:#EFEFEF;border:dashed 1px silver;padding:5px}
+/*.clGrid .gridHeader{background:#C2BFBF url(../Images/othebandsbg_black.png) repeat-x;color:#333;text-align:center}*/
+.clGrid{border:solid 1px silver}
+.gridHeader TD{background-color:#EFEFEF;color:#666;font-size:8pt;font-weight:400;text-align:center;text-decoration:none}
+.clLeftMenu{border:solid 1px silver;text-align:left}
+.clMenuHeader{background-color:#EFEFEF;border-bottom:solid 1px silver;color:#666;font-family:Verdana;font-size:8pt;font-weight:700;margin-bottom:2px;min-height:17px;nowrap:false;padding-left:2px;text-align:left;vertical-align:middle}
+.clPalleteColor{background-color:#FFF;border-bottom:1px solid silver;border-left:1px solid silver;border-right:1px solid silver;border-top:0 solid silver;cursor:pointer;height:15px;width:119px;padding:5px 5px 5px 0}
+.clPalleteTitle{border:1px solid silver;height:15px;width:120px;padding:2px}
+.clPhotoFieldSet{background-color:#EFEFEF;border:silver 1px solid;margin-bottom:5px;padding-top:5px}
+.ddsubmenustyle li a:hover{background-color:#4E4D4C;color:#FFF}
+.ddsubmenustyle li a{background-color:#2D2B2C;color:#fff;display:block;text-decoration:none;width:160px;padding:4px 5px 4px 4px}
+.ddsubmenustyle,.ddsubmenustyle ul{background-color:#2D2B2C;border:1px solid #242424;left:0;list-style-type:none;position:absolute;top:0;visibility:hidden;z-index:50;margin:0;padding:0}
+.linksData a{color:#000;text-decoration:none}
+.linksData{background-color:#FFF;color:#000;font-size:8pt;text-align:left}
+.mailLinks{background-color:#efefef;border-bottom:solid 1px #ADADAD;color:#000;font-size:8pt;font-weight:700;padding-left:5px}
+.mattblackmenu a.selected{background:url(../Images/topbg_1px_black_r.jpg) repeat-x}
+.newsBG{border:silver 1px solid;text-align:left;width:200px}
+.newsTitle{background-color:#EFEFEF;border-bottom:silver 1px solid;font-weight:bolder;height:20px;text-align:center;width:200px}
+.TabCourseDetails{background-color:#D8D8D8}
+.ToolBar .But{background-color:#ADADAD;border:0 solid #000;color:#000;filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#EFEFEF',EndColorStr='#ADADAD');font-family:Verdana;font-size:8pt;height:20px}
+.ToolBar{background-color:#ADADAD;border-bottom:1px solid #ADADAD;border-left:1px solid #ADADAD;border-right:1px solid #ADADAD;border-top:1px solid #ADADAD;color:#000;filter:progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr='#EFEFEF',EndColorStr='#ADADAD');font-family:Verdana;font-size:18pt;font-weight:400}
+input[type=submit],input[type=reset],input[type=button]{background:#8C8E8C url(../Images/Gray_ToolBar.png) repeat-x;color:#000;font-family:Verdana;font-size:8pt;height:20px;border:none 0;vertical-align:text-top;padding:2px}
+#HeaderMenuBottom
+{
+	background: #C0C0C0 url(../Images/greybottom.jpg);
+	background-color: #C0C0C0;
+	color: #ffffff;	
+	width: 548px;
+	height: 62px;
+}
+.clThemeBgColor{background-color:#ADADAD;}
+
+/*******************************Captcha CSS*****************************************************/
+.CaptchaDiv1{width:305px;background-color:#7A7A7A;}
+.CaptchaDiv4{background-color:#E8E8E8;}
+.CaptchaLogo{width: 40px; text-align: left; font-size: 6pt;color: #FFFFFF;padding-top:4px;}
+/*******************************Captcha CSS END*************************************************/
